@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise2/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise3/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise3/Shoping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeatherObservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeekAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise5/DivisionRemainder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise6/BehavourOfX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise5/DivisionRemainder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise5/DivisionRemainder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BehavourOfX">
+  <component name="RunManager" selected="Application.DivisionRemainder">
     <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise2.Average" />
       <module name="project3" />
@@ -117,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BehavourOfX" />
         <item itemvalue="Application.DivisionRemainder" />
+        <item itemvalue="Application.BehavourOfX" />
         <item itemvalue="Application.WeekAverage" />
         <item itemvalue="Application.Shoping" />
         <item itemvalue="Application.Average" />

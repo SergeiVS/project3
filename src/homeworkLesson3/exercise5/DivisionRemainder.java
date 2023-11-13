@@ -9,6 +9,8 @@ public class DivisionRemainder {
 
         int y;
 
+        int counter = 1;
+
         //All possible division remainder for divisor = 2
 
 
@@ -46,10 +48,26 @@ public class DivisionRemainder {
         int rem3 = x % y;
 
 
-        System.out.println("Possible remainder by division on 2 are " + rem1 + ", " + rem2 + " and " + rem3);
+        System.out.println("Possible remainder by division on 3 are " + rem1 + ", " + rem2 + " and " + rem3);
 
 
         // На этом месте можно было бы сделать через цыкл один универсальный метод на любой делитель
+
+
+        System.out.println("Possible remainder by division on 2 are: ");
+
+        for (int i = 0; i < y; i++) {
+
+            y = 2;
+
+                    int rem = i % y;
+
+
+            System.out.println("remainder " + counter + " = " + rem);
+
+            counter = counter + 1;
+
+        }
     }
 
 }
