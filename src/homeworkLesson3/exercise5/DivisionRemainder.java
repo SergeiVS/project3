@@ -54,11 +54,11 @@ public class DivisionRemainder {
         // На этом месте можно было бы сделать через цыкл один универсальный метод на любой делитель
 
 
-        System.out.println("Possible remainder by division on 2 are: ");
+        System.out.println("Possible remainder by division on 3 are: ");
 
         for (int i = 0; i < y; i++) {
 
-            y = 2;
+            y = 3;
 
                     int rem = i % y;
 
