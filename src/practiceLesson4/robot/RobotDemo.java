@@ -47,11 +47,15 @@ public class RobotDemo {
 
         System.out.println(" ");
 
+
+
        robot1.currencyConvert(100, .97);
 
 
 
         System.out.println(" ");
+
+        // Print out the robot´s data
 
         robot3.robotPrintOut();
 

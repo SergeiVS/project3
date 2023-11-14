@@ -2,6 +2,8 @@ package practiceLesson4.library;
 
 public class Book {
 
+   // Properties of the object
+
 String autor;
 
 String name;
@@ -11,6 +13,8 @@ int listsCount;
 double catalogNumber;
 
 boolean availability;
+
+//Inserting the object properties in a case of full data availability
 
 public void bookFullData(String autor, String name, int listsCount, double catalogNumber, boolean availability){
 
@@ -25,6 +29,9 @@ public void bookFullData(String autor, String name, int listsCount, double catal
    this.availability = availability;
 
 }
+
+//Inserting the object properties in a case of part data availability
+
 public void bookShortData (String autor, String name){
 
     this.autor = autor;
@@ -33,6 +40,8 @@ public void bookShortData (String autor, String name){
 
 
 }
+
+//Post Iinserting the object properties in a case of reaching of lost data
 
 public void bookAdditionalData(int listsCount, double catalogNumber, boolean availability ){
 
@@ -43,6 +52,8 @@ public void bookAdditionalData(int listsCount, double catalogNumber, boolean ava
     this.availability = availability;
 
 }
+
+// Calling out of object´s data
 
 public void bookPrintOut(){
 
