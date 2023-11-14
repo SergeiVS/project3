@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/car/CarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/library/BookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/robot/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/car/CarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarDemo">
+  <component name="RunManager" selected="Application.RobotDemo">
     <configuration name="BehavourOfX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise6.BehavourOfX" />
       <module name="project3" />
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shoping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise3.Shoping" />
+    <configuration name="RobotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceLesson4.robot.RobotDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson3.exercise3.*" />
+          <option name="PATTERN" value="practiceLesson4.robot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotDemo" />
         <item itemvalue="Application.CarDemo" />
         <item itemvalue="Application.WeekAverage" />
         <item itemvalue="Application.DivisionRemainder" />
         <item itemvalue="Application.BehavourOfX" />
-        <item itemvalue="Application.Shoping" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699892894687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <option name="closed" value="true" />
+      <created>1699951138736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699951138736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

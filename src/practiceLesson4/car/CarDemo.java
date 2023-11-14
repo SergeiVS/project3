@@ -2,9 +2,14 @@ package practiceLesson4.car;
 
 public class CarDemo {
 
+
     public static void main(String[] args) {
 
+       // Creating of object 1
+
         Car car1 = new Car();
+
+        // inserting of properties for object 1
 
         car1.model = "Mercedes";
 
@@ -15,6 +20,7 @@ public class CarDemo {
         car1.transmission = true;
 
 
+        // Initiate of behaviour of object 1
 
        car1.beep();
 
@@ -23,8 +29,11 @@ public class CarDemo {
         System.out.println(" ");
 
 
+        // Creating of object 2
 
        Car car2 = new Car();
+
+        // inserting of properties for object 2
 
         car2.model = "BMW";
 
@@ -33,6 +42,8 @@ public class CarDemo {
          car2.color = "Black";
 
          car2.transmission = false;
+
+        // Initiate of behaviour of object 2
 
         car2.beep();
 

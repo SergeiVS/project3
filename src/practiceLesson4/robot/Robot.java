@@ -2,30 +2,49 @@ package practiceLesson4.robot;
 
 public class Robot {
 
+    String mark;
+
+    String name;
 
 
-    public void setMark(String mark) {
+    //Method for declare the mark of the object
+
+    public void setMark() {
 
 
         System.out.println("Mark of this robot is " + mark);
     }
 
-    public void setName(String name) {
+    //Method for self greeting of the object
+
+    public void setName() {
 
 
         System.out.println("Hello! My name is " + name);
 
     }
 
-    public double currencyConvert(double amountUsd, double exchangeRate ){
+    // Method for currency exchange
+    public void currencyConvert(double amountUsd, double exchangeRate ){
 
 
 
-        double valueEur = amountUsd * exchangeRate;
+        double valueEur;
+
+             valueEur   = amountUsd * exchangeRate;
+
+        System.out.println("For you " + amountUsd + " you receive " + valueEur + " Euros.");
 
 
+    }
 
-        return valueEur;
+    public void robotPrintOut(){
+
+        this.mark = mark;
+
+        this.name = name;
+
+        System.out.println("It robot produced by " + mark + " and it´s name is "+ name);
 
     }
 }

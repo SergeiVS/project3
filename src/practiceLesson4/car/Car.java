@@ -2,6 +2,8 @@ package practiceLesson4.car;
 
 public class Car {
 
+    // Declaration of the car´s properties
+
     String model;
 
     double engine;
@@ -9,6 +11,8 @@ public class Car {
     String color;
 
     boolean transmission;
+
+    // Method 1 for car`s behaviour
 
     public void car(){
 
@@ -20,6 +24,8 @@ public class Car {
 
         this.transmission = transmission;
     }
+
+    // Method 2 for car`s behaviour
 
     public String beep(){
 
