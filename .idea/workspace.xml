@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/BookDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/BookUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/car/CarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/library/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/library/BookDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/robot/RobotDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +48,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/practiceLesson4/library",
     "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\library" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\libraryRemastered" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RobotDemo">
-    <configuration name="BehavourOfX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise6.BehavourOfX" />
+  <component name="RunManager" selected="Application.BookDemo">
+    <configuration name="BookDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson4.library.BookDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson3.exercise6.*" />
+          <option name="PATTERN" value="homeworkLesson4.library.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="CarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceLesson4.car.CarDemo" />
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson4.car.CarDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceLesson4.car.*" />
+          <option name="PATTERN" value="homeworkLesson4.car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="RobotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceLesson4.robot.RobotDemo" />
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson4.robot.RobotDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceLesson4.robot.*" />
+          <option name="PATTERN" value="homeworkLesson4.robot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookDemo" />
         <item itemvalue="Application.RobotDemo" />
         <item itemvalue="Application.CarDemo" />
         <item itemvalue="Application.WeekAverage" />
         <item itemvalue="Application.DivisionRemainder" />
-        <item itemvalue="Application.BehavourOfX" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699952662219</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <option name="closed" value="true" />
+      <created>1699953279040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699953279040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

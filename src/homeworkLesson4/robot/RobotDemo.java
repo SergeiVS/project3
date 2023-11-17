@@ -1,4 +1,4 @@
-package practiceLesson4.robot;
+package homeworkLesson4.robot;
 
 public class RobotDemo {
 
