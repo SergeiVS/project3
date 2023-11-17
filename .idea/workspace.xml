@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/BookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson4/library/BookUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/car/CarDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/library/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/library/BookDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceLesson4/robot/RobotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson4/robot/RobotDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,12 +37,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/practiceLesson4/library",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/homeworkLesson5/Exercise1",
     "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson5\Exercise1" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson5" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\library" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\libraryRemastered" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src" />
@@ -208,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699953279040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <option name="closed" value="true" />
+      <created>1700225839207</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700225839207</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
