@@ -9,20 +9,21 @@ public class WordMixing {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Pleas insert word 1 =>");
+
         String word1 = input.nextLine();
 
-        System.out.println(" ");
 
         System.out.println("The first word is: " +  word1);
 
         System.out.println(" ");
 
+        System.out.println("Pleas insert word 2 =>");
 
         String word2 = input.nextLine();
 
-        System.out.println("The second word is: " + word2);
 
-        System.out.println(" ");
+        System.out.println("The second word is  " + word2);
 
          int word1Length = word1.length();
 
