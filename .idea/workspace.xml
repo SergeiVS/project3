@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/Lift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/LiftMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/LiftMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise5/AtmMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise5/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/exercise5/OperationsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson6/practice/NumberCompair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +57,9 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson5\Exercise1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\library" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\practiceLesson4\libraryRemastered" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homeworkLesson6.practice" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TillTheEndOfTheWork">
@@ -231,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700501138571</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <option name="closed" value="true" />
+      <created>1700508040596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700508040596</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
