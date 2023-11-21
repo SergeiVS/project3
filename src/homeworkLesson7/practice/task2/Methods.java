@@ -5,7 +5,7 @@ public class Methods {
     boolean isSimple;
 
 
-    java.lang.Number number = new java.lang.Number();
+    Number number = new Number();
 
 
 
