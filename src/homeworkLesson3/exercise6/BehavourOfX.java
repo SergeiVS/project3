@@ -14,7 +14,7 @@ public class BehavourOfX {
 
         x = 3;
 
-        x += x + 1;
+        x += ++x;
 
         System.out.println(x);
 

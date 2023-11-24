@@ -21,13 +21,13 @@ public class WeatherObservation {
 
     // Calculation method
 
-    public void printAverage() {
+    public void weekAverage() {
 
       double  weekAverage = (tempSun + tempMon + tempThue + tempWed + tempThur + tempFrey + tempSat) / 7;
 
-
-
         System.out.println( "Average temperature in Baden-Baden at the week " + weekNr + " was " + weekAverage + " °C");
+
+
 
     }
 }

@@ -28,7 +28,8 @@ public class WeekAverage {
 
     // Object method
 
-    ave.printAverage();
+
+       ave.weekAverage();
 
     }
 }
