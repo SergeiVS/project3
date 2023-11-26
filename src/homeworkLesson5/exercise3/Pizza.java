@@ -2,19 +2,12 @@ package homeworkLesson5.exercise3;
 
 public class Pizza {
 
-    double pizzaDiameter;
-
-    double caloriesContent;
-
-
-    public Pizza(double pizzaDiameter) {
-
-        this.pizzaDiameter = pizzaDiameter;
+    public double pizzaCalories(double pizzaDiameter, double caloriesPerSqrSm) {
+       double squerePizza = Math.pow(pizzaDiameter / 2 , 2) * Math.PI;
+       double totalCalories = squerePizza * caloriesPerSqrSm;
+        return totalCalories;
     }
 
 
-    public void setCaloriesContent(double caloriesContent) {
 
-        this.caloriesContent = caloriesContent;
-    }
 }

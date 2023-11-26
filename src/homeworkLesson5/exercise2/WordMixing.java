@@ -29,7 +29,7 @@ public class WordMixing {
 
          int word2Length = word2.length();
 
-         String word1Substring = word1.substring(0,word1Length / 2);
+         String word1Substring = word1.substring(word1Length / 2);
 
          String word2Substring = word2.substring((word2Length / 2) + (word2Length % 2), word2Length);
 

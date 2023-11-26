@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/PizzaUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeatherObservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeatherObservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeekAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise6/BehavourOfX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson3/exercise6/BehavourOfX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise2/WordMixing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise2/WordMixing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="homeworkLesson6.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BehavourOfX">
+  <component name="RunManager" selected="Application.homeworkLesson7.exercise2.OperationsCount">
     <configuration name="BehavourOfX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise6.BehavourOfX" />
       <module name="project3" />
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TillTheEndOfTheWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson6.exercise3.TillTheEndOfTheWork" />
+    <configuration name="LiftMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson6.exercise4.LiftMoves" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson6.exercise3.*" />
+          <option name="PATTERN" value="homeworkLesson6.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise4.oldVertion.WeekAverage" />
+    <configuration name="OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson6.exercise5.OperationsCount" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson3.exercise4.oldVertion.*" />
+          <option name="PATTERN" value="homeworkLesson6.exercise5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordMixing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson5.exercise2.WordMixing" />
+    <configuration name="PizzaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson5.exercise3.PizzaDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson5.exercise2.*" />
+          <option name="PATTERN" value="homeworkLesson5.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeworkLesson3.exercise4.newVertion.WeekAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise4.newVertion.WeekAverage" />
+    <configuration name="homeworkLesson7.exercise2.OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworkLesson7.exercise2.OperationsCount" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson3.exercise4.newVertion.*" />
+          <option name="PATTERN" value="homeworkLesson7.exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeworkLesson7.exercise2.OperationsCount" />
+        <item itemvalue="Application.PizzaDemo" />
+        <item itemvalue="Application.OperationsCount" />
+        <item itemvalue="Application.LiftMoves" />
         <item itemvalue="Application.BehavourOfX" />
-        <item itemvalue="Application.homeworkLesson3.exercise4.newVertion.WeekAverage" />
-        <item itemvalue="Application.WeekAverage" />
-        <item itemvalue="Application.TillTheEndOfTheWork" />
-        <item itemvalue="Application.WordMixing" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700598098368</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test">
+      <option name="closed" value="true" />
+      <created>1700853854435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700853854436</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

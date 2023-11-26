@@ -4,34 +4,15 @@ public class PizzaDemo {
 
    public static void main(String[] args) {
 
-Pizza pizza1 = new Pizza(24);
+Pizza pizzaCalories = new Pizza();
 
-Pizza pizza2 = new Pizza(28);
+      double pizzaCalories24 = pizzaCalories.pizzaCalories(24, 40);
+      double pizzaCalories28 = pizzaCalories.pizzaCalories(28, 40);
 
-Pizza caloriesContent = new Pizza(40);
-
-double pizzaArea1 = Math.pow(pizza1.pizzaDiameter / 2, 2) * Math.PI;
-
-      double pizzaArea2 = Math.pow(pizza2.pizzaDiameter / 2, 2) * Math.PI;
-
-  double caloriesDiversity = pizzaArea2 - pizzaArea1;
-
-      System.out.println("The pizza 2 contains " + caloriesDiversity + " calories more than pizza1");
-
-
-
-
-
-
-
-
-
+      System.out.println("In the pizza with diameter 28 cm " + (pizzaCalories28 - pizzaCalories24) +" more calories than in pizza with 24 cm diameter.");
 
 
 
    }
-
-
-
 
 }
