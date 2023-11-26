@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/Task5/ArrayAverageProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/Task5/AverageProofOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task1/ArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task1/ArrayOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task2/ArrayUnicProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task2/ProofOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task3/ArrayRepeatedElementsProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task3/ProofOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task4/ArrayRangeProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/homework/task4/RangeProofOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson8/practice/ArrayOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/practice/ArrayOutput.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,24 +50,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/homeworkLesson5/exercise3",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/Lesson8/homework/Task5",
     "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\Task5" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\task4" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\task3" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson5\exercise3" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson6\exercise5" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7\exercise2" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7\exercise1" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson8.homework.task2" />
       <recent name="homeworkLesson3.exercise4.newVertion" />
       <recent name="homeworkLesson6.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayOutput">
+  <component name="RunManager" selected="Application.Lesson8.homework.task1.ArrayOutput">
     <configuration name="ArrayOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson8.practice.ArrayOutput" />
       <module name="project3" />
@@ -68,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" />
+    <configuration name="AverageProofOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.homework.Task5.AverageProofOutput" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson7.homework.exercise1.exercise2BankOld.*" />
+          <option name="PATTERN" value="Lesson8.homework.Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiftMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.exercise4.LiftMoves" />
+    <configuration name="Lesson8.homework.task1.ArrayOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.homework.task1.ArrayOutput" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.exercise4.*" />
+          <option name="PATTERN" value="Lesson8.homework.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.exercise5BankNew.OperationsCount" />
+    <configuration name="Lesson8.homework.task3.ProofOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.homework.task3.ProofOutput" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.exercise5BankNew.*" />
+          <option name="PATTERN" value="Lesson8.homework.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.exercise3.PizzaDemo" />
+    <configuration name="RangeProofOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.homework.task4.RangeProofOutput" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.exercise3.*" />
+          <option name="PATTERN" value="Lesson8.homework.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson8.homework.task1.ArrayOutput" />
+        <item itemvalue="Application.AverageProofOutput" />
+        <item itemvalue="Application.RangeProofOutput" />
+        <item itemvalue="Application.Lesson8.homework.task3.ProofOutput" />
         <item itemvalue="Application.ArrayOutput" />
-        <item itemvalue="Application.Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" />
-        <item itemvalue="Application.PizzaDemo" />
-        <item itemvalue="Application.OperationsCount" />
-        <item itemvalue="Application.LiftMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701003424531</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test">
+      <option name="closed" value="true" />
+      <created>1701019030174</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701019030174</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
