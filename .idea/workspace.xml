@@ -5,11 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/PizzaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/practice/ArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/practice/ArrayOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson8/practice/ArrayResults.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise2/WordMixing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise2/WordMixing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson2/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson2/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Exercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise1/PersonOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise1/PersonOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise2/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise2/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise3/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise3/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise3/Shoping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise3/Shoping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeatherObservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise4/WeatherObservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise4/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise4/WeekAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise5/DivisionRemainder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise5/DivisionRemainder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson3/exercise6/BehavourOfX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/exercise6/BehavourOfX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/car/CarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/library/BookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/library/BookDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/library/BookUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/library/BookUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson4/robot/RobotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/robot/RobotDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/Exercise1/WorkWithString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Exercise1/WorkWithString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/Exercise1/WorkWithStringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Exercise1/WorkWithStringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise2/WordMixing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise2/WordMixing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise3/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise3/PizzaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise3/PizzaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise4/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise4/UserName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise5/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise5/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson5/exercise5/NumbersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/exercise5/NumbersDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise1/Shoping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise1/Shoping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise2/Tenperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise2/Tenperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise3/TillTheEndOfTheWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise3/TillTheEndOfTheWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/Lift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise4/Lift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/LiftMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise4/LiftMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise4/LiftMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise4/LiftMoves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise5/AtmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise5BankNew/AtmUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/exercise5/OperationsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/exercise5BankNew/OperationsCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/practice/task1/NabouredNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/practice/task1/NabouredNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson6/practice/task2/NumberCompair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/practice/task2/NumberCompair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise1/Lift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/lift/Lift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise1/LiftMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/lift/LiftMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise1/LiftMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/lift/LiftMoves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise2/AtmMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/exercise2BankOld/AtmMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise2/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/exercise2BankOld/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/exercise2/OperationsCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/Practice/exercise2BankOld/OperationsCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task1/SumOfTheNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task1/SumOfTheNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task2/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task2/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task2/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task2/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task2/SipleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task2/SipleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task3/sumofUserInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task3/sumofUserInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task4/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task4/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworkLesson7/practice/task5/sumOfEvensAndOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7/homework/task5/sumOfEvensAndOdds.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,35 +87,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/homeworkLesson7/exercise2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/homeworkLesson5/exercise3",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson5\exercise3" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson6\exercise5" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7\exercise2" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7\exercise1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson7" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson6\practice" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\homeworkLesson6" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="homeworkLesson3.exercise4.newVertion" />
       <recent name="homeworkLesson6.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeworkLesson7.exercise2.OperationsCount">
-    <configuration name="BehavourOfX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson3.exercise6.BehavourOfX" />
+  <component name="RunManager" selected="Application.ArrayOutput">
+    <configuration name="ArrayOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.practice.ArrayOutput" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson3.exercise6.*" />
+          <option name="PATTERN" value="Lesson8.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson7.homework.exercise1.exercise2BankOld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="LiftMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson6.exercise4.LiftMoves" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.exercise4.LiftMoves" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson6.exercise4.*" />
+          <option name="PATTERN" value="lesson6.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +150,11 @@
       </method>
     </configuration>
     <configuration name="OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson6.exercise5.OperationsCount" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.exercise5BankNew.OperationsCount" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson6.exercise5.*" />
+          <option name="PATTERN" value="lesson6.exercise5BankNew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,24 +163,11 @@
       </method>
     </configuration>
     <configuration name="PizzaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson5.exercise3.PizzaDemo" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.exercise3.PizzaDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworkLesson5.exercise3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homeworkLesson7.exercise2.OperationsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworkLesson7.exercise2.OperationsCount" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworkLesson7.exercise2.*" />
+          <option name="PATTERN" value="lesson5.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homeworkLesson7.exercise2.OperationsCount" />
+        <item itemvalue="Application.ArrayOutput" />
+        <item itemvalue="Application.Lesson7.homework.exercise1.exercise2BankOld.OperationsCount" />
         <item itemvalue="Application.PizzaDemo" />
         <item itemvalue="Application.OperationsCount" />
         <item itemvalue="Application.LiftMoves" />
-        <item itemvalue="Application.BehavourOfX" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700853854436</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="test">
+      <option name="closed" value="true" />
+      <created>1700995703429</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700995703429</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
