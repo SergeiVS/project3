@@ -1,15 +1,11 @@
-package lesson7.homework.task2;
+package lesson7.Practice.task2;
 
-public class SipleCheck {
+public class SimpleNumberCheck {
 
     public static void main(String[] args) {
-
-
 
         Methods methods = new Methods();
 
         System.out.println("This is a simple number. " + methods.checkSimple());
-
-
     }
 }

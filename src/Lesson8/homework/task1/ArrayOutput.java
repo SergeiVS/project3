@@ -17,9 +17,9 @@ public class ArrayOutput {
 
         System.out.println(Arrays.toString(array));
 
-        int[] arrayTurnOver = ao.getArrayTurnOver(array);
+        int[] arrayReverce = ao.getArrayReverce(array);
 
-        System.out.println(Arrays.toString(arrayTurnOver));
+        System.out.println(Arrays.toString(arrayReverce));
     }
 }
 

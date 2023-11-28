@@ -6,7 +6,7 @@ public class LiftMoves {
 
         LiftMethod method = new LiftMethod();
 
-        System.out.println("Lift moves to highest floor till " + method.getNumberOfMoves() + " moves.");
+        System.out.println("Lift moves to highest floor till " + method.getNumberOfMoves() + " iterations.");
 
     }
 }

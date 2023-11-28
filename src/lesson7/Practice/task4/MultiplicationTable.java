@@ -1,4 +1,4 @@
-package lesson7.homework.task4;
+package lesson7.Practice.task4;
 
 public class MultiplicationTable {
 

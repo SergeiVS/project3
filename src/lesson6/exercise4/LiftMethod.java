@@ -4,26 +4,27 @@ public class LiftMethod {
 
     Lift lift = new Lift();
 
-    private int numberOfMoves = 0;
-    private int endFloor = lift.getStepDown()+1;
+    private int numberOfIterations = 0;
+    private int currentFloor = 0;
 
 
 
-    public int getNumberOfMoves(){
+    public int getNumberOfMoves() {
 
-        while (endFloor <= lift.getFloor()) {
+        while (currentFloor < lift.getFloor()) {
 
-            endFloor = endFloor - lift.getStepDown() + lift.getStepUp();
+            currentFloor += lift.getStepUp(); // lift´s first move
+            numberOfIterations++;             // iterations counter + 1
+            System.out.println(currentFloor + " up");
 
-            numberOfMoves++;
+            // floor check, if highest floor reached leave loop
+            if (currentFloor >= lift.getFloor()) {
+                return numberOfIterations;}
+
+            // if highest floor not reached lift steps down
+            currentFloor -= lift.getStepDown();
+            System.out.println(currentFloor + " down");
         }
-
-        return numberOfMoves;
-
+        return numberOfIterations;
     }
-
-
-
-
-
 }

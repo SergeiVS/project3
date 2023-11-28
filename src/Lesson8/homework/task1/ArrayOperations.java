@@ -13,7 +13,7 @@ public class ArrayOperations {
         }
         return array;
     }
-    public int[] getArrayTurnOver(int[] array) {
+    public int[] getArrayReverce(int[] array) {
         int arraySize = array.length;
         int[] arrayTurnOut = new int[arraySize];
 

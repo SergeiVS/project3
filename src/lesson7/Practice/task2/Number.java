@@ -1,4 +1,4 @@
-package lesson7.homework.task2;
+package lesson7.Practice.task2;
 
 import java.util.Scanner;
 
@@ -8,15 +8,8 @@ public class Number {
     private int x;
 
     public Number() {
-
         System.out.println(" Please insert your number =>");
-
        x = scanner.nextInt();
-
-
     }
-
     public int getX(){ return x;}
-
-
 }

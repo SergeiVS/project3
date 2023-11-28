@@ -10,13 +10,9 @@ public class Money {
     public Money(){
 
         System.out.println("Insert your account amount =>");
-
         amount = scanner.nextInt();
-
         System.out.println();
-
     }
-
     public int getAmount() {
         return amount;
     }
