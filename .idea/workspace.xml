@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/BingoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Carts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Persons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Sorting/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Sorting/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Sorting/DemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Sorting/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12/StudentsApp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson8/homework/task2/ArrayUniqProof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/homework/task2/ArrayUniqueProof.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson8/homework/task2/ProofOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/homework/task2/ProofOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson8/homework/task3/ArrayRepeatedElementsProof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/homework/task3/ArrayRepeatedElementsProof.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson8/homework/task3/ProofOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/homework/task3/ProofOutput.java" afterDir="false" />
-    </list>
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -355,22 +336,19 @@
       <option name="project" value="LOCAL" />
       <updated>1701205611234</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test">
+      <option name="closed" value="true" />
+      <created>1701631937210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701631937210</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lesson8/homework/task3/ArrayRepeatedElementsProof.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
