@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ProofOutput {
     public static void main(String[] args) {
 
-        ArrayUniqProof au = new ArrayUniqProof();
+        ArrayUniqueProof au = new ArrayUniqueProof();
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert your array length:");
@@ -16,7 +16,7 @@ public class ProofOutput {
 
         System.out.println(Arrays.toString(array));
 
-        System.out.println("Are all of array elements uniq - " + au.uniqProof(array));
+        System.out.println("Are all of array elements uniq - " + au.uniqueProof(array));
     }
 }
 

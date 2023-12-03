@@ -2,7 +2,7 @@ package Lesson8.homework.task2;
 
 import java.util.Random;
 
-public class ArrayUniqProof {
+public class ArrayUniqueProof {
 
     public int[] arrayFillRandom(int size){
         int[] array = new int[size];
@@ -14,7 +14,7 @@ public class ArrayUniqProof {
         return array;
     }
 
-    public boolean uniqProof(int[] arr) {
+    public boolean uniqueProof(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j] == arr[i]) {

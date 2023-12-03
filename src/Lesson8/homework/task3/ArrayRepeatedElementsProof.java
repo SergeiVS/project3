@@ -1,5 +1,6 @@
 package Lesson8.homework.task3;
 
+import java.util.Date;
 import java.util.Random;
 
 public class ArrayRepeatedElementsProof {
@@ -22,17 +23,13 @@ public class ArrayRepeatedElementsProof {
             int max = 0;
 
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] == arr[i]) {
-
-                    counter++;
-                }
+                if (arr[j] == arr[i]) {counter++;}
                 if (counter > max) {
                     max = counter;
                     k = arr[i];
                     return k;
                 }
             }
-
         }
         return 0;
     }

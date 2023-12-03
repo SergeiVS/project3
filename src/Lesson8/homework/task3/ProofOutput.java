@@ -18,6 +18,9 @@ public class ProofOutput {
         System.out.println(Arrays.toString(array));
 
         System.out.println("Most repeated element of array is: " + au.mostRepeatedProof(array));
+
+
+
     }
 }
 
