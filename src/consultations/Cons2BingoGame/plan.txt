@@ -1,0 +1,11 @@
+How operate the app.
+
+1. it receives the number of players 2-5;
+2. with this number creates repository (repositorys.persons[], on basis Class entitys.Person,
+   with help of services.PersonService) in which will be saved players nicknames;
+3. each player receives 3 carts (playersNumber  * 3 ) with 15 unique numbers from 1 to 99. They saved in repository (repositorys.carts[],
+   on basis Class entitys.Cart, with help of services.CartService);
+4. every player1 receives carts [0-2], player2 carts [3-5] and so on;
+5. the lotto machine gives up random numbers saved in  repositorys.carts[];
+6. players mark the matching numbers on his/her carts;
+7. winner is who collects all numbers on his/her carts first;
