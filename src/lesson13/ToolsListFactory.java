@@ -24,5 +24,11 @@ ToolsListFactory[] toolList;
         return toolsList;
     }
 
+    public ToolsListFactory[] getToolList() {
+        return toolList;
+    }
 
+    public void setToolList(ToolsListFactory[] toolList) {
+        this.toolList = toolList;
+    }
 }

@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson12/studenten/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12/studenten/AddressUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12/studenten/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12/studenten/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson12/studenten/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/ToolSetFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/ToolSetListFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/ToolShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson13/ToolsListFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/ToolSetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/ToolSetFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701711273791</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="test">
+      <option name="closed" value="true" />
+      <created>1701885036525</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885036525</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
