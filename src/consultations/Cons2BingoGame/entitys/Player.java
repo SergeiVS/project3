@@ -1,9 +1,10 @@
 package Cons2BingoGame.entitys;
 
-public class Person {
+public class Player {
     private String nickName;
+    private Cart[] carts;
 
-    public Person(String nickName) {
+    public Player(String nickName) {
         this.nickName = nickName;
     }
 
@@ -17,7 +18,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Player{" +
                 "nickName='" + nickName + '\'' +
                 '}';
     }

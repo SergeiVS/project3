@@ -1,16 +1,14 @@
 package Cons2BingoGame.services;
 
-import Cons2BingoGame.entitys.Person;
-
 import java.util.Scanner;
 
 public class PersonService {
     private Object Peson;
 
-    public void personFill(Person newPerson){
+    public void personFill(Cons2BingoGame.entitys.Player newPlayer){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please insert nickname of the player: ");
-        Person person = new Person(scanner.nextLine());
+        Cons2BingoGame.entitys.Player player = new Cons2BingoGame.entitys.Player(scanner.nextLine());
     }
 }

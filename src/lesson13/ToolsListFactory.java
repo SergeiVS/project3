@@ -4,7 +4,7 @@ public class ToolsListFactory {
 
 ToolsListFactory[] toolList;
 
-    public Tool[] getToolsListToolsList( int arrSize){
+    public Tool[] getToolsLis( int arrSize){
 
         Scanner scanner = new Scanner(System.in);
         Tool[] toolsList = new Tool[arrSize];
@@ -16,7 +16,7 @@ ToolsListFactory[] toolList;
             id = i;
             System.out.print("Please insert tool`s name: ");
             name = scanner.nextLine();
-            System.out.print("Please mark presents in stock (true/false): ");
+            System.out.print("Please insert number of tools in stock (true/false): ");
             numberInStock = scanner.nextInt();
 
            toolsList[i] = new Tool(id, name, numberInStock);

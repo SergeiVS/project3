@@ -16,7 +16,7 @@ public class AverageProofOutput {
 
         System.out.println(Arrays.toString(array));
 
-        System.out.println("Array´s average number is: " +au.arrayAverage(array));
+        System.out.println("Array5´s average number is: " +au.arrayAverage(array));
 
         int[] array2 = new int[array.length];
         System.out.println(Arrays.toString(array2));

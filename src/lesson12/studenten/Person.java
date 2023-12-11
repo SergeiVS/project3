@@ -40,7 +40,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Player{" +
                 "name='" + name + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 ", address=" + address +

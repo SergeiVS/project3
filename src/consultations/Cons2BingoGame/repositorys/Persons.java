@@ -1,14 +1,11 @@
 package Cons2BingoGame.repositorys;
 
-import Cons2BingoGame.entitys.Cart;
-import Cons2BingoGame.entitys.Person;
-
 public class Persons {
-    Person[] persons;
+    Cons2BingoGame.entitys.Player[] persons;
 
-    public Persons(int numberOfPersons) {this.persons = new Person[numberOfPersons];}
+    public Persons(int numberOfPersons) {this.persons = new Cons2BingoGame.entitys.Player[numberOfPersons];}
 
-    public Person[] getPersons() {return persons;}
+    public Cons2BingoGame.entitys.Player[] getPersons() {return persons;}
 
-    public void setPersons(Person[] persons) {this.persons = persons;}
+    public void setPersons(Cons2BingoGame.entitys.Player[] players) {this.persons = players;}
 }

@@ -1,7 +1,7 @@
 How operate the app.
 
 1. it receives the number of players 2-5;
-2. with this number creates repository (repositorys.persons[], on basis Class entitys.Person,
+2. with this number creates repository (repositorys.players[], on basis Class entitys.Person,
    with help of services.PersonService) in which will be saved players nicknames;
 3. each player receives 3 carts (playersNumber  * 3 ) with 15 unique numbers from 1 to 99. They saved in repository (repositorys.carts[],
    on basis Class entitys.Cart, with help of services.CartService);

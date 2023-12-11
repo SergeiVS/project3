@@ -29,9 +29,7 @@ public class Tool {
         this.name = name;
     }
 
-    public boolean setInStock(int numberInStock) {
-        return numberInStock != 0;
-    }
+
 
     @Override
     public String toString() {

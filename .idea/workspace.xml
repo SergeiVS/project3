@@ -5,8 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons3/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons3/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson13/koment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/PockerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/entitys/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/entitys/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/entitys/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/services/PlayRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/services/utils/DeckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/services/utils/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/services/utils/PrintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/services/utils/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/Pocker/task and descliption.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task1/ArrayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task1/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task3/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task3/UserInput3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task3/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task5/Array5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task5/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task5/UserInput5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task6/Demo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task6/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task6/UserInput6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/task7/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/task7/ArrayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/task7/UserInput7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson13/ToolSetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/ToolSetFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson8/homework/Task5/AverageProofOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/homework/Task5/AverageProofOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/plan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Persons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson12/studenten/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/studenten/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/ToolSetListFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/ToolSetListFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/ToolShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/ToolShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson13/ToolsListFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson13/ToolsListFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -42,35 +81,36 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson7/homework/Task4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson15/homework/task6&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework\task6" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\Task4" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\task3" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\task2Programming" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\Task5" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\task4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task7" />
+      <recent name="homework.task4" />
+      <recent name="task3" />
       <recent name="lesson7.homework.task32" />
       <recent name="Lesson8.homework.task2" />
-      <recent name="homeworkLesson3.exercise4.newVertion" />
-      <recent name="homeworkLesson6.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToolShop">
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.DemoApp" />
+  <component name="RunManager" selected="Application.Demo6">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task1.Demo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="homework.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisionOn5First7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.homework.task32.DivisionOn5First7" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task3.Demo3" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.homework.task32.*" />
+          <option name="PATTERN" value="homework.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.homework.task33.Hello" />
+    <configuration name="Demo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task6.Demo6" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.homework.task33.*" />
+          <option name="PATTERN" value="homework.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNumberPositionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.homework.task34.SumOfNumberPositionsDemo" />
+    <configuration name="PockerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Pocker.PockerApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.homework.task34.*" />
+          <option name="PATTERN" value="homework.Pocker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo6" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.PockerApp" />
         <item itemvalue="Application.ToolShop" />
-        <item itemvalue="Application.DemoApp" />
-        <item itemvalue="Application.SumOfNumberPositionsDemo" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.DivisionOn5First7" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701885036525</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test">
+      <option name="closed" value="true" />
+      <created>1701886257917</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886257917</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
