@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task7/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task7/ArrayService7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task7/ArrayUtil7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task8/Array8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task8/ArrayService8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task8/ArrayUtil8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task8/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/PoneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/entitys/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/entitys/PhoneCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/entitys/SimCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/PhoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/UserOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson12/studenten/AddressUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/studenten/AddressUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson15/task7/ArrayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson15/task7/UserInput7.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -403,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702315685362</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="test">
+      <option name="closed" value="true" />
+      <created>1702415798444</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702415798444</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
