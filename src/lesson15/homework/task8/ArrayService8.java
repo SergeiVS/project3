@@ -24,7 +24,7 @@ public class ArrayService8 {
            arr[i] = random.nextInt(array.getN());
         }
         array.setArray(arr);
-        System.out.println((array.toString()));
+        System.out.println("our array: " + (array.toString()));
 
     }
 
@@ -35,13 +35,9 @@ public class ArrayService8 {
         int nEvens = 0;
         int counter = 0;
 
-        for (int i = 0; i < array.getArray().length; i++) {
-            if (array.getArray()[i] % 2 == 0 && array.getArray()[i] > 0) {
-                nEvens++;
-            }
-        }
+        nEvens = getnEvens(nEvens);
 
-            int[] arrayOfEvens = new int[nEvens];
+        int[] arrayOfEvens = new int[nEvens];
 
             if (nEvens > 0) {
 
@@ -55,5 +51,14 @@ public class ArrayService8 {
             } else {System.out.println("array contains no evens");}
 
         }
+
+    private int getnEvens(int nEvens) {
+        for (int i = 0; i < array.getArray().length; i++) {
+            if (array.getArray()[i] % 2 == 0 && array.getArray()[i] > 0) {
+                nEvens++;
+            }
+        }
+        return nEvens;
     }
+}
 

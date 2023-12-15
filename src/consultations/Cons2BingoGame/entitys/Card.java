@@ -2,10 +2,10 @@ package Cons2BingoGame.entitys;
 
 import java.util.Arrays;
 
-public class Cart {
+public class Card {
     private int[] cart;
 
-    public Cart(int cartRange){this.cart = new int[cartRange];}
+    public Card(int cartRange){this.cart = new int[cartRange];}
 
     public int[] getCart() {
         return cart;
@@ -17,7 +17,7 @@ public class Cart {
 
     @Override
     public String toString() {
-        return "Cart{" +
+        return "Card{" +
                 "cart=" + Arrays.toString(cart) +
                 '}';
     }

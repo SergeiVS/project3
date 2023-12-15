@@ -2,6 +2,8 @@ package Practice.phone.service;
 
 import Practice.phone.entitys.Phone;
 
+import java.util.Arrays;
+
 public class UserOutput {
     public void phonePrintOut(Phone phone) {
         System.out.println("Phone imei:");
@@ -11,8 +13,10 @@ public class UserOutput {
         if (phone.getSimCards() == null) {
             System.out.println("sim is not installed");
         }
-        if (phone.getSimCards()[0] != null){System.out.println("Phone number sim1 : " + phone.getSimCards()[0].getPhoneNumber());}
-        if (phone.getSimCards()[1] != null){System.out.println("Phone number sim2: " + phone.getSimCards()[1].getPhoneNumber());}
+        if (phone.getSimCards()[0] != null){System.out.println("Phone number sim1 : " + phone.getSimCards()[0].getPhoneNumber());
+        System.out.println("sim1 sms: " + Arrays.toString( phone.getSimCards()[0].getSms()));}
+        if (phone.getSimCards()[1] != null){System.out.println("Phone number sim2: " + phone.getSimCards()[1].getPhoneNumber());
+        System.out.println("sim2 sms: " + Arrays.toString(phone.getSimCards()[1].getSms()));}
     }
    // public void printSms(Phone phone) {
      //   if (phone.getSimCards()[0] == null) {

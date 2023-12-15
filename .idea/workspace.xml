@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookCaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/MatrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/UserInput4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewHomeAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewPets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/HomeAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstractCar/AutoRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstractCar/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstractCar/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstractCar/Lorry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstractCar/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstraction/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstraction/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstraction/HomeAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/abstraction/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Carts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/CardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PlayersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson15/homework/task8/ArrayService8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson15/homework/task8/ArrayService8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Practice/phone/PoneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/PoneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Practice/phone/entitys/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/entitys/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/PhoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/PhoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/UserOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/Practice/phone/service/UserOutput.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,23 +76,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson15/homework/task6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson18/lessonCode/abstraction",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework\task6" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\Task4" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\task3" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson7\homework\task2Programming" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\Lesson8\homework\Task5" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\abstraction" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\NewStyle" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\Cons4\Libruary\service" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework\task4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
@@ -64,33 +107,13 @@
       <recent name="lesson7.homework.task32" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo8">
-    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayDemo" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task3.Demo3" />
+  <component name="RunManager" selected="Application.AutoRide">
+    <configuration name="AutoRide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractCar.AutoRide" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task6.Demo6" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.task6.*" />
+          <option name="PATTERN" value="abstractCar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +127,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeAnimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OldSchool.HomeAnimals" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OldSchool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewHomeAnimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewStyle.NewHomeAnimals" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewStyle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo8" />
-        <item itemvalue="Application.ArrayDemo" />
+        <item itemvalue="Application.AutoRide" />
+        <item itemvalue="Application.HomeAnimals" />
+        <item itemvalue="Application.NewHomeAnimals" />
         <item itemvalue="Application.PoneDemo" />
-        <item itemvalue="Application.Demo6" />
-        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo8" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702415798444</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test">
+      <option name="closed" value="true" />
+      <created>1702485128330</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702485128330</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

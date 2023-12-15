@@ -4,7 +4,6 @@ import phone.entitys.PhoneCover;
 
 public class Phone {
      private Practice.phone.entitys.SimCard[] simCards = new Practice.phone.entitys.SimCard[2];
-
     private int imei;
     private String phoneName;
     private PhoneCover cover;
@@ -19,7 +18,7 @@ public class Phone {
     }
 
     public void setSimCards(Practice.phone.entitys.SimCard[] simCards) {
-        this.simCards =  simCards;
+        this.simCards = simCards;
     }
 
     public void setImei(int imei) {

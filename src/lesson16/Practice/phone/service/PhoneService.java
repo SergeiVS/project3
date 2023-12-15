@@ -1,4 +1,4 @@
-package Practice.phone.service;
+package service;
 
 import Practice.phone.entitys.Phone;
 import Practice.phone.entitys.SimCard;
@@ -7,33 +7,36 @@ import phone.entitys.PhoneCover;
 public class PhoneService {
 
     public boolean insertSimCard(Phone phone, SimCard simCard){
-        if (simCard.getPhoneNumber() != 0) {
-            phone.setSimCards(simCard);
+
+        if (phone.getSimCards()[0] == null) {
+            phone.getSimCards()[0] = simCard;
             return true;
-        } else {
-            return false;
-        }
+        } else if (phone.getSimCards()[1] == null){
+            phone.getSimCards()[1] = simCard;
+            return true;}
+        else {return false;}
     }
 
-    public SimCard removeSimCard(Phone phone, int simNumber) {
-        SimCard removedSimCard = phone.getSimCards()[simNumber];
-        phone.setSimCards(null);
+    public SimCard removeSimCard(Phone phone, int cellNumber) {
+        SimCard removedSimCard = phone.getSimCards()[cellNumber];
+        phone.getSimCards()[cellNumber] =null;
         return removedSimCard;
     }
 
-    public SimCard changeSimCard(Phone phone, SimCard newSimCard, int simNumber){
-        SimCard removedSimCard = phone.getSimCards()[simNumber];
-        int oldNumber = removedSimCard.getPhoneNumber();
-        newSimCard.setPhoneNumber[simNumber](oldNumber);
-        phone.setSimCards(newSimCards);
-        removedSimCard.setPhoneNumber(0);
-        return removedSimCard;
+    public SimCard changeSimCard(Phone phone, SimCard newSimCard, int cellNumber){
 
+        SimCard removerSim = removeSimCard(phone,cellNumber);
+        int oldNumber = removerSim.getPhoneNumber();
+        removerSim.setPhoneNumber(0);
+        newSimCard.setPhoneNumber(oldNumber);
+        insertSimCard(phone, newSimCard);
+
+        return removerSim;
     }
 
-    public boolean receivedSms(Phone phone, String message, int simNumber){
+    public boolean receivedSms(Phone phone, String message, int cellNumber){
 
-        String[] ourSmsMessages = phone.getSimCards()[simNumber].getSms();
+        String[] ourSmsMessages = phone.getSimCards()[cellNumber].getSms();
         int emptyCell = firstEmptyCell(ourSmsMessages);
         if (emptyCell == -1) {
             System.out.println("Нет памяти для новой смс. Удалите прошлые сообщения!");
@@ -53,9 +56,9 @@ public class PhoneService {
         return -1;
     }
 
-    public boolean deleteSmsMessage(Phone phone, int smsNumber, int simNimber){
+    public boolean deleteSmsMessage(Phone phone, int smsNumber, int cellNimber){
         if (smsNumber >= 0 && smsNumber < 10) {
-            phone.getSimCards()[simNimber].getSms()[smsNumber] = null;
+            phone.getSimCards()[cellNimber].getSms()[smsNumber] = null;
             return true;
         } else {
             System.out.println("Нет сообщения с таким номером!");
@@ -63,9 +66,9 @@ public class PhoneService {
         }
     }
 
-    public boolean deleteAllMessages(Phone phone, int simNumber) {
+    public boolean deleteAllMessages(Phone phone, int cellNumber) {
         String[] newSmsMessages = new String[10];
-        phone.getSimCards()[simNumber].setSms(newSmsMessages);
+        phone.getSimCards()[cellNumber].setSms(newSmsMessages);
         return true;
     }
     public boolean setPhoneCover(Phone phone, PhoneCover cover){
@@ -73,6 +76,12 @@ public class PhoneService {
             phone.setCover(cover);
             return true;
         }else  return false;
+    }
+    public boolean removePhoneCover(Phone phone){
+        if (phone.getCover() != null){
+            phone.setCover(null);
+            return false;
+        }else  return true;
     }
 
 }
