@@ -7,7 +7,7 @@ public class SportCar extends Automobile{
 
     @Override
     void acceletarionMessaga() {
-        System.out.println(getName()+ " reaches 100 kMh in " + getBoost() + " seconds");
+        System.out.println(getName() + " reaches 100 kMh in " + getBoost() + " seconds");
     }
 
     @Override
