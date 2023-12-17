@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Card {
     private int[] cart;
 
-    public Card(int cartRange){this.cart = new int[cartRange];}
+    public Card(){this.cart = new int[15];}
 
     public int[] getCart() {
         return cart;
@@ -21,4 +21,5 @@ public class Card {
                 "cart=" + Arrays.toString(cart) +
                 '}';
     }
+
 }

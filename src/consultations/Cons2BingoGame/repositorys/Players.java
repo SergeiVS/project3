@@ -1,17 +1,28 @@
 package repositorys;
 
-public class Players {
-    Cons2BingoGame.entitys.Player[] players;
+import Cons2BingoGame.entitys.Player;
 
-    public Players(Cons2BingoGame.entitys.Player[] players) {
+import java.util.Arrays;
+
+public class Players {
+    Player[] players;
+
+    public Players(int numberOfPlayers) {
         this.players = players;
     }
 
-    public Cons2BingoGame.entitys.Player[] getPlayers() {
+    public Player[] getPlayers() {
         return players;
     }
 
-    public void setPlayers(Cons2BingoGame.entitys.Player[] players) {
+    public void setPlayers(Player[] players) {
         this.players = players;
+    }
+
+    @Override
+    public String toString() {
+        return "Players{" +
+                "players=" + Arrays.toString(players) +
+                '}';
     }
 }

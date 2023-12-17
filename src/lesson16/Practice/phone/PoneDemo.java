@@ -21,5 +21,6 @@ public class PoneDemo {
         uO.phonePrintOut(phone1);
         ps.removeSimCard(phone1, 0);
         uO.phonePrintOut(phone1);
+        ps.
     }
 }

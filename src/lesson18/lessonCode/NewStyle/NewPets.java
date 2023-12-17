@@ -1,5 +1,7 @@
 package NewStyle;
 
+import java.util.Random;
+
 public class NewPets {
     private String name;
 

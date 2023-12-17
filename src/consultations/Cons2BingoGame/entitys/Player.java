@@ -2,7 +2,7 @@ package Cons2BingoGame.entitys;
 
 public class Player {
     private String nickName;
-    private Cons2BingoGame.entitys.Card[] carts = new Cons2BingoGame.entitys.Card[3];
+    private Cons2BingoGame.entitys.Card[] cards = new Cons2BingoGame.entitys.Card[3];
 
     public Player(String nickName) {
         this.nickName = nickName;
@@ -16,12 +16,12 @@ public class Player {
         this.nickName = nickName;
     }
 
-    public Cons2BingoGame.entitys.Card[] getCarts() {
-        return carts;
+    public Cons2BingoGame.entitys.Card[] getCards() {
+        return cards;
     }
 
-    public void setCarts(Cons2BingoGame.entitys.Card[] carts) {
-        this.carts = carts;
+    public void setCards(Card[] cards) {
+        this.cards = cards;
     }
 
     @Override

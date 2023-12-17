@@ -1,16 +1,27 @@
 package Cons2BingoGame.repositorys;
 
+import java.util.Arrays;
+
 public class Cards {
 
-    Cons2BingoGame.entitys.Card[] carts;
+    private Cons2BingoGame.entitys.Card[] cards;
 
-    public Cards(int numberOfCarts) {this.carts = new Cons2BingoGame.entitys.Card[numberOfCarts];}
 
-    public Cons2BingoGame.entitys.Card[] getCarts() {
-        return carts;
+
+    public Cards(int numberOfCards) {this.cards = new Cons2BingoGame.entitys.Card[numberOfCards];}
+
+    public Cons2BingoGame.entitys.Card[] getCards() {
+        return cards;
     }
 
-    public void setCarts(Cons2BingoGame.entitys.Card[] carts) {
-        this.carts = carts;
+    public void setCards(Cons2BingoGame.entitys.Card[] cards) {
+        this.cards = cards;
+    }
+
+    @Override
+    public String toString() {
+        return "Cards{" +
+                "cards=" + Arrays.toString(cards) +
+                '}';
     }
 }

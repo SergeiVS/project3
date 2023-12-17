@@ -1,3 +1,5 @@
+package lesson15.homework.task4;
+
 import java.util.Scanner;
 
 public class UserInput4 {
