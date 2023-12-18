@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/UserInputBingo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/MatrixDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/UserOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/entitys/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Cards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/repositorys/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/CardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PlayersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons2BingoGame/services/PlayersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson15/homework/task4/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson15/homework/task4/MatrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/MatrixService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson15/homework/task4/UserInput4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson15/homework/task4/UserInput4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewHomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewHomeAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewPets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewPets.java" afterDir="false" />
-    </list>
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -442,7 +422,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702673576874</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="test">
+      <option name="closed" value="true" />
+      <created>1702825245747</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702825245747</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test">
+      <option name="closed" value="true" />
+      <created>1702825285412</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1702825285412</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
