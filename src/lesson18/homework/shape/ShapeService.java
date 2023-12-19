@@ -22,27 +22,32 @@ public class ShapeService {
 
         for (int i = 0; i < shapes.length; i++) {
 
-            switch (random.nextInt(4)){
-
-                case 0:
-                    shapes[i] = new Circle("Circle" + random.nextInt(10), random.nextInt(15));
-                    break;
-                case 1:
-                    shapes[i] = new Rectangle("Rectangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15));
-                    break;
-                case 2:
-                    shapes[i] = new Square("Square" + random.nextInt(10), random.nextInt(15));
-                    break;
-                case 3:
-                    shapes[i] = new Triangle("Triangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15), random.nextInt(15));
-                    break;
-                default:
-                    System.out.println("something gone wrong!");
-                    break;
-            }
+            chooseShape(i);
         }
         return shapes;
     }
+
+    private void chooseShape(int i) {
+        switch (random.nextInt(4)){
+
+            case 0:
+                shapes[i] = new Circle("Circle" + random.nextInt(10), random.nextInt(15));
+                break;
+            case 1:
+                shapes[i] = new Rectangle("Rectangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15));
+                break;
+            case 2:
+                shapes[i] = new Square("Square" + random.nextInt(10), random.nextInt(15));
+                break;
+            case 3:
+                shapes[i] = new Triangle("Triangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15), random.nextInt(15));
+                break;
+            default:
+                System.out.println("something gone wrong!");
+                break;
+        }
+    }
+
     public void printEachShape(Shape[] shapes){
 
         System.out.println("shapes array contains " + shapes.length + " elements.");
