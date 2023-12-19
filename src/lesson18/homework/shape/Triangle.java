@@ -1,6 +1,4 @@
-package shape;
-
-import java.util.Random;
+package homework.shape;
 
 public class Triangle extends Shape{
 

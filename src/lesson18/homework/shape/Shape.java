@@ -1,4 +1,4 @@
-package shape;
+package homework.shape;
 
 abstract class Shape {
     private  String title;

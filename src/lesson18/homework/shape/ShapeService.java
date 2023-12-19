@@ -1,4 +1,4 @@
-package shape;
+package homework.shape;
 
 import java.util.Arrays;
 import java.util.Random;

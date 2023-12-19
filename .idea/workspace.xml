@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/books.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/ShapeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/ShapeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Messanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/PhoneApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/PhoneUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Signal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Telegram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Viber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/WhatsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Dancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Musician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/PopMusicion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/RockMusician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Singer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookShelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookCaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewHomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewHomeAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewPets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewPets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/HomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/HomeAnimals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -485,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702916617316</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="test">
+      <option name="closed" value="true" />
+      <created>1703015852132</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1703015852133</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
