@@ -3,15 +3,15 @@ package Libruary.entitys;
 import java.util.Arrays;
 
 public class BookCase {
-  private BookShelf[] bookShelves;
+  private Libruary.entitys.BookShelf[] bookShelves;
     public BookCase(int totalNumberOfShelves, int numberOfBooksOnTheShelf) {
-      this.bookShelves = new BookShelf[totalNumberOfShelves];
+      this.bookShelves = new Libruary.entitys.BookShelf[totalNumberOfShelves];
       for (int i = 0; i < totalNumberOfShelves; i++) {
-        bookShelves[i] = new BookShelf[numberOfBooksOnTheShelf];
+        bookShelves[i] = new Libruary.entitys.BookShelf(numberOfBooksOnTheShelf);
       }
     }
 
-  public BookShelf[] getBookShelves() {
+  public Libruary.entitys.BookShelf[] getBookShelves() {
     return bookShelves;
   }
 

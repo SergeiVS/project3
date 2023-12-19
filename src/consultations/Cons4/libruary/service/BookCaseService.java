@@ -5,18 +5,33 @@ import Libruary.entitys.BookCase;
 import Libruary.entitys.BookShelf;
 
 public class BookCaseService {
-    public BookCase createBookCase(int totalNumberOfShelves){
-        BookCase newBookCase = new BookCase(totalNumberOfShelves);
-        return newBookCase;
+
+    Libruary.service.UserInput ui = new Libruary.service.UserInput();
+
+    private int numberOfShelvesInTheCase = ui.uiInt("insert number of shelves in the case");
+    private int numberOfBookOnEachShelf = ui.uiInt("insert number of books on each shelf:");
+
+
+    BookCase bookCase;
+
+
+
+    private BookCase createBookCase(int numberOfShelvesInTheCase, int numberOfBookOnEachShelf){
+        BookCase bookCase = new BookCase(numberOfShelvesInTheCase, numberOfBookOnEachShelf);
+        return bookCase;
     }
 
     public boolean putBookOnTheShelf(Book book, int numberOfShelf, BookCase bookcase) {
         BookShelf[] bookshelves = bookcase.getBookShelves();
         BookShelf ourTargetShelf = bookshelves[numberOfShelf];
-        Book[] booksOnTheShelf = ourTargetShelf.getBooks();
+        Book[] booksOnTheShelf = ourTargetShelf.getBooksFromTheShelf();
 
         Integer freePlace = findFreePlaceOnTheShelf(booksOnTheShelf);
 
+        return isPlaceFree(book, freePlace, booksOnTheShelf);
+    }
+
+    private static boolean isPlaceFree(Book book, Integer freePlace, Book[] booksOnTheShelf) {
         if (freePlace >= 0) {
             booksOnTheShelf[freePlace] = book;
             return true;
@@ -33,5 +48,6 @@ public class BookCaseService {
                 return i;
             }
         }
-
+        return  -1;
+    }
 }

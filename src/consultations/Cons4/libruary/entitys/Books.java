@@ -1,16 +1,18 @@
 package Libruary.entitys;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Arrays;
 
 public class Books {
-    private Book[] books;
 
-
+    private Libruary.entitys.Book[] books;
     public Books(Integer totalNumberOfBooks) {
-        this.books = new Book[totalNumberOfBooks];
+        this.books = new Libruary.entitys.Book[totalNumberOfBooks];
     }
 
-    public Book[] getBooks() {
+    public Libruary.entitys.Book[] getBooks() {
         return books;
     }
     @Override

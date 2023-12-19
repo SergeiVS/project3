@@ -1,18 +1,20 @@
-package Libruary.service;
+package service;
 
 import Libruary.entitys.Book;
 import Libruary.entitys.Books;
 
 public class BookService {
 
-    UserInput ui = new UserInput();
+    Book[] books;
+
+    Libruary.service.UserInput ui = new Libruary.service.UserInput();
     private int totalNumberOfBooks;
 
     private BookService(int totalNumberOfBooks) {
         this.totalNumberOfBooks = ui.uiInt("insert total books number: ");
     }
 
-    private Book createBook(){
+    private Book createBookFromUser(){
 
         int bookId = ui.uiInt("insert book id:");
         String bookAuthor = ui.uiText("insert book author: ");
@@ -25,11 +27,11 @@ public class BookService {
         return books;
     }
 
-    public  Books fillBooksArray(){
+    public  Books fillBooksArrayFromUserInput(){
         Books books = createBooksArray(totalNumberOfBooks);
 
         for (int i = 0; i < books.getBooks().length; i++) {
-            books.getBooks()[i] = createBook();
+            books.getBooks()[i] = createBookFromUser();
         }
         return books;
     }

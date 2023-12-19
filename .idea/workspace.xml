@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/ShapeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/ShapeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson18/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Messanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/PhoneApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/PhoneUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Telegram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/Viber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/WhatsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Musician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/PopMusicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/RockMusician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/music/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/entitys/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookCaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/Libruary/service/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewHomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewHomeAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/NewStyle/NewPets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/newStyle/NewPets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson18/lessonCode/OldSchool/HomeAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/lessonCode/oldSchool/HomeAnimals.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +53,7 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,51 +73,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/consultations/Cons2BingoGame/services",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson18/lessonCode&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\Cons2BingoGame\services" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\abstraction" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\NewStyle" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\Cons4\Libruary\service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shape" />
+      <recent name="lessoncode.messanger" />
       <recent name="task8" />
       <recent name="task7" />
       <recent name="homework.task4" />
-      <recent name="task3" />
-      <recent name="lesson7.homework.task32" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PoneDemo">
-    <configuration name="AutoRide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractCar.AutoRide" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstractCar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShapeDemo">
     <configuration name="MatrixDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson15.homework.task4.MatrixDemo" />
       <module name="project3" />
@@ -92,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewHomeAnimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewStyle.NewHomeAnimals" />
+    <configuration name="PhoneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessoncode.messanger.PhoneApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NewStyle.*" />
+          <option name="PATTERN" value="lessoncode.messanger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShapeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shape.ShapeDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeDemo" />
+        <item itemvalue="Application.PhoneApp" />
         <item itemvalue="Application.PoneDemo" />
         <item itemvalue="Application.PockerApp" />
         <item itemvalue="Application.MatrixDemo" />
-        <item itemvalue="Application.NewHomeAnimals" />
-        <item itemvalue="Application.AutoRide" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702825285412</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="test">
+      <option name="closed" value="true" />
+      <created>1702916617316</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702916617316</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
