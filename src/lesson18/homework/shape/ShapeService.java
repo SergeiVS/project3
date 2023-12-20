@@ -28,24 +28,49 @@ public class ShapeService {
     }
 
     private void chooseShape(int i) {
+        int a;
+        int b;
+        int c;
         switch (random.nextInt(4)){
 
             case 0:
-                shapes[i] = new Circle("Circle" + random.nextInt(10), random.nextInt(15));
+                shapes[i] = new Circle("Circle" + random.nextInt(10), random.nextInt(1,15));
                 break;
             case 1:
-                shapes[i] = new Rectangle("Rectangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15));
+                shapes[i] = new Rectangle("Rectangle" + random.nextInt(10), random.nextInt(1,15), random.nextInt(1,15));
                 break;
             case 2:
-                shapes[i] = new Square("Square" + random.nextInt(10), random.nextInt(15));
+                shapes[i] = new Square("Square" + random.nextInt(10), random.nextInt(1,15));
                 break;
             case 3:
-                shapes[i] = new Triangle("Triangle" + random.nextInt(10), random.nextInt(15), random.nextInt(15), random.nextInt(15));
+                IsTrianle isTriangle = getIsTrianle();
+
+                shapes[i] = new Triangle("Triangle" + random.nextInt(10), isTriangle.a(), isTriangle.b(), isTriangle.c());
+
                 break;
             default:
                 System.out.println("something gone wrong!");
                 break;
         }
+    }
+
+    private IsTrianle getIsTrianle() {
+        int a;
+        int b;
+        int c;
+
+        do {
+            c = random.nextInt(1, 15);
+            a = random.nextInt(1, 15);
+            b = random.nextInt(1, 15);
+        }
+        while (!((a + b) > c && (a + c) > b && (b + c) > a));
+
+        IsTrianle isTriangle = new IsTrianle(a, b, c);
+        return isTriangle;
+    }
+
+    private record IsTrianle(int a, int b, int c) {
     }
 
     public void printEachShape(Shape[] shapes){

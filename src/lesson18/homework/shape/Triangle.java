@@ -27,10 +27,9 @@ public class Triangle extends Shape{
 
     @Override
     double getArea() {
-
         double s=(((sideA+sideB+sideC)/2)*(((sideA+sideB+sideC)/2)-sideA)*(((sideA+sideB+sideC)/2)-sideB)*(((sideA+sideB+sideC)/2)-sideC));
 
-         return Math.sqrt(Math.abs(s));
+         return Math.sqrt(s);
     }
 
     @Override
