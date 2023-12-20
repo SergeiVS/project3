@@ -28,9 +28,7 @@ public class ShapeService {
     }
 
     private void chooseShape(int i) {
-        int a;
-        int b;
-        int c;
+
         switch (random.nextInt(4)){
 
             case 0:
@@ -55,6 +53,7 @@ public class ShapeService {
     }
 
     private IsTrianle getIsTrianle() {
+
         int a;
         int b;
         int c;
@@ -95,7 +94,7 @@ public class ShapeService {
         }
         System.out.println("sum of all areas of all shapes: " + areas);
         System.out.println();
-        System.out.println("sum of all areas of all perimeters: " + perimeters);
+        System.out.println("sum of all perimeter of all shapes: " + perimeters);
     }
 
     @Override
