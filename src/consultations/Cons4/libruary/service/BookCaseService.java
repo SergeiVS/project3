@@ -2,7 +2,6 @@ package Libruary.service;
 
 import Libruary.entitys.Book;
 import Libruary.entitys.BookCase;
-import Libruary.entitys.BookShelf;
 
 public class BookCaseService {
 
@@ -22,8 +21,8 @@ public class BookCaseService {
     }
 
     public boolean putBookOnTheShelf(Book book, int numberOfShelf, BookCase bookcase) {
-        BookShelf[] bookshelves = bookcase.getBookShelves();
-        BookShelf ourTargetShelf = bookshelves[numberOfShelf];
+        BookCase.BookShelf[] bookshelves = bookcase.getBookShelves();
+        BookCase.BookShelf ourTargetShelf = bookshelves[numberOfShelf];
         Book[] booksOnTheShelf = ourTargetShelf.getBooksFromTheShelf();
 
         Integer freePlace = findFreePlaceOnTheShelf(booksOnTheShelf);

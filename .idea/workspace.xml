@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/ElgineOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/GearBoxOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/NonMotorVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Scooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookShelf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson18/homework/shape/ShapeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/homework/shape/ShapeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson18/homework/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/homework/shape/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +35,8 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,20 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson18/lessonCode",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson18/lessonCode&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode" />
@@ -478,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703018344598</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="test">
+      <option name="closed" value="true" />
+      <created>1703093136385</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1703093136385</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test">
+      <option name="closed" value="true" />
+      <created>1703093346538</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1703093346538</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

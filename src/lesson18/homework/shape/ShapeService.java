@@ -32,18 +32,18 @@ public class ShapeService {
         switch (random.nextInt(4)){
 
             case 0:
-                shapes[i] = new Circle("Circle" + random.nextInt(10), random.nextInt(1,15));
+                shapes[i] = new Circle("Circle" + (i+1), random.nextInt(1,15));
                 break;
             case 1:
-                shapes[i] = new Rectangle("Rectangle" + random.nextInt(10), random.nextInt(1,15), random.nextInt(1,15));
+                shapes[i] = new Rectangle("Rectangle" + (i+1), random.nextInt(1,15), random.nextInt(1,15));
                 break;
             case 2:
-                shapes[i] = new Square("Square" + random.nextInt(10), random.nextInt(1,15));
+                shapes[i] = new Square("Square" + (i+1), random.nextInt(1,15));
                 break;
             case 3:
                 IsTrianle isTriangle = getIsTrianle();
 
-                shapes[i] = new Triangle("Triangle" + random.nextInt(10), isTriangle.a(), isTriangle.b(), isTriangle.c());
+                shapes[i] = new Triangle("Triangle" + (i+1), isTriangle.a(), isTriangle.b(), isTriangle.c());
 
                 break;
             default:
@@ -94,7 +94,7 @@ public class ShapeService {
         }
         System.out.println("sum of all areas of all shapes: " + areas);
         System.out.println();
-        System.out.println("sum of all perimeter of all shapes: " + perimeters);
+        System.out.println("sum of all perimeters of all shapes: " + perimeters);
     }
 
     @Override
