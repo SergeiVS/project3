@@ -1,6 +1,9 @@
-package lessonCode;
+package lessonCode.entitys;
 
-public class Truck extends MotorVehicle{
+import lessonCode.MotorVehicle;
+import lessonCode.entitys.abstractEntitys.MotorVehicle20;
+
+public class Truck extends MotorVehicle20 {
     @Override
     public void gearUp() {
         System.out.println("heavy up");

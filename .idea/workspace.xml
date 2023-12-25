@@ -5,25 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/ElgineOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/GearBoxOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/NonMotorVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Scooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/LibuaryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/PutBookOnTheShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/removeBookFronShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorVehicle20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/NonMotorVehicle20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Vehicle20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BookShelf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/BooksCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BooksCollectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/utils/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson18/homework/shape/ShapeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson18/homework/shape/ShapeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/ElgineOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleOperateInrefaces/ElgineOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/GearBoxOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleOperateInrefaces/GearBoxOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/MotorVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/NonMotorVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Scooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Transmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicleService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +47,8 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,6 +93,9 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="entitys" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="shape" />
       <recent name="lessoncode.messanger" />
@@ -89,26 +104,13 @@
       <recent name="homework.task4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework.shape.ShapeDemo">
+  <component name="RunManager" selected="Application.VehicalApp">
     <configuration name="PhoneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessoncode.messanger.PhoneApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lessoncode.messanger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PockerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Pocker.PockerApp" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.Pocker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,6 +144,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessonCode.VehicalApp" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homework.shape.ShapeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.shape.ShapeDemo" />
       <module name="project3" />
@@ -157,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VehicalApp" />
         <item itemvalue="Application.homework.shape.ShapeDemo" />
         <item itemvalue="Application.ShapeDemo" />
         <item itemvalue="Application.PhoneApp" />
         <item itemvalue="Application.PoneDemo" />
-        <item itemvalue="Application.PockerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703093346538</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="test">
+      <option name="closed" value="true" />
+      <created>1703180292965</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1703180292965</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -2,10 +2,12 @@ package Libruary.service;
 
 import Libruary.entitys.Book;
 import Libruary.entitys.BookCase;
+import entitys.BookShelf;
+import utils.UserInput;
 
 public class BookCaseService {
 
-    Libruary.service.UserInput ui = new Libruary.service.UserInput();
+    UserInput ui = new UserInput();
 
     private int numberOfShelvesInTheCase = ui.uiInt("insert number of shelves in the case");
     private int numberOfBookOnEachShelf = ui.uiInt("insert number of books on each shelf:");
@@ -21,8 +23,8 @@ public class BookCaseService {
     }
 
     public boolean putBookOnTheShelf(Book book, int numberOfShelf, BookCase bookcase) {
-        BookCase.BookShelf[] bookshelves = bookcase.getBookShelves();
-        BookCase.BookShelf ourTargetShelf = bookshelves[numberOfShelf];
+        BookShelf[] bookshelves = bookcase.getBookShelves();
+        BookShelf ourTargetShelf = bookshelves[numberOfShelf];
         Book[] booksOnTheShelf = ourTargetShelf.getBooksFromTheShelf();
 
         Integer freePlace = findFreePlaceOnTheShelf(booksOnTheShelf);

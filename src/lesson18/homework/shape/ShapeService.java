@@ -72,6 +72,14 @@ public class ShapeService {
     private record IsTrianle(int a, int b, int c) {
     }
 
+
+
+    @Override
+    public String toString() {
+        return "ShapeService{" +
+                "shapes=" + Arrays.toString(shapes) +
+                '}';
+    }
     public void printEachShape(Shape[] shapes){
 
         System.out.println("shapes array contains " + shapes.length + " elements.");
@@ -96,11 +104,5 @@ public class ShapeService {
         System.out.println();
         System.out.println("sum of all perimeters of all shapes: " + perimeters);
     }
-
-    @Override
-    public String toString() {
-        return "ShapeService{" +
-                "shapes=" + Arrays.toString(shapes) +
-                '}';
-    }
 }
+

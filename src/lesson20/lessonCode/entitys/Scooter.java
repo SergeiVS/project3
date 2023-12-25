@@ -1,6 +1,9 @@
-package lessonCode;
+package lessonCode.entitys;
 
-public class Scooter extends NonMotorVehicle {
+import lessonCode.NonMotorVehicle;
+import lessonCode.entitys.abstractEntitys.NonMotorVehicle20;
+
+public class Scooter extends NonMotorVehicle20 {
     @Override
     void accelerate() {
         System.out.println("scooter starts by pushing the ground");

@@ -1,6 +1,9 @@
-package lessonCode;
+package lessonCode.entitys;
 
-public class MotorBike extends MotorVehicle{
+import lessonCode.MotorVehicle;
+import lessonCode.entitys.abstractEntitys.MotorVehicle20;
+
+public class MotorBike extends MotorVehicle20 {
     @Override
     public void gearUp() {
         System.out.println("easy up");

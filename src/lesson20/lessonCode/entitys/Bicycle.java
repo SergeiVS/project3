@@ -1,6 +1,10 @@
-package lessonCode;
+package lessonCode.entitys;
 
-public class Bicycle extends NonMotorVehicle implements GearBoxOperation {
+import lessonCode.entitys.NonMotorVehicle20;
+import lessonCode.vehicleOperateInrefaces.GearBoxOperation;
+import lessonCode.NonMotorVehicle;
+
+public class Bicycle extends NonMotorVehicle20 implements GearBoxOperation {
     @Override
     public void gearUp() {
         System.out.println("Gear up by hand");
