@@ -1,6 +1,9 @@
 package lessonCode.entitys;
 
+import lessonCode.vehicleUtils.UserInput;
+
 abstract class Vehicle20 {
+    UserInput ui = new UserInput();
     private String model;
     private Integer maxSpeed;
     private Integer currentSpeed;
@@ -16,6 +19,8 @@ abstract class Vehicle20 {
                speedDown(currentSpeed);
            }
        }
+        System.out.println("your current speed is: " + currentSpeed);
+       return currentSpeed;
     }
     abstract Integer speedUp(Integer currentSpeed);
     abstract Integer speedDown(Integer currentSpeed);

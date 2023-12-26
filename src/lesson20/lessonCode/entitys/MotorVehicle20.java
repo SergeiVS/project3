@@ -1,14 +1,17 @@
 package lessonCode.entitys;
 
 import lessonCode.vehicleOperateInrefaces.ElgineOperation;
+import lessonCode.vehicleUtils.UserInput;
 
 abstract class MotorVehicle20 extends Vehicle20 implements ElgineOperation {
 
-
+    UserInput ui = new UserInput();
     private Engine engine;
     private Transmission transmission;
 
+
     public MotorVehicle20(String model, Integer maxSpeed, Engine engine, Transmission transmission) {
+
         super(model, maxSpeed);
         this.engine = engine;
         this.transmission = transmission;

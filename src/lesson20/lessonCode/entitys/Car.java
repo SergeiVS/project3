@@ -10,41 +10,77 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
     }
 
     @Override
+    public void setEngine(Engine engine) {
+        super.setEngine(engine);
+    }
+
+    @Override
+    public void setTransmission(Transmission transmission) {
+        super.setTransmission(transmission);
+    }
+
+    @Override
+    public Engine getEngine() {
+        return super.getEngine();
+    }
+
+    @Override
+    public Transmission getTransmission() {
+        return super.getTransmission();
+    }
+
+    @Override
+    public String getModel() {
+        return super.getModel();
+    }
+
+    @Override
+    public Integer getMaxSpeed() {
+        return super.getMaxSpeed();
+    }
+
+    @Override
+    public Integer getCurrentSpeed() {
+        return super.getCurrentSpeed();
+    }
+
+    @Override
+    public boolean startEngine(Engine engine, boolean isStarted) {
+        return super.startEngine(engine, isStarted);
+    }
+
+    @Override
+    public boolean stopEngine(Engine engine, boolean isStarted) {
+        return super.stopEngine(engine, isStarted);
+    }
+
+    @Override
     Integer speedUp(Integer currentSpeed) {
-        if (getEngine().isStarted()) {
-        } else {
-            getEngine().setStarted(true);
-        }
+        if(!getEngine().isStarted()){startEngine(getEngine(),getEngine().isStarted());}
         if (currentSpeed <= getMaxSpeed()) {
-            currentSpeed += 10;
+            currentSpeed += 15;
             return currentSpeed;
         } else {
             return getMaxSpeed();
         }
     }
 
-    @Override
-    Integer speedDown(Integer currentSpeed) {
-        System.out.println("Your current speed is: " + currentSpeed);
-        return speedCheck(currentSpeed);
-    }
 
-    private static int speedCheck(Integer currentSpeed) {
-        if (currentSpeed > 10) {
-            currentSpeed -= 10;
+
+    @Override
+    public Integer speedDown(Integer currentSpeed) {
+        System.out.println("Your current speed is: " + currentSpeed);
+        if (currentSpeed > 15) {
+            currentSpeed -= 15;
             System.out.println("Your current speed is reduced till: " + currentSpeed);
             return currentSpeed;
-        } else {
-            currentSpeed = 0;
-            System.out.println("car stopped");
-            return currentSpeed;
-        }
+        } else {return super.stopVehicle(currentSpeed);}
     }
-
 
     @Override
     public Integer stopVehicle(Integer currentSpeed) {
         return super.stopVehicle(currentSpeed);
+
     }
 
     @Override
@@ -60,7 +96,7 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
             currentGear = 0;}
         if (startEngine(getEngine(), getEngine().isStarted())){
             currentGear = 0;}
-        if (getCurrentSpeed() > 0 ) {getTransmission().setCurrentGear((getCurrentSpeed() / 30) + 1);}
+        if (getCurrentSpeed() > 0 ) {getTransmission().setCurrentGear((getCurrentSpeed() / 40) + 1);}
         if (currentGear > maxGear) {getTransmission().setCurrentGear(maxGear);}
         return currentGear;
     }

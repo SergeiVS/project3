@@ -1,30 +1,50 @@
 package lessonCode.entitys;
 
-import lessonCode.entitys.NonMotorVehicle20;
+
+
 import lessonCode.vehicleOperateInrefaces.GearBoxOperation;
-import lessonCode.NonMotorVehicle;
+import lessonCode.vehicleUtils.UserInput;
+
 
 public class Bicycle extends NonMotorVehicle20 implements GearBoxOperation {
-    @Override
-    public void gearUp() {
-        System.out.println("Gear up by hand");
+UserInput ui = new UserInput();
+Transmission transmission;
+
+    public Bicycle(String model, Integer maxSpeed, Transmission transmission) {
+        super(model, maxSpeed);
+        this.transmission = new Transmission(ui.uiInt("insert max gear"), "manual", 1);
     }
 
     @Override
-    public void gearDown() {
-        System.out.println("gear down by hand" );
-
+    public Integer gearBoxOperate(Integer currentGear, Integer currentSpeed, Integer maxGear) {
+        return transmission.setCurrentGear(ui.uiInt("set needed gear"));
     }
 
     @Override
-    void accelerate() {
-        System.out.println("Bicycle starts by pushing pedals");
-
+    Integer speedUp(Integer currentSpeed) {
+        System.out.println("Your current speed is: " + currentSpeed);
+        if (currentSpeed <= getMaxSpeed()) {
+            currentSpeed += 6;
+            System.out.println("Your current speed is risen up to: " + currentSpeed);
+            return currentSpeed;
+        } else {
+            System.out.println("Your current speed is risen up to: " + getMaxSpeed());
+            return getMaxSpeed();
+        }
     }
 
     @Override
-    void brakeDown() {
-        System.out.println("Bicycle stops with hand break");
+    Integer speedDown(Integer currentSpeed) {
+        System.out.println("Your current speed is: " + currentSpeed);
+        if (currentSpeed > 6) {
+            currentSpeed -= 6;
+            System.out.println("Your current speed is reduced till: " + currentSpeed);
+            return currentSpeed;
+        } else {return super.stopVehicle(currentSpeed);}
+    }
 
+    @Override
+    public Integer stopVehicle(Integer currentSpeed) {
+        return super.stopVehicle(currentSpeed);
     }
 }

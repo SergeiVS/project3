@@ -11,11 +11,16 @@ abstract class NonMotorVehicle20 extends Vehicle20 {
 
     @Override
     Integer speedUp(Integer currentSpeed) {
-        return false;
+        return -1;
     }
 
     @Override
     Integer speedDown(Integer currentSpeed) {
         return -1;
+    }
+
+    @Override
+    public Integer stopVehicle(Integer currentSpeed) {
+        return super.stopVehicle(currentSpeed);
     }
 }

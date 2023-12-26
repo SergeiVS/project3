@@ -9,6 +9,10 @@ public class Engine {
         this.isStarted = false;
     }
 
+    public Engine() {
+        super();
+    }
+
     public String getEngineParameters() {
         return engineParameters;
     }
@@ -20,4 +24,5 @@ public class Engine {
     public void setStarted(boolean started) {
         isStarted = started;
     }
+
 }
