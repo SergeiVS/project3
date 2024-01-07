@@ -6,7 +6,7 @@ import lessonCode.vehicleOperateInrefaces.GearBoxOperation;
 
 public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOperation {
 
-    public Car(String model, Integer maxSpeed, Integer currentSpeed, Engine engine, Transmission transmission) {
+    public Car(String model, Integer maxSpeed, Engine engine, Transmission transmission) {
         super(model, maxSpeed, 0, engine, transmission);
     }
 
@@ -63,18 +63,24 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
 
     @Override
     public Integer speedUp(Integer currentSpeed) {
-        System.out.println("Your current speed is: " + currentSpeed);
+
         if(!getEngine().isStarted()){startEngine(getEngine(),getEngine().isStarted());}
+
+        System.out.println("Your current speed is: " + currentSpeed);
+
         if (currentSpeed < getMaxSpeed()) {
             setCurrentSpeed(currentSpeed += 15);
-            System.out.println("Your current speed is risen up to: " + currentSpeed);
+
             getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
-            return currentSpeed;
+
         }
-        else {
+        if (currentSpeed >= getMaxSpeed()) {
+            currentSpeed = getMaxSpeed();
             getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
-            return getMaxSpeed();
-        }
+             }
+        System.out.println("Your current speed is risen up to: " + currentSpeed);
+
+        return currentSpeed;
     }
 
 
@@ -89,8 +95,9 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
 
         if (currentSpeed > 15) {
             setCurrentSpeed(currentSpeed -= 15);
-            System.out.println("Your current speed is reduced till: " + currentSpeed);
+
             getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
+            System.out.println("Your current speed is reduced till: " + currentSpeed);
             return currentSpeed;
         }
         getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(), currentSpeed, getTransmission().getMaxGear()));

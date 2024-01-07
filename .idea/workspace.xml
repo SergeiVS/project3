@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/mehr/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleService/garageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/WinnerCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/WhatsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson19/lessoncode/messanger/WhatsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/mehr/TestTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/VehicalApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorVehicle20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/MotorVehicle20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/NonMotorVehicle20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/NonMotorVehicle20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Scooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Transmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Vehicle20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/entitys/Vehicle20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleOperateInrefaces/GearBoxOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleOperateInrefaces/GearBoxOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleService/garageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleService/garageCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleUtils/CreateVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson20/lessonCode/vehicleUtils/CreateVehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +32,8 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,6 +78,9 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lotteryGame" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="entitys" />
     </key>
@@ -103,7 +92,7 @@
       <recent name="homework.task4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LotteryTest">
+  <component name="RunManager" selected="Application.VehicalApp">
     <configuration name="LotteryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lotteryGame.LotteryTest" />
       <module name="project3" />
@@ -171,10 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VehicalApp" />
         <item itemvalue="Application.LotteryTest" />
         <item itemvalue="Application.TestTest" />
         <item itemvalue="Application.PhoneApp" />
-        <item itemvalue="Application.VehicalApp" />
         <item itemvalue="Application.homework.shape.ShapeDemo" />
       </list>
     </recent_temporary>

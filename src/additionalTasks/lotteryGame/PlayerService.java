@@ -1,7 +1,7 @@
 package lotteryGame;
 
 public class PlayerService {
-    Player[] players;
+    private Player[] players;
     UserInput ui = new UserInput();
 
     public Player[] getPlayers() {
@@ -9,19 +9,25 @@ public class PlayerService {
     }
 
     private int playersNumberInput(){
-
       boolean isCountCorrect = false;
       int number;
 
-      do {
-          number = ui.uiInt("Insert number of players between 1 and 3: ");
-          if (number > 0 && number < 4) {
-              isCountCorrect = true;
-          }
-      }  while (!isCountCorrect);
+        number = numberOfPlayersCheck(isCountCorrect);
 
-              return number;
+        return number;
     }
+
+    private int numberOfPlayersCheck(boolean isCountCorrect) {
+        int number;
+        do {
+            number = ui.uiInt("Insert number of players between 1 and 3: ");
+            if (number > 0 && number < 4) {
+                isCountCorrect = true;
+            }
+        }  while (!isCountCorrect);
+        return number;
+    }
+
     public void createPlayersPull(Integer lotteryMaxNumber) {
 
         int numberOfPlayers = playersNumberInput();

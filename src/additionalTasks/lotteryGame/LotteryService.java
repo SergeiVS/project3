@@ -1,26 +1,17 @@
 package lotteryGame;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class LotteryService {
     UserInput ui = new UserInput();
     private Integer[] gamePull;
+    private Integer[] winnerNumbers;
 
-
-    @Override
-    public String toString() {
-        return "LotteryService{" +
-                "gamePull=" + Arrays.toString(gamePull) +
-                '}';
-    }
-
-    public Integer[] createGamePull(){
+    public void createGamePull(){
         Integer gamePullLength = ui.uiInt("insert lottery max number");
         gamePull = new Integer[gamePullLength];
         fillPull(gamePullLength);
         shufflePull();
-        return gamePull;
     }
 
     private void shufflePull() {
@@ -43,16 +34,18 @@ public class LotteryService {
     }
 
 
-    public Integer[] setWinnerNumbers(Integer[] getGamePull) {
-        Integer[] winnerNumbers = new Integer[5];
+    public void setWinnerNumbers(Integer[] gamePull) {
+
+        winnerNumbers = new Integer[5];
         Random random = new Random();
-        for (int i = 0; i < winnerNumbers.length; i++) {
-            winnerNumbers[i] = getGamePull[i + random.nextInt(1,10)];
+
+        for (int i = 0; i < winnerNumbers.length; i += (winnerNumbers.length / 5)) {
+            winnerNumbers[i] = gamePull[i + random.nextInt(1,10)];
         }
-        return winnerNumbers;
+
     }
 
-    public Integer[] getWinnerNumbers() {
-        return setWinnerNumbers(getGamePull());
+    public Integer[] getWinnerNumbers(Integer[] gamePull) {
+        return winnerNumbers;
     }
 }

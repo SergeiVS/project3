@@ -1,26 +1,30 @@
 package lessonCode;
 
-import lessonCode.entitys.Car;
-import lessonCode.entitys.Engine;
-import lessonCode.entitys.Transmission;
-import lessonCode.entitys.Truck;
+import lessonCode.entitys.*;
 import lessonCode.vehicleUtils.CreateVehicle;
 
 public class VehicalApp {
     public static void main(String[] args) {
-        CreateVehicle createVehicle = new CreateVehicle();
-        //Truck truck = createVehicle.creatTruck();
-        Car car = createVehicle.createCar();
-        car.startEngine(car.getEngine(), car.getEngine().isStarted());
-        System.out.println(car.getEngine().isStarted());
+
+        Transmission carTransmission = new Transmission(8,"aut", 0);
+        Transmission truckTransmission = new Transmission(12, "man", 0);
+        Transmission motorbikeTransmission = new Transmission(6, "man", 0);
+        Transmission bikeTransmission = new Transmission(21, "man", 1);
+
+        Engine carEngine = new Engine("v6", false);
+        Engine truckEngine = new Engine("V12", false);
+        Engine motorbikeEngine = new Engine("v2", false);
+
+
+        Car car = new Car("Mers", 250,  carEngine, carTransmission);
+        Truck truck = new Truck("Man", 85,truckEngine,truckTransmission);
+        MotorBike motorBike = new MotorBike("Honda", 250, motorbikeEngine, motorbikeTransmission);
+        Bicycle bicycle = new Bicycle("Bianci", 50, bikeTransmission);
+
+        car.startEngine(carEngine, car.getEngine().isStarted());
         car.speedUp(car.getCurrentSpeed());
         car.speedUp(car.getCurrentSpeed());
         car.speedUp(car.getCurrentSpeed());
-        car.speedUp(car.getCurrentSpeed());
-        System.out.println(car.getCurrentSpeed());
         System.out.println(car.getTransmission().getCurrentGear());
-
-
-
     }
 }
