@@ -12,6 +12,5 @@ public class WhatsApp implements Messanger {
     @Override
     public void getMessage() {
         System.out.println("WhatsApp message");
-
     }
 }

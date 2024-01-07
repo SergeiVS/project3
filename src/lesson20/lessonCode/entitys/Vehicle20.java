@@ -8,10 +8,10 @@ abstract class Vehicle20 {
     private Integer maxSpeed;
     private Integer currentSpeed;
 
-    public Vehicle20(String model, Integer maxSpeed) {
+    public Vehicle20(String model, Integer maxSpeed, Integer currentSpeed) {
         this.model = model;
         this.maxSpeed = maxSpeed;
-        this.currentSpeed = 0;
+       this.currentSpeed = currentSpeed;
     }
     public Integer stopVehicle(Integer currentSpeed){
        if (currentSpeed > 0){
@@ -25,6 +25,7 @@ abstract class Vehicle20 {
     abstract Integer speedUp(Integer currentSpeed);
     abstract Integer speedDown(Integer currentSpeed);
 
+
     public String getModel() {
         return model;
     }
@@ -35,6 +36,10 @@ abstract class Vehicle20 {
 
     public Integer getCurrentSpeed() {
         return currentSpeed;
+    }
+
+    public void setCurrentSpeed(Integer currentSpeed) {
+        this.currentSpeed = currentSpeed;
     }
 }
 

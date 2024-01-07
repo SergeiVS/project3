@@ -5,7 +5,7 @@ import lessonCode.entitys.*;
 public class CreateVehicle {
    UserInput ui = new UserInput();
     public Car createCar(){
-        Car car = new Car(ui.uiText("insert model: "), ui.uiInt("insert max speed: "), new Engine(ui.uiText("insert engine parameters"), false), new Transmission(ui.uiInt("insert max gear: "), ui.uiText("insert transmission type: "), 0));
+        Car car = new Car(ui.uiText("insert model: "), ui.uiInt("insert max speed: "), 0, new Engine(ui.uiText("insert engine parameters"), false), new Transmission(ui.uiInt("insert max gear: "), ui.uiText("insert transmission type: "), 0));
     return car;
     }
     public Truck creatTruck(){

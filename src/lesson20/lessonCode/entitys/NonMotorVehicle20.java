@@ -5,8 +5,8 @@ import lessonCode.entitys.Vehicle20;
 
 abstract class NonMotorVehicle20 extends Vehicle20 {
 
-    public NonMotorVehicle20(String model, Integer maxSpeed) {
-        super(model, maxSpeed);
+    public NonMotorVehicle20(String model, Integer maxSpeed, Integer currentSpeed) {
+        super(model, maxSpeed, 0);
     }
 
     @Override

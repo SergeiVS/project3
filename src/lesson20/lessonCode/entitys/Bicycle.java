@@ -11,17 +11,17 @@ UserInput ui = new UserInput();
 Transmission transmission;
 
     public Bicycle(String model, Integer maxSpeed, Transmission transmission) {
-        super(model, maxSpeed);
+        super(model, maxSpeed, 0);
         this.transmission = new Transmission(ui.uiInt("insert max gear"), "manual", 1);
     }
 
     @Override
-    public Integer gearBoxOperate(Integer currentGear, Integer currentSpeed, Integer maxGear) {
+    public Integer shiftGear(Integer currentGear, Integer currentSpeed, Integer maxGear) {
         return transmission.setCurrentGear(ui.uiInt("set needed gear"));
     }
 
     @Override
-    Integer speedUp(Integer currentSpeed) {
+    public Integer speedUp(Integer currentSpeed) {
         System.out.println("Your current speed is: " + currentSpeed);
         if (currentSpeed <= getMaxSpeed()) {
             currentSpeed += 6;

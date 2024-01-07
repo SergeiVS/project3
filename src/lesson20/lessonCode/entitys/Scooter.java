@@ -5,11 +5,11 @@ import lessonCode.entitys.NonMotorVehicle20;
 
 public class Scooter extends NonMotorVehicle20 {
     public Scooter(String model, Integer maxSpeed) {
-        super(model, maxSpeed);
+        super(model, maxSpeed, 0);
     }
 
     @Override
-    Integer speedUp(Integer currentSpeed) {
+    public Integer speedUp(Integer currentSpeed) {
         System.out.println("Your current speed is: " + currentSpeed);
         if (currentSpeed <= getMaxSpeed()) {
             currentSpeed += 2;
@@ -23,7 +23,7 @@ public class Scooter extends NonMotorVehicle20 {
     }
 
     @Override
-    Integer speedDown(Integer currentSpeed) {
+    public Integer speedDown(Integer currentSpeed) {
         System.out.println("Your current speed is: " + currentSpeed);
         if (currentSpeed > 2) {
             currentSpeed -= 2;

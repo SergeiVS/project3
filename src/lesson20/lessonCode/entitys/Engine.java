@@ -8,11 +8,6 @@ public class Engine {
         this.engineParameters = engineParameters;
         this.isStarted = false;
     }
-
-    public Engine() {
-        super();
-    }
-
     public String getEngineParameters() {
         return engineParameters;
     }

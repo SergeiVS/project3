@@ -20,6 +20,10 @@ private String transmissionType;
         return currentGear;
     }
 
+    public Integer getMaxGear() {
+        return maxGear;
+    }
+
     public Integer getCurrentGear() {
         return currentGear;
     }

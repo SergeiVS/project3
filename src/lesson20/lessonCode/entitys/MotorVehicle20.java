@@ -10,11 +10,21 @@ abstract class MotorVehicle20 extends Vehicle20 implements ElgineOperation {
     private Transmission transmission;
 
 
-    public MotorVehicle20(String model, Integer maxSpeed, Engine engine, Transmission transmission) {
+    public MotorVehicle20(String model, Integer maxSpeed, Integer currentSpeed, Engine engine, Transmission transmission) {
 
-        super(model, maxSpeed);
+        super(model,maxSpeed, 0);
         this.engine = engine;
         this.transmission = transmission;
+    }
+
+    @Override
+    public Integer getCurrentSpeed() {
+        return super.getCurrentSpeed();
+    }
+
+    @Override
+    public void setCurrentSpeed(Integer currentSpeed) {
+        super.setCurrentSpeed(currentSpeed);
     }
 
     public void setEngine(Engine engine) {

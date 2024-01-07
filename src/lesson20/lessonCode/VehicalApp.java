@@ -13,8 +13,12 @@ public class VehicalApp {
         Car car = createVehicle.createCar();
         car.startEngine(car.getEngine(), car.getEngine().isStarted());
         System.out.println(car.getEngine().isStarted());
-
-
+        car.speedUp(car.getCurrentSpeed());
+        car.speedUp(car.getCurrentSpeed());
+        car.speedUp(car.getCurrentSpeed());
+        car.speedUp(car.getCurrentSpeed());
+        System.out.println(car.getCurrentSpeed());
+        System.out.println(car.getTransmission().getCurrentGear());
 
 
 

@@ -5,8 +5,19 @@ import lessonCode.vehicleOperateInrefaces.ElgineOperation;
 import lessonCode.vehicleOperateInrefaces.GearBoxOperation;
 
 public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOperation {
-    public Car(String model, Integer maxSpeed, Engine engine, Transmission transmission) {
-        super(model, maxSpeed, engine, transmission);
+
+    public Car(String model, Integer maxSpeed, Integer currentSpeed, Engine engine, Transmission transmission) {
+        super(model, maxSpeed, 0, engine, transmission);
+    }
+
+    @Override
+    public Integer getCurrentSpeed() {
+        return super.getCurrentSpeed();
+    }
+
+    @Override
+    public void setCurrentSpeed(Integer currentSpeed) {
+        super.setCurrentSpeed(currentSpeed);
     }
 
     @Override
@@ -39,10 +50,6 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
         return super.getMaxSpeed();
     }
 
-    @Override
-    public Integer getCurrentSpeed() {
-        return super.getCurrentSpeed();
-    }
 
     @Override
     public boolean startEngine(Engine engine, boolean isStarted) {
@@ -55,26 +62,39 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
     }
 
     @Override
-    Integer speedUp(Integer currentSpeed) {
+    public Integer speedUp(Integer currentSpeed) {
+        System.out.println("Your current speed is: " + currentSpeed);
         if(!getEngine().isStarted()){startEngine(getEngine(),getEngine().isStarted());}
-        if (currentSpeed <= getMaxSpeed()) {
-            currentSpeed += 15;
+        if (currentSpeed < getMaxSpeed()) {
+            setCurrentSpeed(currentSpeed += 15);
+            System.out.println("Your current speed is risen up to: " + currentSpeed);
+            getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
             return currentSpeed;
-        } else {
+        }
+        else {
+            getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
             return getMaxSpeed();
         }
     }
 
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 
     @Override
     public Integer speedDown(Integer currentSpeed) {
         System.out.println("Your current speed is: " + currentSpeed);
+
         if (currentSpeed > 15) {
-            currentSpeed -= 15;
+            setCurrentSpeed(currentSpeed -= 15);
             System.out.println("Your current speed is reduced till: " + currentSpeed);
+            getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(),currentSpeed,getTransmission().getMaxGear()));
             return currentSpeed;
-        } else {return super.stopVehicle(currentSpeed);}
+        }
+        getTransmission().setCurrentGear(shiftGear(getTransmission().getCurrentGear(), currentSpeed, getTransmission().getMaxGear()));
+        return super.stopVehicle(currentSpeed);
     }
 
     @Override
@@ -84,12 +104,12 @@ public class Car extends MotorVehicle20 implements GearBoxOperation, ElgineOpera
     }
 
     @Override
-    public Integer gearBoxOperate(Integer currentGear, Integer currentSpeed, Integer maxGear) {
-        currentGear = getCurrentGear(currentGear, currentSpeed, maxGear);
+    public Integer shiftGear(Integer currentGear, Integer currentSpeed, Integer maxGear) {
+        getTransmission().setCurrentGear(findCurrentGear(currentGear, currentSpeed, maxGear));
         return currentGear;
     }
 
-    private Integer getCurrentGear(Integer currentGear, Integer currentSpeed, Integer maxGear) {
+    private Integer findCurrentGear(Integer currentGear, Integer currentSpeed, Integer maxGear) {
         if (currentSpeed == 0){
             currentGear = 0;}
         if (stopEngine(getEngine(), getEngine().isStarted())){

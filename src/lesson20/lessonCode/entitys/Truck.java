@@ -6,11 +6,11 @@ import lessonCode.vehicleOperateInrefaces.GearBoxOperation;
 
 public class Truck extends MotorVehicle20 implements ElgineOperation, GearBoxOperation {
     public Truck(String model, Integer maxSpeed, Engine engine, Transmission transmission) {
-        super(model, maxSpeed, engine, transmission);
+        super(model, maxSpeed, 0, engine, transmission);
     }
 
     @Override
-    Integer speedUp(Integer currentSpeed) {
+    public Integer speedUp(Integer currentSpeed) {
         if(!getEngine().isStarted()){getEngine().setStarted(true);}
         if (currentSpeed <= getMaxSpeed()) {
             currentSpeed += 5;
@@ -21,7 +21,7 @@ public class Truck extends MotorVehicle20 implements ElgineOperation, GearBoxOpe
     }
 
     @Override
-    Integer speedDown(Integer currentSpeed) {
+    public Integer speedDown(Integer currentSpeed) {
         System.out.println("Your current speed is: " + currentSpeed);
         if (currentSpeed > 5) {
             currentSpeed -= 5;
@@ -46,7 +46,7 @@ public class Truck extends MotorVehicle20 implements ElgineOperation, GearBoxOpe
     }
 
     @Override
-    public Integer gearBoxOperate(Integer currentGear, Integer currentSpeed, Integer maxGear) {
+    public Integer shiftGear(Integer currentGear, Integer currentSpeed, Integer maxGear) {
 
         if (currentSpeed == 0){
             currentGear = 0;}
