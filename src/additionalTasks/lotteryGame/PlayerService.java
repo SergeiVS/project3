@@ -45,11 +45,15 @@ public class PlayerService {
 
         for (int j = 0; j < players[i].getPlayerCard().length; j++) {
                 checkArray[j] = ui.uiInt("insert your happy number " + (j + 1) + " not higher as " + lotteryMaxNumber);
-               while (!numberCheck(lotteryMaxNumber, checkArray, j)){
-                   checkArray[j] = ui.uiInt("your number is out of range or repeated, pleas insert your happy number " + (j + 1) + " once again:");
-               }
+            wrongNumberReInsert(lotteryMaxNumber, checkArray, j);
         }
       return checkArray;
+    }
+
+    private void wrongNumberReInsert(Integer lotteryMaxNumber, Integer[] checkArray, int j) {
+        while (!numberCheck(lotteryMaxNumber, checkArray, j)){
+            checkArray[j] = ui.uiInt("your number is out of range or repeated, pleas insert your happy number " + (j + 1) + " once again:");
+        }
     }
 
     private boolean numberCheck(Integer lotteryMaxNumber,  Integer[] checkArray, int j) {
