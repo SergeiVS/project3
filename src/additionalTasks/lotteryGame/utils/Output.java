@@ -1,4 +1,6 @@
-package lotteryGame;
+package lotteryGame.utils;
+
+import lotteryGame.player.Player;
 
 import java.util.Arrays;
 
@@ -15,13 +17,12 @@ public class Output {
     }
     public void winnerPlayersPrint(boolean isWinnerExist, Player[] players){
         if(isWinnerExist){
-            for (int i = 0; i < players.length; i++) {
-                if (players[i].getWinner()){
-                    System.out.println("Player: " + players[i].getName() + " is winner!");
-                }
-            }
-        }else {
-            System.out.println("no winner in this game!");
+            for (int i = 0; i < players.length; i++) { winnerPrintOut(players, i);}
+        }else {System.out.println("no winner in this game!");}
+    }
+    private static void winnerPrintOut(Player[] players, int i) {
+        if (players[i].getWinner()){
+            System.out.println("Player: " + players[i].getName() + " is winner!");
         }
     }
 }

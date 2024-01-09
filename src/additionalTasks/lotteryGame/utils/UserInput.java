@@ -1,4 +1,4 @@
-package lotteryGame;
+package lotteryGame.utils;
 
 import java.util.Scanner;
 

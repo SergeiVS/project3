@@ -1,8 +1,11 @@
-package lotteryGame;
+package lotteryGame.gameServices;
+
+import lotteryGame.utils.UserInput;
 
 import java.util.Random;
 
 public class LotteryService {
+
     UserInput ui = new UserInput();
     private Integer[] gamePull;
     private Integer[] winnerNumbers;
@@ -39,12 +42,12 @@ public class LotteryService {
         winnerNumbers = new Integer[5];
         Random random = new Random();
 
-        for (int i = 0; i < winnerNumbers.length; i += (winnerNumbers.length / 5)) {
-            winnerNumbers[i] = gamePull[i + random.nextInt(1,10)];
+        for (int i = 0; i < winnerNumbers.length; i += (random.nextInt(winnerNumbers.length/5) + 1)) {
+            int k = i + random.nextInt(winnerNumbers.length / 5);
+            winnerNumbers[i] = gamePull[k];
         }
 
     }
-
     public Integer[] getWinnerNumbers(Integer[] gamePull) {
         return winnerNumbers;
     }

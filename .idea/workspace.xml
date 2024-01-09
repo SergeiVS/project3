@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/player/PlayerCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson22/lessonCode/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson22/lessonCode/PersonDataBaseArrayListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/gameServices/LotteryDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/gameServices/LotteryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/LotteryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/utils/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/player/PlayerPullService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/utils/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/WinnerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/lotteryGame/gameServices/WinnerCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +34,8 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,6 +86,9 @@
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="entitys" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="p" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="shape" />
       <recent name="lessoncode.messanger" />
@@ -82,13 +97,13 @@
       <recent name="homework.task4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VehicalApp">
+  <component name="RunManager" selected="Application.LotteryTest">
     <configuration name="LotteryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lotteryGame.LotteryTest" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lotteryGame.*" />
+          <option name="PATTERN" value="lotteryGame.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VehicalApp" />
         <item itemvalue="Application.LotteryTest" />
+        <item itemvalue="Application.VehicalApp" />
         <item itemvalue="Application.TestTest" />
         <item itemvalue="Application.PhoneApp" />
         <item itemvalue="Application.homework.shape.ShapeDemo" />
@@ -535,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704656732976</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="test">
+      <option name="closed" value="true" />
+      <created>1704741357813</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1704741357813</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

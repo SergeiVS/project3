@@ -1,4 +1,4 @@
-package lotteryGame;
+package lotteryGame.player;
 
 import java.util.Arrays;
 
