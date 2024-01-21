@@ -1,49 +1,68 @@
-package consultations.cons18_01.services;
+package services;
 
-import consultations.cons18_01.Entitys.InitialMorseTable;
+import Entitys.InitialMorseTable;
+
 import consultations.cons18_01.ulils.Output;
 import consultations.cons18_01.ulils.UserInput;
 
-import java.util.Arrays;
-import java.util.Map;
+import java.util.*;
 
 public class Services {
 
     String stringToCode;
+
     UserInput ui = new UserInput();
-    Output output = new Output();
+
     InitialMorseTable morseTable = new InitialMorseTable();
 
-    private void setStringToCode() {
+    public void setStringToCode() {
         this.stringToCode = ui.uiText("Insert string to code: ");
     }
+private List<String> prepareStringForCoding(String stringToCode, String regexFirst){
 
-    private String[] splitIncomingString(String stringToCode){
+        List<String> listFromStringToCode = new LinkedList<>();
+
         stringToCode = stringToCode.toUpperCase();
-        return stringToCode.split(stringToCode);
-    }
-    private String[] codeSymbols(String[] stringToCode, Map<String, String> morseTable){
+        String[] splitedString = stringToCode.split(regexFirst);
 
-        int length = stringToCode.length;
-        String[] codedStringArray = new String[length];
+    splitStringToCode(splitedString, listFromStringToCode);
+    return listFromStringToCode;
+}
 
-        for (int i = 0; i < length; i++) {
-           codedStringArray[i] = morseTable.get(stringToCode[i]);
+    private static void splitStringToCode(String[] splitedString, List<String> listFromStringToCode) {
+        for (int i = 0; i < splitedString.length; i++) {
+    if(Objects.equals(splitedString[i], "")){
+        splitedString[i] = " ";}
+    listFromStringToCode.add(splitedString[i]);
         }
-        return codedStringArray;
     }
 
-    private String codedString(String[] codedStringArray){
-        String codedString = " ";
+public String coding(String stringToCode){
 
-        return Arrays.toString(codedStringArray);
-    }
-    public void codingMachine(){
-        setStringToCode();
-        String[] symbolsArray = splitIncomingString(stringToCode);
-        String[] codedSymbols = codeSymbols(symbolsArray, morseTable.getTextToMorse());
-        String codedString = codedString(codedSymbols);
-        output.printCodedString(stringToCode, codedString);
+        StringBuilder codedString = new StringBuilder();
+        List<String> listToCode = prepareStringForCoding(stringToCode, "");
+    System.out.println(morseTable.getMorseToText());
+for (String stringElement : listToCode){
+String codingElement = morseTable.getTextToMorse().get(stringElement);
+codedString.append(codingElement).append(" ");
+}
+return codedString.toString();
+}
+private String decoding(String stringToDecode){
+String decodedString = "";
+List<String> listToDecode = prepareStringForCoding(stringToDecode, " ");
 
-        }
+for (String stringElement : listToDecode){
+String decodingElement = morseTable.getMorseToText().get(stringElement);
+decodedString = decodedString + decodingElement;
+}
+return decodedString;
+}
+
+public String codingMachine(String messageToCodeDecode, boolean isCoding){
+        morseTable.InitialTexToMorseTable();
+
+      return   isCoding ? coding(messageToCodeDecode) : decoding(messageToCodeDecode);
+}
+
 }

@@ -1,20 +1,24 @@
-package consultations.cons18_01.Entitys;
+package Entitys;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
+import java.util.Objects;
 
 public class InitialMorseTable {
     
     private Map<String, String> textToMorse = new HashMap<>();
-
-    public InitialMorseTable() {
+    private Map<String, String> morseToText = new HashMap<>();
+    public void InitialTexToMorseTable() {
         fillTextToMorse();
+        fillMorseToText();
     }
+
     public Map<String, String> getTextToMorse() {
+        return morseToText;
+    }
+    public Map<String, String> getMorseToText() {
         return textToMorse;
     }
-
     private void fillTextToMorse() {
         textToMorse.put("А", ".−");
         textToMorse.put("Б", "−...");
@@ -78,7 +82,30 @@ public class InitialMorseTable {
         textToMorse.put("¡", "--...-");
         textToMorse.put(" ", " ");
     }
+private void fillMorseToText(){
+
+for (String key : textToMorse.keySet())
+morseToText.put(textToMorse.get(key), key);
+}
 
 
-    
+    @Override
+    public String toString() {
+        return "InitialMorseTable{" +
+                "textToMorse=" + textToMorse +
+                ", morseToText=" + morseToText +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof InitialMorseTable that)) return false;
+        return Objects.equals(textToMorse, that.textToMorse) && Objects.equals(morseToText, that.morseToText);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(textToMorse, morseToText);
+    }
 }
