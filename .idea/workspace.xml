@@ -5,10 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson23/AlphabetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson23/AlphabetList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/LibraryAppCons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/Task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/core/LibraryOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/ResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/InputOutput/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/InputOutput/OutputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/LibraryServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookAuthorMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookIdMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookNameMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/Entitys/InitialMorseTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/MorseCodingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/services/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/ulils/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/ulils/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/Task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/core/LibraryOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/service/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/service/LibraryServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson23/libraryApp/service/OutputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task1/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task1/StudentsArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task2/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task2/ListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task2/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task3/Glossary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task4/StudentsAverageNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task4/StudentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task5/SetOfNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task6/ElementsSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/homework/task6/ElementsSetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/practice/CompanyPersonalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/practice/CompanyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/practice/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/practice/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson24/practice/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/apartments/Flat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/apartments/FlatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/CompareByColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/CompareByMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/CompareBySize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/MyComporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson25/suitcases/SuitcaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task1/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task1/ContactManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task1/ContactsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task2/BalanceCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task2/BracketsBalanceCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task3/CatalogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task3/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/Accounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/homework26/task4/ServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/BoxOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/BoxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/CompareByVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/CompareByWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson26/practice26/OwnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson27/App27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson27/practice27/entytis/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson27/practice27/entytis/Book27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson27/practice27/entytis/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson27/practice27/taskPlan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/entitys/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/Cons4/libruary/service/BookCaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson23/AlphabetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson23/lessonCode/AlphabetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson23/AlphabetList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson23/lessonCode/AlphabetList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +108,7 @@
         <option value="UML Class" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,29 +128,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/additionalTasks/loteryGame",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons18_01&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons18_01" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons11_01" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson23" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\additionalTasks\loteryGame" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\Cons2BingoGame\services" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\abstraction" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson18\lessonCode\NewStyle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson26\practice26" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
@@ -81,27 +165,20 @@
       <recent name="p" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson26.homework26" />
+      <recent name="consultations.cons18_01.ulils" />
+      <recent name="lesson24.pracsice" />
       <recent name="shape" />
       <recent name="lessoncode.messanger" />
-      <recent name="task8" />
-      <recent name="task7" />
-      <recent name="homework.task4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlphabetDemo">
-    <configuration name="AlphabetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlphabetDemo" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LotteryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lotteryGame.LotteryTest" />
+  <component name="RunManager" selected="Application.BoxOperationsTest">
+    <configuration name="BalanceCheckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.BalanceCheckTest" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lotteryGame.player.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +186,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessoncode.messanger.PhoneApp" />
+    <configuration name="BoxOperationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxOperationsTest" />
+      <module name="project3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.CatalogTest" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessoncode.messanger.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mehr.TestTest" />
+    <configuration name="ServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.ServiceTest" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mehr.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessonCode.VehicalApp" />
+    <configuration name="task1.ContactsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task1.ContactsTest" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessonCode.*" />
+          <option name="PATTERN" value="task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlphabetDemo" />
-        <item itemvalue="Application.LotteryTest" />
-        <item itemvalue="Application.VehicalApp" />
-        <item itemvalue="Application.TestTest" />
-        <item itemvalue="Application.PhoneApp" />
+        <item itemvalue="Application.BoxOperationsTest" />
+        <item itemvalue="Application.ServiceTest" />
+        <item itemvalue="Application.CatalogTest" />
+        <item itemvalue="Application.BalanceCheckTest" />
+        <item itemvalue="Application.task1.ContactsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704829252278</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="test">
+      <option name="closed" value="true" />
+      <created>1704919770637</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1704919770637</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

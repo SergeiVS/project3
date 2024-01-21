@@ -1,4 +1,4 @@
-package Libruary.entitys;
+package entitys;
 
 public class Book {
     private int id;

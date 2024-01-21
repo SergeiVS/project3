@@ -1,4 +1,4 @@
-package Libruary.service;
+package service;
 
 import Libruary.entitys.Book;
 import Libruary.entitys.BookCase;

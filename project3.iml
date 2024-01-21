@@ -6,9 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lesson3/exercise4/newVertion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson15/homework/Pocker" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson18/lessonCode/shape" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/consultations/Cons4/libruary" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/additionalTasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/lesson23" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lesson26/homework26" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lesson26/practice26" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lesson23/lessonCode" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

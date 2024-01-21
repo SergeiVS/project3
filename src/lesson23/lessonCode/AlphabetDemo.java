@@ -1,3 +1,5 @@
+package lessonCode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -6,8 +8,8 @@ public class AlphabetDemo {
 AlphabetList alphabetList = new AlphabetList();
 alphabetList.setLatinAlphabet();
         System.out.println(alphabetList.getAlphabet().toString());
-        ArrayList<Character> reversAlphabet = alphabetList.getAlphabet();
-        Collections.reverse(reversAlphabet);
-        System.out.println(reversAlphabet);
+
+       alphabetList.arrayRevers();
+        System.out.println(alphabetList.getReversAlphabet());
     }
 }

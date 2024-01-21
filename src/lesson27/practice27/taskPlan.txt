@@ -1,0 +1,25 @@
+entity's
+Book String title;
+     Author author;
+     String genre;
+
+Author String name;
+       List<Book> authorsBooks;
+
+Genre  Map<String name, List<Book> books> genreMap;
+
+services
+
+BookService
+addBook input title,
+        input author -> check isPresent -> !isPresent newAuthor, new List<Book> authorBooks.addBook;
+                                        -> isPresent  addBook;
+
+
+AuthorService
+         Set<Author> authorsSet;
+         isPresent; addAuthor; addBook;
+
+
+
+
