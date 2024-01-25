@@ -1,4 +1,4 @@
-package consultations.cons18_01.ulils;
+package consultations.cons18_01.morseCoding.ulils;
 
 public class Output {
 

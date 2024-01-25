@@ -1,4 +1,6 @@
-import services.Services;
+package consultations.cons18_01.morseCoding;
+
+import consultations.cons18_01.morseCoding.services.Services;
 
 public class MorseApp {
     public static void main(String[] args) {

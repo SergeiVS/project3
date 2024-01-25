@@ -1,0 +1,39 @@
+1. entity
+TextToSearch
+ String text;
+
+2.repository
+WordsRepository
+Set<String> allWordsFromText;
+
+
+3. dto
+TextReceiveDto
+*receiveFromKeyboard
+*receiveFromFile
+
+ResponseTextReceive
+*String ok;
+*errorReport;
+
+ResponseListOfWords
+*Set<String> listOfWords ;
+*errorReport;
+
+ResponseWordsUsageCounts
+*Map<String, Integer> wordsUsageCount;
+*errorsReport;
+
+ResponseMostLessUsedWords
+*String mostUsedWord;
+*String lessUsedWord;
+*errorReport;
+
+4. service
+
+TextService
+public Set<String> splitTextToWords(String text);
+Validation
+ResponseListOfWords
+ResponseWordsUsageCount
+ResponseMostLessUsedWords

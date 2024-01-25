@@ -1,9 +1,8 @@
-package services;
+package consultations.cons18_01.morseCoding.services;
 
-import Entitys.InitialMorseTable;
+import consultations.cons18_01.morseCoding.Entitys.InitialMorseTable;
 
-import consultations.cons18_01.ulils.Output;
-import consultations.cons18_01.ulils.UserInput;
+import consultations.cons18_01.morseCoding.ulils.UserInput;
 
 import java.util.*;
 
