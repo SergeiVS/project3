@@ -1,7 +1,7 @@
 package Service;
 
 import Dto.Errors.ErrorsDto;
-import Dto.ResponseWordsUsage;
+import Dto.ResponseWordsFrequency;
 import Dto.WordDto;
 import Entity.TextData;
 import Entity.TextOperations;
@@ -22,22 +22,15 @@ private final TextData textData;
     }
 
 
-    public ResponseWordsUsage wordsUsage(){
+    public ResponseWordsFrequency wordsUsage(){
 
-        String[] splitText = textData.getSplitText();
-        Map<String, Integer> wordUsageMap = textOperations.findWordsUsage();
+        List<String> splitText = textData.getSplitText();
+        Map<String, Integer> wordsFrequency = textData.getWordFrequency();
         List<ErrorsDto> errors = validation.wordsListCheck(splitText);
-        List<WordDto> wordUsageList = new ArrayList<>();
 
-        if (errors.isEmpty()){
+        return new ResponseWordsFrequency(wordsFrequency, errors);
 
-            wordUsageList = Utils.mapToList(wordUsageMap);
-            return new ResponseWordsUsage(wordUsageList, errors);
 
-        }else {
-
-            return new ResponseWordsUsage(wordUsageList, errors);
-        }
     }
 
 

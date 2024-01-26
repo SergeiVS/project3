@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/FilmApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/entity/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/repository/FilmRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/repository/RepositoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByGenre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextToSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessUsedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessUsedWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessFrequentWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessFrequentWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test">
-      <option name="closed" value="true" />
-      <created>1699892754614</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1699892754614</updated>
     </task>
     <task id="LOCAL-00005" summary="test">
       <option name="closed" value="true" />
@@ -570,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706204430617</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="test">
+      <option name="closed" value="true" />
+      <created>1706267301075</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1706267301075</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -589,14 +582,9 @@
           <line>45</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java</url>
-          <line>4</line>
+          <line>6</line>
           <properties field="splitText" class="Entity.TextData" />
           <option name="timeStamp" value="18" />
         </line-breakpoint>

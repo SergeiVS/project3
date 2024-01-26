@@ -4,20 +4,21 @@ package Dto;
 import Dto.Errors.ErrorsDto;
 
 import java.util.List;
+import java.util.Map;
 
-public class ResponseWordsUsage {
+public class ResponseWordsFrequency {
 
 
-    List<WordDto> wordsInTextsUsage;
+    Map<String, Integer> wordsInTextsUsage;
 
     List<ErrorsDto> errorsCode;
 
-    public ResponseWordsUsage(List<WordDto> wordsInTextsUsage, List<ErrorsDto> errorsCode) {
+    public ResponseWordsFrequency(Map<String, Integer> wordsInTextsUsage, List<ErrorsDto> errorsCode) {
         this.wordsInTextsUsage = wordsInTextsUsage;
         this.errorsCode = errorsCode;
     }
 
-    public List<WordDto> getWordsInTextsUsage() {
+    public Map<String, Integer> getWordsInTextsUsage() {
         return wordsInTextsUsage;
     }
 
@@ -27,7 +28,7 @@ public class ResponseWordsUsage {
 
     @Override
     public String toString() {
-        return "ResponseWordsUsage{" +
+        return "ResponseWordsFrequency{" +
                 "wordsInTextsUsage=" + wordsInTextsUsage +
                 ", errorsCode=" + errorsCode +
                 '}';

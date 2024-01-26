@@ -22,10 +22,10 @@ public class Validation {
 return errorDtoList;
     }
 
-    public List<ErrorsDto> wordsListCheck(String[] splitText){
+    public List<ErrorsDto> wordsListCheck(List<String> splitText){
 
         List<ErrorsDto> errorDtoList = new ArrayList<>();
-        if (splitText.length == 0){
+        if (splitText.isEmpty()){
 
             errorDtoList.add(new ErrorsDto(ErrorsCode.ERRORS_CODE3, "Internal error"));
         }

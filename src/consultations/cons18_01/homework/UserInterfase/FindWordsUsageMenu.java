@@ -1,6 +1,6 @@
 package UserInterfase;
 
-import Dto.ResponseWordsUsage;
+import Dto.ResponseWordsFrequency;
 import Service.FindWordsFrequent;
 
 public class FindWordsUsageMenu implements MenuCommandInterface{
@@ -13,7 +13,7 @@ public class FindWordsUsageMenu implements MenuCommandInterface{
     @Override
     public boolean executeCommand() {
 
-        ResponseWordsUsage response = service.wordsUsage();
+        ResponseWordsFrequency response = service.wordsUsage();
         System.out.println(response);
 
         return true;

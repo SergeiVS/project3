@@ -4,24 +4,25 @@ import Dto.Errors.ErrorsDto;
 
 
 import java.util.List;
+import java.util.Map;
 
 public class ResponseMostAndLessUsedWords {
-    private List<WordDto> mostUsedWords;
-    private List<WordDto> lessUsedWords;
+    private Map<String,Integer> mostUsedWords;
+    private  Map<String,Integer> lessUsedWords;
 
     private List<ErrorsDto> errorsDto;
 
-    public ResponseMostAndLessUsedWords(List<WordDto> mostUsedWords, List<WordDto> lessUsedWords, List<ErrorsDto> errorsDto) {
+    public ResponseMostAndLessUsedWords( Map<String,Integer> mostUsedWords,  Map<String,Integer> lessUsedWords, List<ErrorsDto> errorsDto) {
         this.mostUsedWords = mostUsedWords;
         this.lessUsedWords = lessUsedWords;
         this.errorsDto = errorsDto;
     }
 
-    public List<WordDto> getMostUsedWords() {
+    public  Map<String,Integer> getMostUsedWords() {
         return mostUsedWords;
     }
 
-    public List<WordDto> getLessUsedWords() {
+    public  Map<String,Integer> getLessUsedWords() {
         return lessUsedWords;
     }
 

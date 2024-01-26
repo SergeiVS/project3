@@ -10,80 +10,80 @@ public class TextOperations implements TextOperationsInterface {
         this.textData = textData;
     }
 
+
     @Override
     public void textInput(String text) {
-        textData.setSplitText(splitText(text));
         textData.setTextToSearch(text);
+        splitText(text);
+        findAllUniqWords();
+        findWordsFrequent();
+        mostFrequentWord();
+        lessUsedWord();
     }
 
     @Override
-    public String[] splitText(String text) {
+    public void splitText(String text) {
 
-        return text.split(" ");
+        List<String> splitT = List.of(text.split(" "));
+        textData.setSplitText(splitT);
     }
 
     @Override
-    public List<String> findAllWords( ){
-        String[] splitText = textData.getSplitText();
-        Set<String> allWords = new HashSet<>(List.of(splitText));
-        return new ArrayList<>(allWords);
+    public void findAllUniqWords( ){
+        List<String> splitText = textData.getSplitText();
+        Set<String> allWords = textData.getAllUniqWords();
+        allWords.addAll(splitText);
+        textData.setAllUniqWords(allWords);
     }
 
     @Override
-    public Map<String, Integer> findWordsUsage() {
+    public void findWordsFrequent() {
 
-        String[] splitText = textData.getSplitText();
-        Map<String, Integer> wordsUsageCounter =  new HashMap<>();
+        List<String> splitText = textData.getSplitText();
+        Map<String, Integer> wordsFrequentCounter =  textData.getWordFrequency();
 
-        for (int i = 0; i < splitText.length; i++)
-        {
-            String word = splitText[i];
-           if(!wordsUsageCounter.containsKey(word)){wordsUsageCounter.put(word, 1);
-           }
-           else
-           {
-               int oldCount = wordsUsageCounter.get(word);
-               wordsUsageCounter.replace(word, oldCount, oldCount++);
-           }
+        for (String word : splitText) {
+           word = word.toLowerCase();
+           wordsFrequentCounter.put(word, wordsFrequentCounter.getOrDefault(word, 0)+1);
         }
-        return wordsUsageCounter;
+        textData.setWordFrequency(wordsFrequentCounter);
     }
 
     @Override
-    public Map<String, Integer> mostUsedWord() {
+    public void mostFrequentWord() {
 
-        Map<String, Integer> wordUsageCounter = findWordsUsage();
-        Integer maxWordUsage = Collections.max(wordUsageCounter.values());
-        Map<String, Integer> mostUsedWords = new HashMap<>();
-        Iterator<Map.Entry<String, Integer>> iterator = wordUsageCounter.entrySet().iterator();
+        Map<String, Integer> wordFrequentCounter = textData.getWordFrequency();
+        Integer maxWordFrequency = Collections.max(wordFrequentCounter.values());
+        Map<String, Integer> mostFrequentWords = new HashMap<>();
+        Iterator<Map.Entry<String, Integer>> iterator = wordFrequentCounter.entrySet().iterator();
 
         while (iterator.hasNext()){
 
-            if (iterator.next().getValue().equals(maxWordUsage)){
-               mostUsedWords.put(iterator.next().getKey(),maxWordUsage);
+            if (iterator.next().getValue().equals(maxWordFrequency)){
+               mostFrequentWords.put(iterator.next().getKey(),maxWordFrequency);
             }
         }
-        return mostUsedWords;
+        textData.setMostFrequentWord(mostFrequentWords);
     }
 
     @Override
-    public Map<String, Integer> lessUsedWord() {
+    public void  lessUsedWord() {
 
-        Map<String, Integer> wordUsageCounter = findWordsUsage();
+        Map<String, Integer> wordUsageCounter = textData.getWordFrequency();
 
-        Integer minWordUsage = Collections.max(wordUsageCounter.values());
+        Integer minWordFrequency = Collections.min(wordUsageCounter.values());
 
-        Map<String, Integer> lessUsedWords = new HashMap<>();
+        Map<String, Integer> lessFrequentWords = textData.getLessFrequentWord();
 
         Iterator<Map.Entry<String, Integer>> iterator = wordUsageCounter.entrySet().iterator();
 
         while (iterator.hasNext()){
-            if (iterator.next().getValue().equals(minWordUsage)){
-                lessUsedWords.put(iterator.next().getKey(),minWordUsage);
+            if (iterator.next().getValue().equals(minWordFrequency)){
+                lessFrequentWords.put(iterator.next().getKey(),minWordFrequency);
             }
         }
 
-        return lessUsedWords;
+        textData.setLessFrequentWord(lessFrequentWords);
     }
 
 

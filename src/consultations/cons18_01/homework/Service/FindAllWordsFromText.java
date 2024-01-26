@@ -25,19 +25,11 @@ private final TextData textData;
 
 
     public ResponseFindAllWords findAllWords(){
-        String[] splitText = textData.getSplitText();
+       List<String> splitText = textData.getSplitText();
     List<ErrorsDto> errors = validation.wordsListCheck(splitText);
-    List<String> allwords = new ArrayList<>();
+    Set<String> allWords = textData.getAllUniqWords();
 
-    if (errors.isEmpty()){
-
-        allwords = textOperations.findAllWords();
-        Collections.sort(allwords);
-        return  new ResponseFindAllWords(allwords, errors);
-    }else
-    {
-    return new ResponseFindAllWords(allwords, errors);
-    }
+        return  new ResponseFindAllWords(allWords, errors);
 }
 
     @Override

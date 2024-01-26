@@ -5,16 +5,16 @@ import Dto.Errors.ErrorsDto;
 import java.util.*;
 
 public class ResponseFindAllWords {
-    List<String> allWordsDtoList;
+    Set<String> allWordsDtoList;
     List<ErrorsDto> errorsDto;
 
 
-    public ResponseFindAllWords(List<String> allWordsDtoList, List<ErrorsDto> errorsDto) {
-        Collections.sort(allWordsDtoList);
+    public ResponseFindAllWords(Set<String> allWordsDtoList, List<ErrorsDto> errorsDto) {
+        this.allWordsDtoList = allWordsDtoList;
         this.errorsDto = errorsDto;
     }
 
-    public List<String> getAllWordsDtoList() {
+    public Set<String> getAllWordsDtoList() {
         return allWordsDtoList;
     }
 

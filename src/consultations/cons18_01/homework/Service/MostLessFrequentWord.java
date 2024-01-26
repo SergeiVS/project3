@@ -9,6 +9,7 @@ import Service.Util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class MostLessFrequentWord {
     private final TextData textData;
@@ -23,18 +24,12 @@ public class MostLessFrequentWord {
 
     public ResponseMostAndLessUsedWords mostAndLessUsedWords(){
 
-        String[] splitText = textData.getSplitText();
+        List<String> splitText = textData.getSplitText();
         List<ErrorsDto> errors = validation.wordsListCheck(splitText);
-        List<WordDto> mostUsed = new ArrayList<>();
-        List<WordDto> lessUsed = new ArrayList<>();
-        if (errors.isEmpty()) {
+        Map<String,Integer> mostFrequent= textData.getMostFrequentWord();
+        Map<String,Integer> lessFrequent = textData.getLessFrequentWord();
 
-           mostUsed = Utils.mapToList(textOperations.mostUsedWord());
-           lessUsed = Utils.mapToList(textOperations.lessUsedWord());
-           return new ResponseMostAndLessUsedWords(mostUsed, lessUsed,errors);
-        }else {
+        return new ResponseMostAndLessUsedWords(mostFrequent, lessFrequent, errors);
 
-            return new ResponseMostAndLessUsedWords(mostUsed, lessUsed,errors);
-        }
     }
 }
