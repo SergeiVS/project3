@@ -7,10 +7,10 @@ public interface TextOperationsInterface {
     void textInput(String text);
 
     String[] splitText(String text);
-    List<String> findAllWords(String[] splitText);
-    Map<String, Integer> findWordsUsage(String[] splitText);
-    Map<String, Integer> mostUsedWord(String[] splitText);
-    Map<String, Integer> lessUsedWord(String[] splitText);
+    List<String> findAllWords();
+    Map<String, Integer> findWordsUsage();
+    Map<String, Integer> mostUsedWord();
+    Map<String, Integer> lessUsedWord();
 
 
 }

@@ -5,14 +5,17 @@ import Dto.ResponseTextInput;
 import Entity.TextOperations;
 
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class TextInputService {
 
     Validation validation = new Validation();
 
-    TextOperations textOperations = new TextOperations();
+    private final TextOperations textOperations;
+
+    public TextInputService(TextOperations textOperations) {
+        this.textOperations = textOperations;
+    }
 
     public ResponseTextInput texInput(String textDto){
 

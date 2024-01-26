@@ -1,19 +1,28 @@
 package Entity;
 
-public class TextToSearch {
+public class TextData {
     private String textToSearch;
+    private  String[] splitText;
 
-    public TextToSearch(String textToSearch) {
+    public void setTextToSearch(String textToSearch) {
         this.textToSearch = textToSearch;
+    }
+
+    public void setSplitText(String[] splitText) {
+        this.splitText = splitText;
     }
 
     public String getTextToSearch() {
         return textToSearch;
     }
 
+    public String[] getSplitText() {
+        return splitText;
+    }
+
     @Override
     public String toString() {
-        return "TextToSearch{" +
+        return "TextData{" +
                 "textToSearch='" + textToSearch + '\'' +
                 '}';
     }

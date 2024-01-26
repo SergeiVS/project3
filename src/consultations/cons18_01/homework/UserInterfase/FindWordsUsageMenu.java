@@ -1,12 +1,12 @@
 package UserInterfase;
 
 import Dto.ResponseWordsUsage;
-import Service.FindWordsUsage;
+import Service.FindWordsFrequent;
 
 public class FindWordsUsageMenu implements MenuCommandInterface{
-    private final FindWordsUsage service;
+    private final FindWordsFrequent service;
 
-    public FindWordsUsageMenu(FindWordsUsage service) {
+    public FindWordsUsageMenu(FindWordsFrequent service) {
         this.service = service;
     }
 

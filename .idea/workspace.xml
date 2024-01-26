@@ -5,63 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/UtilsStatic/UserInputStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/AppPlan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseTextInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/TextDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/WordDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextToSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessUsedWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Util/UserInputStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Util/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/ExitMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindAllWordsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindMostLessUsedWordsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/GetTextMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/MenuCommandInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/UserMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ShoppingListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ProductForClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ResponseForClientAddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ResponseForClientFindAllProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ResponseForClientFindByIdProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/ResponseRemoveProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/error/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/dto/error/ErrorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/repository/ProductRepositoryArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/service/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/AddProductMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/ExitMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/FindAllProductMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/FindProductById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/MenuCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/RemoveProductById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson28/lessoncode/shopinglist/ui/UserMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/FilmApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/entity/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/repository/FilmRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/repository/RepositoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByGenre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/Entitys/InitialMorseTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/Entitys/InitialMorseTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/MorseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/MorseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/services/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/services/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/ulils/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/ulils/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/ulils/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/ulils/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson26/homework26/task2/BalanceCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson26/homework26/task2/BalanceCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextToSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessUsedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessUsedWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <option name="closed" value="true" />
-      <created>1699720984070</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1699720984070</updated>
     </task>
     <task id="LOCAL-00004" summary="test">
       <option name="closed" value="true" />
@@ -608,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705867704180</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="test">
+      <option name="closed" value="true" />
+      <created>1706204430615</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1706204430617</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -628,9 +590,15 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsUsage.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java</url>
+          <line>4</line>
+          <properties field="splitText" class="Entity.TextData" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

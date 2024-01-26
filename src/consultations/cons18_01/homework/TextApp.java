@@ -1,3 +1,4 @@
+import Entity.TextData;
 import Entity.TextOperations;
 import Service.*;
 import UserInterfase.*;
@@ -7,17 +8,20 @@ import java.util.List;
 
 public class TextApp {
     public static void main(String[] args) {
-        TextOperations operations = new TextOperations();
+
+        TextData textData = new TextData();
+        TextOperations operations = new TextOperations(textData);
         Validation validation = new Validation();
-        FindWordsUsage findWordsUsage = new FindWordsUsage();
-        FindAllWordsFromText findAllWordsFromText = new FindAllWordsFromText();
-        MostLessUsedWord mostLessUsedWord = new MostLessUsedWord();
-        TextInputService textInputService = new TextInputService();
+
+        FindWordsFrequent findWordsUsage = new FindWordsFrequent(textData, operations, validation);
+        FindAllWordsFromText findAllWordsFromText = new FindAllWordsFromText(operations,validation,textData);
+        MostLessFrequentWord mostLessFrequentWord = new MostLessFrequentWord(operations, validation, textData);
+        TextInputService textInputService = new TextInputService(operations);
 
         GetTextMenu getTextMenu = new GetTextMenu(textInputService);
         FindAllWordsMenu findAllWordsMenu = new FindAllWordsMenu(findAllWordsFromText);
         FindWordsUsageMenu findWordsUsageMenu = new FindWordsUsageMenu(findWordsUsage);
-        FindMostLessUsedWordsMenu findMostLessUsedWordsMenu = new FindMostLessUsedWordsMenu(mostLessUsedWord);
+        FindMostLessUsedWordsMenu findMostLessUsedWordsMenu = new FindMostLessUsedWordsMenu(mostLessFrequentWord);
         ExitMenu exitMenu = new ExitMenu();
 
         List<MenuCommandInterface> commands = new ArrayList<>();

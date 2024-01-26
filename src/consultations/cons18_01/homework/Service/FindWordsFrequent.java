@@ -3,21 +3,29 @@ package Service;
 import Dto.Errors.ErrorsDto;
 import Dto.ResponseWordsUsage;
 import Dto.WordDto;
+import Entity.TextData;
 import Entity.TextOperations;
 import Service.Util.Utils;
 
 
 import java.util.*;
 
-public class FindWordsUsage {
+public class FindWordsFrequent {
+private final TextData textData;
+ private final TextOperations textOperations;
+  private final Validation validation;
 
-    TextOperations textOperations = new TextOperations();
-    Validation validation = new Validation();
+    public FindWordsFrequent(TextData textData, TextOperations textOperations, Validation validation) {
+        this.textData = textData;
+        this.textOperations = textOperations;
+        this.validation = validation;
+    }
+
 
     public ResponseWordsUsage wordsUsage(){
 
-        String[] splitText =textOperations.getSplitText();
-        Map<String, Integer> wordUsageMap = textOperations.findWordsUsage(splitText);
+        String[] splitText = textData.getSplitText();
+        Map<String, Integer> wordUsageMap = textOperations.findWordsUsage();
         List<ErrorsDto> errors = validation.wordsListCheck(splitText);
         List<WordDto> wordUsageList = new ArrayList<>();
 

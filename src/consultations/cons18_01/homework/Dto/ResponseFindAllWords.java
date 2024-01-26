@@ -17,4 +17,12 @@ public class ResponseFindAllWords {
     public List<String> getAllWordsDtoList() {
         return allWordsDtoList;
     }
+
+    @Override
+    public String toString() {
+        return "ResponseFindAllWords{" +
+                "allWordsDtoList=" + allWordsDtoList +
+                ", errorsDto=" + errorsDto +
+                '}';
+    }
 }

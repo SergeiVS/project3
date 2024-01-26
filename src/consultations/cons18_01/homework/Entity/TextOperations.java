@@ -1,25 +1,19 @@
 package Entity;
 
-import Dto.WordDto;
-
 import java.util.*;
 
 public class TextOperations implements TextOperationsInterface {
 
-    private String[] splitText;
+    private final TextData textData;
 
-    public String[] getSplitText() {
-        return splitText;
-    }
-
-    public void setSplitText(String[] splitText) {
-        this.splitText = splitText;
+    public TextOperations(TextData textData) {
+        this.textData = textData;
     }
 
     @Override
     public void textInput(String text) {
-        TextToSearch textToSearch = new TextToSearch(text);
-        setSplitText(splitText(text));
+        textData.setSplitText(splitText(text));
+        textData.setTextToSearch(text);
     }
 
     @Override
@@ -29,14 +23,18 @@ public class TextOperations implements TextOperationsInterface {
     }
 
     @Override
-    public List<String> findAllWords(String[] splitText) {
+    public List<String> findAllWords( ){
+        String[] splitText = textData.getSplitText();
         Set<String> allWords = new HashSet<>(List.of(splitText));
         return new ArrayList<>(allWords);
     }
 
     @Override
-    public Map<String, Integer> findWordsUsage(String[] splitText) {
+    public Map<String, Integer> findWordsUsage() {
+
+        String[] splitText = textData.getSplitText();
         Map<String, Integer> wordsUsageCounter =  new HashMap<>();
+
         for (int i = 0; i < splitText.length; i++)
         {
             String word = splitText[i];
@@ -52,9 +50,9 @@ public class TextOperations implements TextOperationsInterface {
     }
 
     @Override
-    public Map<String, Integer> mostUsedWord(String[] splitText) {
+    public Map<String, Integer> mostUsedWord() {
 
-        Map<String, Integer> wordUsageCounter = findWordsUsage(splitText);
+        Map<String, Integer> wordUsageCounter = findWordsUsage();
         Integer maxWordUsage = Collections.max(wordUsageCounter.values());
         Map<String, Integer> mostUsedWords = new HashMap<>();
         Iterator<Map.Entry<String, Integer>> iterator = wordUsageCounter.entrySet().iterator();
@@ -69,11 +67,14 @@ public class TextOperations implements TextOperationsInterface {
     }
 
     @Override
-    public Map<String, Integer> lessUsedWord(String[] splitText) {
+    public Map<String, Integer> lessUsedWord() {
 
-        Map<String, Integer> wordUsageCounter = findWordsUsage(splitText);
+        Map<String, Integer> wordUsageCounter = findWordsUsage();
+
         Integer minWordUsage = Collections.max(wordUsageCounter.values());
+
         Map<String, Integer> lessUsedWords = new HashMap<>();
+
         Iterator<Map.Entry<String, Integer>> iterator = wordUsageCounter.entrySet().iterator();
 
         while (iterator.hasNext()){

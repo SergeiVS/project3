@@ -1,13 +1,13 @@
 package UserInterfase;
 
 import Dto.ResponseMostAndLessUsedWords;
-import Service.MostLessUsedWord;
+import Service.MostLessFrequentWord;
 
 public class FindMostLessUsedWordsMenu implements MenuCommandInterface{
 
-    private final MostLessUsedWord service;
+    private final MostLessFrequentWord service;
 
-    public FindMostLessUsedWordsMenu(MostLessUsedWord service) {
+    public FindMostLessUsedWordsMenu(MostLessFrequentWord service) {
         this.service = service;
     }
 
