@@ -6,10 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lesson3/exercise4/newVertion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson15/homework/Pocker" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson18/lessonCode/shape" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/consultations/cons18_01/homework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Lesson30" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/lesson23/lessonCode" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="junit" level="project" />
   </component>
 </module>

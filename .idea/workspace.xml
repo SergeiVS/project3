@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task2/StringLengthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task2/TextLengthApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessFrequentWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessFrequentWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,7 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -58,14 +53,21 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson16/Practice/phone/service&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/Lesson30/task1&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson28&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
@@ -86,6 +88,9 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lotteryGame" />
     </key>
@@ -93,8 +98,13 @@
       <recent name="entitys" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="task2" />
       <recent name="consultations.cons18_01.homework.Entity" />
       <recent name="p" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="task1" />
+      <recent name="ListToUniqueStringsListTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Service.Util" />
@@ -104,27 +114,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextApp">
-    <configuration name="BoxOperationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoxOperationsTest" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MorseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consultations.cons18_01.morseCoding.Entitys.MorseApp" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.ServiceTest" />
+  <component name="RunManager" selected="Application.TextLengthApp">
+    <configuration name="TextLengthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.TextLengthApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,33 +128,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessoncode.shopinglist.ShoppingListApp" />
+    <configuration name="Lesson30 in project3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UtilsStatic.*" />
+          <option name="PATTERN" value="task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lesson30" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextApp" />
+    <configuration name="ListToUniqueStringsListTest.listToSet (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.ListToUniqueStringsListTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.ListToUniqueStringsListTest" />
+      <option name="MAIN_CLASS_NAME" value="task1.ListToUniqueStringsListTest.ListToUniqueStringsListTest" />
+      <option name="METHOD_NAME" value="listToSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListToUniqueStringsListTest.listToSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ListToUniqueStringsListTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ListToUniqueStringsListTest" />
+      <option name="MAIN_CLASS_NAME" value="ListToUniqueStringsListTest.ListToUniqueStringsListTest" />
+      <option name="METHOD_NAME" value="listToSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListToUniqueStringsListTest.listToUniqueStringsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1" />
+      <option name="MAIN_CLASS_NAME" value="task1.ListToUniqueStringsListTest" />
+      <option name="METHOD_NAME" value="listToUniqueStringsList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TextApp" />
-        <item itemvalue="Application.ShoppingListApp" />
-        <item itemvalue="Application.MorseApp" />
-        <item itemvalue="Application.BoxOperationsTest" />
-        <item itemvalue="Application.ServiceTest" />
+        <item itemvalue="Application.TextLengthApp" />
+        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList" />
+        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToSet (1)" />
+        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToSet" />
+        <item itemvalue="JUnit.Lesson30 in project3" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +208,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <option name="closed" value="true" />
-      <created>1699892894687</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1699892894687</updated>
     </task>
     <task id="LOCAL-00006" summary="test">
       <option name="closed" value="true" />
@@ -563,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706267301075</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="test">
+      <option name="closed" value="true" />
+      <created>1706270733979</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1706270733979</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -581,6 +619,11 @@
           <url>file://$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/services/Services.java</url>
           <line>45</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson30/task2/StringLengthCheck.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java</url>
