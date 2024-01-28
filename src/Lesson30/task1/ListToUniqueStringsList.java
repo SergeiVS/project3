@@ -1,22 +1,34 @@
 package task1;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class ListToUniqueStringsList {
 
-    public Set<String> listToUniqueStringsSet(LinkedList<String> listOfStrings){
+    private Set<String> listToUniqueStringsSet(LinkedList<String> listOfStrings){
 
-        return new HashSet<>(listOfStrings);
+        List<String> stringListLowerCase = new ArrayList<>();
+        Iterator<String> iterator = listOfStrings.iterator();
+        while (iterator.hasNext()){
+
+           stringListLowerCase.add(iterator.next().toLowerCase());
+        }
+
+        return new HashSet<>(stringListLowerCase);
     }
 
-    public LinkedList<String> listToUniqueStringsList(LinkedList<String> listOfStrings){
+    public List<String> listOfUniqueStrings(LinkedList<String> listOfStrings){
 
-        Set<String> uniqueStringsSet = new HashSet<>(listOfStrings);
+        Comparator<String> comparator = Comparator.naturalOrder();
 
-        return new LinkedList<>(uniqueStringsSet);
+        Set<String> uniqueStringsSet = listToUniqueStringsSet(listOfStrings);
+
+        List<String> uniqueStringsList = new ArrayList<>(uniqueStringsSet);
+
+
+
+        uniqueStringsList.sort(comparator);
+
+        return uniqueStringsList;
     }
 
 

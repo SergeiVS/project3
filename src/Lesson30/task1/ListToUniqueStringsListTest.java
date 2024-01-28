@@ -13,14 +13,13 @@ public class ListToUniqueStringsListTest {
     @Test
     public void listToUniqueStringsList() {
 
-        String[] stringsIncoming = { "bbb", "bbb", "aaa", "aaa",  "ccc", "ggg", "ccc", "ddd", "AAA"};
+        String[] stringsIncoming = { "bbb", "bbb", "aaa", "aaa",  "ccc", "ggg", "ccc", "ddd", "AAA", "Acceleration", "Annotation", "SbrTR"};
         LinkedList<String> listOfStrings = new LinkedList<>(List.of(stringsIncoming));
 
-        String[] resultingStrings = {"aaa", "AAA", "ccc", "bbb", "ddd", "ggg"};
+        String[] resultingStrings = { "aaa", "acceleration", "annotation", "bbb", "ccc", "ddd", "ggg", "sbrtr"};
         List<String> expectedListOfStrings = new LinkedList<>(List.of(resultingStrings));
 
-
-        List<String> actualListOfUniqueStrings = listToUniqueStringsList.listToUniqueStringsList(listOfStrings);
+        List<String> actualListOfUniqueStrings = listToUniqueStringsList.listOfUniqueStrings(listOfStrings);
 
 
         assertEquals(toString(), expectedListOfStrings, actualListOfUniqueStrings);
