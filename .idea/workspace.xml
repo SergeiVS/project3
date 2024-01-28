@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task10/MapFromSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task10/SetToMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task11/StackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task11/SteckSeviceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task12/ArrayDequeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangementDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,13 +115,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SteckSeviceDemo">
-    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task7.BookTest" />
+  <component name="RunManager" selected="Application.MapRearrangementDemo">
+    <configuration name="ArrayDequeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task12.ArrayDequeDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task7.*" />
+          <option name="PATTERN" value="task12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +135,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapRearrangementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task8.MapRearrangementDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,29 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonsRepositoryTest.sortPersonList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task6" />
-      <option name="MAIN_CLASS_NAME" value="Task6.PersonsRepositoryTest" />
-      <option name="METHOD_NAME" value="sortPersonList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapRearrangementDemo" />
+        <item itemvalue="Application.ArrayDequeDemo" />
         <item itemvalue="Application.SteckSeviceDemo" />
         <item itemvalue="Application.SetToMapDemo" />
         <item itemvalue="Application.FillMapDemo" />
-        <item itemvalue="Application.BookTest" />
-        <item itemvalue="JUnit.PersonsRepositoryTest.sortPersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00012" summary="test">
-      <option name="closed" value="true" />
-      <created>1700501138571</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1700501138571</updated>
     </task>
     <task id="LOCAL-00013" summary="test">
       <option name="closed" value="true" />
@@ -596,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706455661046</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="test">
+      <option name="closed" value="true" />
+      <created>1706458822745</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1706458822745</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -624,6 +620,11 @@
           <url>file://$PROJECT_DIR$/src/Lesson30/task4/PhoneNumbersDatabase.java</url>
           <line>28</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java</url>
