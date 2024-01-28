@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task8.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task10/MapFromSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task10/SetToMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task11/StackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task11/SteckSeviceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FillMapDemo">
+  <component name="RunManager" selected="Application.SteckSeviceDemo">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task7.BookTest" />
       <module name="project3" />
@@ -141,18 +143,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListToUniqueStringsListTest.listToUniqueStringsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetToMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task10.SetToMapDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task1.*" />
+          <option name="PATTERN" value="task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task1" />
-      <option name="MAIN_CLASS_NAME" value="task1.ListToUniqueStringsListTest" />
-      <option name="METHOD_NAME" value="listToUniqueStringsList" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SteckSeviceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task11.SteckSeviceDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,29 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoListsCommonElementsTest.findCommonElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="task5" />
-      <option name="MAIN_CLASS_NAME" value="task5.TwoListsCommonElementsTest" />
-      <option name="METHOD_NAME" value="findCommonElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SteckSeviceDemo" />
+        <item itemvalue="Application.SetToMapDemo" />
         <item itemvalue="Application.FillMapDemo" />
         <item itemvalue="Application.BookTest" />
         <item itemvalue="JUnit.PersonsRepositoryTest.sortPersonList" />
-        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList" />
-        <item itemvalue="JUnit.TwoListsCommonElementsTest.findCommonElements" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test">
-      <option name="closed" value="true" />
-      <created>1700427104353</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1700427104353</updated>
     </task>
     <task id="LOCAL-00012" summary="test">
       <option name="closed" value="true" />
@@ -600,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706454331943</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="test">
+      <option name="closed" value="true" />
+      <created>1706455661046</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1706455661046</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
