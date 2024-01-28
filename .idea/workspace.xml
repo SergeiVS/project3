@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson30/task2/StringLengthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task2/StringLengthCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson30/task2/TextLengthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task2/TextLengthApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList">
+  <component name="RunManager" selected="Application.TextLengthApp">
     <configuration name="TextLengthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task2.TextLengthApp" />
       <module name="project3" />
@@ -189,8 +189,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList" />
         <item itemvalue="Application.TextLengthApp" />
+        <item itemvalue="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList" />
         <item itemvalue="JUnit.ListToUniqueStringsListTest.listToSet (1)" />
         <item itemvalue="JUnit.ListToUniqueStringsListTest.listToSet" />
         <item itemvalue="JUnit.Lesson30 in project3" />
@@ -205,14 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test">
-      <option name="closed" value="true" />
-      <created>1699952662219</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1699952662219</updated>
     </task>
     <task id="LOCAL-00008" summary="test">
       <option name="closed" value="true" />
@@ -598,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706372357703</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="test">
+      <option name="closed" value="true" />
+      <created>1706432710959</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1706432710959</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -619,8 +619,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lesson30/task2/StringLengthCheck.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="22" />
+          <line>34</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java</url>
