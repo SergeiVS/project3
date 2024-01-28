@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/Task6/ComparatorByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/Task6/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/Task6/PersonsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/Task6/PersonsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task4/PhoneNumbersDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task4/PhoneNumbersDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task4/Subscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task5/TwoListsCommonElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task5/TwoListsCommonElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task7/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task7/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson30/task7/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson30/task8.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +114,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookTest">
+  <component name="RunManager" selected="Application.FillMapDemo">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task7.BookTest" />
       <module name="project3" />
@@ -138,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumbersDatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.PhoneNumbersDatabaseTest" />
+    <configuration name="FillMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9.FillMapDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.*" />
+          <option name="PATTERN" value="task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FillMapDemo" />
         <item itemvalue="Application.BookTest" />
         <item itemvalue="JUnit.PersonsRepositoryTest.sortPersonList" />
         <item itemvalue="JUnit.ListToUniqueStringsListTest.listToUniqueStringsList" />
         <item itemvalue="JUnit.TwoListsCommonElementsTest.findCommonElements" />
-        <item itemvalue="Application.PhoneNumbersDatabaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,14 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test">
-      <option name="closed" value="true" />
-      <created>1700242307424</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1700242307424</updated>
     </task>
     <task id="LOCAL-00011" summary="test">
       <option name="closed" value="true" />
@@ -610,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706437682303</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="test">
+      <option name="closed" value="true" />
+      <created>1706454331943</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1706454331943</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
