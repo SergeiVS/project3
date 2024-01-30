@@ -24,8 +24,6 @@ public class ListToUniqueStringsList {
 
         List<String> uniqueStringsList = new ArrayList<>(uniqueStringsSet);
 
-
-
         uniqueStringsList.sort(comparator);
 
         return uniqueStringsList;
