@@ -13,7 +13,7 @@ public class FillMapDemo {
 
         int size = 10;
 
-        Map<Integer, Integer> myMap = new HashMap<>(fillMap.fillMap(new HashMap<>(), limit, size));
+        Map<Integer, Integer> myMap = fillMap.fillMap(new HashMap<>(), limit, size);
 
         for (Map.Entry<Integer, Integer> entry : myMap.entrySet()) {
             System.out.println(entry);

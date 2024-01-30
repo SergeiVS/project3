@@ -12,7 +12,9 @@ public class MapFromSet {
 
         for (String string : stringsSet) {
 
-            workingMap.put(string, string.length());
+            Integer length = string.length();
+
+            workingMap.put(string, length);
         }
         return workingMap;
     }

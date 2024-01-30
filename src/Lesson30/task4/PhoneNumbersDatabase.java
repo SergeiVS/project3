@@ -28,9 +28,10 @@ public class PhoneNumbersDatabase {
 
         while (iterator.hasNext()){
 
-            String subscriberName = iterator.next().getValue().getSubscriberName();
+            String subscriberName = iterator.next().getValue().getSubscriberName();;
 
                 if (subscriberName.equals(name)){
+
                     subscribersFound.add(iterator.next().getValue());
             }
         }

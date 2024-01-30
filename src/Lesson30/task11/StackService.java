@@ -9,6 +9,7 @@ public class StackService {
 
         Random random = new Random();
         Stack<Integer> workingStack = new Stack<>();
+
         for (int i = 0; i < size; i++) {
 
             workingStack.push(random.nextInt(50));
@@ -30,13 +31,19 @@ public class StackService {
     public Integer indexOfElement(Stack<Integer> workingStack, Integer element){
 
         boolean isPresent = isElementPresent(workingStack, element);
+
         if (isPresent) {
 
-            return workingStack.indexOf(element);
+            Integer index = workingStack.indexOf(element);
+
+            System.out.println("current element " + element + " presents in the stack " + true);
+            System.out.println("index of element is " + index);
+
+            return index;
 
         }else {
 
-            System.out.println("current element " + element + " presents in the stack " + isPresent);
+            System.out.println("current element " + element + " presents in the stack " + false);
 
             return -1;
         }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersonsRepository {
-ComparatorByAge comparator = new ComparatorByAge();
+
 List<Person> personList = new ArrayList<>();
 
     public List<Person> getPersonList() {
@@ -13,8 +13,10 @@ List<Person> personList = new ArrayList<>();
 
     public List<Person> sortPersonList(List<Person> personList){
 
-        personList.sort(comparator);
+        personList.sort((Person p1, Person p2) ->  {
+            return p1.getAge() - p2.getAge();
+        });
 
-        return personList;
+        return new ArrayList<>(personList);
     }
 }

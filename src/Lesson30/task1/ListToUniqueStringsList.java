@@ -7,12 +7,11 @@ public class ListToUniqueStringsList {
     private Set<String> listToUniqueStringsSet(LinkedList<String> listOfStrings){
 
         List<String> stringListLowerCase = new ArrayList<>();
-        Iterator<String> iterator = listOfStrings.iterator();
-        while (iterator.hasNext()){
 
-           stringListLowerCase.add(iterator.next().toLowerCase());
+        for (String listOfString : listOfStrings) {
+
+            stringListLowerCase.add(listOfString.toLowerCase());
         }
-
         return new HashSet<>(stringListLowerCase);
     }
 

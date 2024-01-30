@@ -17,9 +17,10 @@ public class IntegerListDemo {
         listOfIntegers.add(84);
         listOfIntegers.add(24);
 
+        System.out.println(listOfIntegers);
 
         System.out.println("++++++++++++++++++++++++++++++++++=");
-        System.out.println("listOfIntegers is enpty " + listOfIntegers.isEmpty());
+        System.out.println("listOfIntegers is empty " + listOfIntegers.isEmpty());
         System.out.println("===========================================");
 
         System.out.println("size of listOfIntegers is " + listOfIntegers.size());
@@ -30,8 +31,10 @@ public class IntegerListDemo {
         int index = 0;
 
         for (int i = 0; i < listOfIntegers.size(); i++) {
+
             if(listOfIntegers.get(i).equals(77)){
                 index = i;
+                break;
             }
         }
         listOfIntegers.remove(index);
