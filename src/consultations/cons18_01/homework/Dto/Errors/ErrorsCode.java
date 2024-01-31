@@ -7,7 +7,7 @@ public enum ErrorsCode {
     ERRORS_CODE3("Internal error", 3);
 
     private String description;
-private int errorCode;
+    private int errorCode;
 
     ErrorsCode(String description, int errorCode) {
         this.description = description;

@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/Task6/ComparatorByAge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/Task6/PersonsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/Task6/PersonsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task1/ListToUniqueStringsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task10/MapFromSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task10/MapFromSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task11/StackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task11/StackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task3/IntegerListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task3/IntegerListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task4/PhoneNumbersDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task4/PhoneNumbersDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task5/TwoListsCommonElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task5/TwoListsCommonElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task9/FillMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson30/task9/FillMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task9/FillMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson31/ListMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson31/lesson31/ListMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangementDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson31/lesson31/LambdaExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson31/lesson31/LambdaExample3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +116,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SteckSeviceDemo">
+  <component name="RunManager" selected="Application.MapRearrangementDemo">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task7.BookTest" />
       <module name="project3" />
@@ -191,10 +184,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapRearrangementDemo" />
         <item itemvalue="Application.SteckSeviceDemo" />
         <item itemvalue="Application.SetToMapDemo" />
         <item itemvalue="Application.FillMapDemo" />
-        <item itemvalue="Application.MapRearrangementDemo" />
         <item itemvalue="Application.BookTest" />
       </list>
     </recent_temporary>
@@ -207,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00015" summary="test">
-      <option name="closed" value="true" />
-      <created>1700597992023</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1700597992023</updated>
     </task>
     <task id="LOCAL-00016" summary="test">
       <option name="closed" value="true" />
@@ -600,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706634096341</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="test">
+      <option name="closed" value="true" />
+      <created>1706636830936</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1706636830936</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -621,7 +614,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">

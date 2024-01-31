@@ -6,6 +6,7 @@ import java.util.List;
 
 public class LambdaExample3 {
     public static void main(String[] args) {
+
         List<String> list1 = new ArrayList<>();
         List<String> list2 = new ArrayList<>();
 
@@ -20,7 +21,7 @@ public class LambdaExample3 {
         list2.add("Roma");
         list2.add("Istanbul");
 
-        lesson31.ListMerge listMerge = (List<String> listA, List<String> listB) -> {
+        ListMerge listMerge = (List<String> listA, List<String> listB) -> {
 
             List<String> newList = new ArrayList<>(listA);
             newList.addAll(listB);
@@ -33,9 +34,6 @@ public class LambdaExample3 {
         for (String s : unitedList) {
             System.out.println(s);
         }
-
-
-
     }
 
 

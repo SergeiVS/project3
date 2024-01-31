@@ -1,6 +1,7 @@
 package task8;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapRearrangementDemo {
@@ -29,5 +30,9 @@ public class MapRearrangementDemo {
         for (Map.Entry<Map<Integer, Integer>, Integer> entry : resultMap.entrySet()) {
             System.out.println(entry);
         }
+
+        Map<Integer, List<Integer>>  newMap = rearrangement.mapRearrangementList(startMap);
+        System.out.println(newMap);
+
     }
 }
