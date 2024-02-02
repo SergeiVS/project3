@@ -1,7 +1,7 @@
-package libraryApp.service.searchUtil;
+package consultations.cons01_11.libraryApp.service.searchUtil;
 
-import libraryApp.entity.Author;
-import libraryApp.entity.Book;
+import consultations.cons01_11.libraryApp.entity.Author;
+import consultations.cons01_11.libraryApp.entity.Book;
 
 public class BookAuthorMatcher implements BookMatcher{
     private Author author;

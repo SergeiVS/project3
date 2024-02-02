@@ -1,6 +1,6 @@
-package libraryApp.service.searchUtil;
+package consultations.cons01_11.libraryApp.service.searchUtil;
 
-import libraryApp.entity.Book;
+import consultations.cons01_11.libraryApp.entity.Book;
 
 public class BookIdMatcher implements BookMatcher{
     private int bookId;

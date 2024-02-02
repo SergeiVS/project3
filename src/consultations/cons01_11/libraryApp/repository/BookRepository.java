@@ -1,9 +1,9 @@
-package libraryApp.repository;
+package consultations.cons01_11.libraryApp.repository;
 
-import libraryApp.entity.Book;
-import libraryApp.entity.ResponseEntity;
-import libraryApp.entity.ResponseStatus;
-import libraryApp.service.searchUtil.BookMatcher;
+import consultations.cons01_11.libraryApp.entity.ResponseEntity;
+import consultations.cons01_11.libraryApp.entity.Book;
+import consultations.cons01_11.libraryApp.entity.ResponseStatus;
+import consultations.cons01_11.libraryApp.service.searchUtil.BookMatcher;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

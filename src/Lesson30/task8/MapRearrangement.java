@@ -29,7 +29,6 @@ public class MapRearrangement {
         }
         return workingMap;
     }
-
     public Map<Integer, List<Integer>> mapRearrangementList(Map<Integer, Integer> integerMap) {
 
         Map<Integer, List<Integer>> workingMap = new HashMap<>();
@@ -49,6 +48,7 @@ public class MapRearrangement {
                 List<Integer> valueList = new ArrayList<>();
                 valueList.add(key);
                 workingMap.put(value, valueList);
+
             }
         }
         return workingMap;

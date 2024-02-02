@@ -1,4 +1,4 @@
-package libraryApp.entity;
+package consultations.cons01_11.libraryApp.entity;
 
 public class Book {
 

@@ -31,8 +31,12 @@ public class MapRearrangementDemo {
             System.out.println(entry);
         }
 
-        Map<Integer, List<Integer>>  newMap = rearrangement.mapRearrangementList(startMap);
-        System.out.println(newMap);
+        System.out.println("======================================================");
 
+        Map<Integer, List<Integer>> newMap = rearrangement.mapRearrangementList(startMap);
+
+        for (Map.Entry<Integer, List<Integer>> entry : newMap.entrySet()) {
+            System.out.println(entry);
+        }
     }
 }

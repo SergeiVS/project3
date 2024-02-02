@@ -1,7 +1,7 @@
-package libraryApp.service.InputOutput;
+package consultations.cons01_11.libraryApp.service.InputOutput;
 
-import libraryApp.entity.Author;
-import libraryApp.entity.Book;
+import consultations.cons01_11.libraryApp.entity.Author;
+import consultations.cons01_11.libraryApp.entity.Book;
 
 import java.util.Random;
 

@@ -1,10 +1,10 @@
-package libraryApp.core;
+package consultations.cons01_11.libraryApp.core;
 
-import libraryApp.entity.Author;
-import libraryApp.entity.Book;
-import libraryApp.service.InputOutput.InputData;
-import libraryApp.service.InputOutput.OutputData;
-import libraryApp.service.LibraryServices;
+import consultations.cons01_11.libraryApp.service.InputOutput.InputData;
+import consultations.cons01_11.libraryApp.service.InputOutput.OutputData;
+import consultations.cons01_11.libraryApp.entity.Author;
+import consultations.cons01_11.libraryApp.entity.Book;
+import consultations.cons01_11.libraryApp.service.LibraryServices;
 
 import java.util.List;
 

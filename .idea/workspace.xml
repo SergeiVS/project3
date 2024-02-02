@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons02_01/ClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons02_01/taskDescription.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons02_01/ui/ResponseCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons02_01/ui/UpdateClientDataMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/SortStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/weather/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/weather/WeatherMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/weather/WeatherReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson30/task8/MapRearrangementDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson31/lesson31/LambdaExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson31/lesson31/LambdaExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/LibraryAppCons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/LibraryAppCons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/core/LibraryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/core/LibraryOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/entity/ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/entity/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/entity/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/InputOutput/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/InputOutput/InputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/InputOutput/OutputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/InputOutput/OutputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/LibraryServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/LibraryServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookAuthorMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/searchUtil/BookAuthorMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookIdMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/searchUtil/BookIdMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/searchUtil/BookMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons11_01/libraryApp/service/searchUtil/BookNameMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons01_11/libraryApp/service/searchUtil/BookNameMatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +48,9 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -83,6 +105,7 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson23" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons02_01" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson26\practice26" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
@@ -90,6 +113,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="ui.ResponseCheck" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lotteryGame" />
@@ -116,20 +142,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapRearrangementDemo">
-    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task7.BookTest" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortStrings">
     <configuration name="FillMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task9.FillMapDemo" />
       <module name="project3" />
@@ -169,6 +182,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson32.SortStrings" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SteckSeviceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task11.SteckSeviceDemo" />
       <module name="project3" />
@@ -184,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortStrings" />
         <item itemvalue="Application.MapRearrangementDemo" />
         <item itemvalue="Application.SteckSeviceDemo" />
         <item itemvalue="Application.SetToMapDemo" />
         <item itemvalue="Application.FillMapDemo" />
-        <item itemvalue="Application.BookTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00016" summary="test">
-      <option name="closed" value="true" />
-      <created>1700598098368</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1700598098368</updated>
     </task>
     <task id="LOCAL-00017" summary="test">
       <option name="closed" value="true" />
@@ -593,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706636830936</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="test">
+      <option name="closed" value="true" />
+      <created>1706723966289</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1706723966290</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

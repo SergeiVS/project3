@@ -1,6 +1,6 @@
-package libraryApp;
+package consultations.cons01_11.libraryApp;
 
-import libraryApp.core.LibraryOperations;
+import consultations.cons01_11.libraryApp.core.LibraryOperations;
 
 public class LibraryAppCons {
     public static void main(String[] args) {
