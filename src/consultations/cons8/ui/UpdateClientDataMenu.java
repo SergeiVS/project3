@@ -5,6 +5,7 @@ import entity.Client;
 import homework.Pocker.services.utils.UserInput;
 import repository.ClientDatabase;
 import service.ClientService;
+import service.Utils.ResponseCheck;
 
 public class UpdateClientDataMenu implements MenuCommand {
     ClientDatabase database = new ClientDatabase();
@@ -22,6 +23,7 @@ ResponseCheck<Boolean> responseCheck = new ResponseCheck<>();
         Response<Boolean> response = service.update(clientForUpdate);
 
         responseCheck.responseCheck(response);
+        return name;
     }
 
 

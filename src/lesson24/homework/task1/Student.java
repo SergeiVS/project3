@@ -30,7 +30,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "homework.task1.StudentL33{" +
                 "firstName='" + firstName + '\'' +
                 ", SurName='" + SurName + '\'' +
                 '}';

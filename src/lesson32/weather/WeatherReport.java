@@ -12,4 +12,9 @@ public class WeatherReport implements Function<WeatherMessage, String> {
             String message = WeatherData
         }
     }
+
+    @Override
+    public String apply(WeatherMessage weatherMessage) {
+        return null;
+    }
 }

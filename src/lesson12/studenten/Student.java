@@ -39,7 +39,7 @@ public class Student {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "Student{" +
+        return "homework.task1.StudentL33{" +
                 "id=" + id +
                 ", group='" + group + '\'' +
                 ", isStudent=" + isStudent +
