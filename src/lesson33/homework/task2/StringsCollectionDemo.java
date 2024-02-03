@@ -20,7 +20,7 @@ public class StringsCollectionDemo {
 
     }
 
-    static void printList(List list) {
+    public static void printList(List list) {
         list.forEach(System.out::println);
     }
 
