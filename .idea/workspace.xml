@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task2/StringsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task2/StringsCollectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task3/StringsArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringsCollectionDemo">
+  <component name="RunManager" selected="Application.StringsArray">
     <configuration name="MapRearrangementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task8.MapRearrangementDemo" />
       <module name="project3" />
@@ -146,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SteckSeviceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task11.SteckSeviceDemo" />
+    <configuration name="StringsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task3.StringsArray" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task11.*" />
+          <option name="PATTERN" value="homework.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringsArray" />
         <item itemvalue="Application.StringsCollectionDemo" />
         <item itemvalue="Application.StudentsL33Test" />
         <item itemvalue="Application.SortStrings" />
         <item itemvalue="Application.MapRearrangementDemo" />
-        <item itemvalue="Application.SteckSeviceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00019" summary="test">
-      <option name="closed" value="true" />
-      <created>1701003424531</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1701003424531</updated>
     </task>
     <task id="LOCAL-00020" summary="test">
       <option name="closed" value="true" />
@@ -596,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706933193604</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="test">
+      <option name="closed" value="true" />
+      <created>1706935097348</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1706935097348</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
