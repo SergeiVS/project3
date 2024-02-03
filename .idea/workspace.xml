@@ -5,62 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson33/extraTask/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/extraTask/TaskStream5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentL33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsL33Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task2/StringsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task2/StringsCollectionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons02_01/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons8/ClientApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons02_01/taskDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons8/taskDescription.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons02_01/ui/ResponseCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons8/service/Utils/ResponseCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons02_01/ui/UpdateClientDataMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons8/ui/UpdateClientDataMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/AppPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/AppPlan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/Errors/ErrorsCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/Errors/ErrorsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/Errors/ErrorsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseFindAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/ResponseFindAllWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseMostAndLessUsedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/ResponseMostAndLessUsedWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseTextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/ResponseTextInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/ResponseWordsFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/ResponseWordsFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/TextDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/TextDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Dto/WordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Dto/WordDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Entity/TextData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Entity/TextOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Entity/TextOperationsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Entity/TextOperationsInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindAllWordsFromText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/FindAllWordsFromText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/FindWordsFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/FindWordsFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/MostLessFrequentWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/MostLessFrequentWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/TextInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/TextInputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Util/UserInputStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/Util/UserInputStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/Util/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/Service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/Service/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/TextApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/TextApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/ExitMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/ExitMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindAllWordsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/FindAllWordsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindMostLessUsedWordsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/FindMostLessUsedWordsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/FindWordsUsageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/FindWordsUsageMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/GetTextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/GetTextMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/MenuCommandInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/MenuCommandInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/homework/UserInterfase/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/homework/UserInterfase/UserMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/Entitys/InitialMorseTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/morseCoding/Entitys/InitialMorseTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/MorseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/morseCoding/MorseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/services/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/morseCoding/services/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/ulils/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/morseCoding/ulils/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons18_01/morseCoding/ulils/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons5/morseCoding/ulils/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/FilmApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/FilmApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/entity/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/entity/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/repository/FilmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/repository/FilmRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/repository/RepositoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/repository/RepositoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/service/FilmFinderByDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmFinderByGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/service/FilmFinderByGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/service/FilmMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/service/FilmMatcherByDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons25_01/service/FilmMatcherByGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons6/service/FilmMatcherByGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson12/studenten/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson12/studenten/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson24/homework/task1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson24/homework/task1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/weather/WeatherReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/weather/WeatherReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task1/StudentsDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,26 +119,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentsL33Test">
+  <component name="RunManager" selected="Application.StringsCollectionDemo">
     <configuration name="MapRearrangementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task8.MapRearrangementDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetToMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task10.SetToMapDemo" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,6 +159,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringsCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task2.StringsCollectionDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentsL33Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.task1.StudentsL33Test" />
       <module name="project3" />
@@ -239,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringsCollectionDemo" />
         <item itemvalue="Application.StudentsL33Test" />
         <item itemvalue="Application.SortStrings" />
         <item itemvalue="Application.MapRearrangementDemo" />
         <item itemvalue="Application.SteckSeviceDemo" />
-        <item itemvalue="Application.SetToMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -255,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00018" summary="test">
-      <option name="closed" value="true" />
-      <created>1700995703429</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1700995703429</updated>
     </task>
     <task id="LOCAL-00019" summary="test">
       <option name="closed" value="true" />
@@ -648,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706894985518</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="test">
+      <option name="closed" value="true" />
+      <created>1706933193604</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1706933193604</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
