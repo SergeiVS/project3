@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson33/task6/PersonT6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/task6/PersonT6List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/task6/PersonListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/task6/PersonListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/task6/PersonT6List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/task6/PersonT6List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +118,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentsListDemo">
-    <configuration name="SortStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson32.SortStrings" />
+  <component name="RunManager" selected="Application.PersonListDemo">
+    <configuration name="PersonListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task6.PersonListDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson32.*" />
+          <option name="PATTERN" value="task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonListDemo" />
         <item itemvalue="Application.StudentsListDemo" />
         <item itemvalue="Application.StringsArray" />
         <item itemvalue="Application.StringsCollectionDemo" />
         <item itemvalue="Application.StudentsL33Test" />
-        <item itemvalue="Application.SortStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00023" summary="test">
-      <option name="closed" value="true" />
-      <created>1701104063198</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1701104063198</updated>
     </task>
     <task id="LOCAL-00024" summary="test">
       <option name="closed" value="true" />
@@ -596,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707100654970</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="test">
+      <option name="closed" value="true" />
+      <created>1707102430220</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1707102430220</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

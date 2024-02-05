@@ -9,6 +9,10 @@ public class PersonT6List {
     // Нужно найти все уникальные навыки которыми обладают люди старше 25 лет и отсортировать их
     private final List<PersonT6> persons;
 
+    public List<PersonT6> getPersons() {
+        return persons;
+    }
+
     public PersonT6List() {
         this.persons = new ArrayList<>();
     }
