@@ -13,7 +13,7 @@ public class Glossary {
         dictionary.put("value", "значение");
         dictionary.put("key", "ключ");
         dictionary.put("map", "карта");
-        dictionary.put("task", "задание");
+        dictionary.put("task5", "задание");
         dictionary.put("collection", "коллекция");
 
         System.out.println(dictionary);

@@ -1,6 +1,5 @@
-package homework.task4;
+package homework.task4_5;
 
-import homework.task1.StudentL33;
 import homework.task2.StringsCollectionDemo;
 
 import java.util.List;
@@ -36,6 +35,9 @@ public class StudentsListDemo {
         System.out.println();
 
         StringsCollectionDemo.printList(studentsList.sortByYearOfAdmission(database));
+        System.out.println();
+
+        StringsCollectionDemo.printList(studentsList.findByYearOfAdmission(database, 2007, 2009));
 
     }
 }
