@@ -31,6 +31,11 @@ public class PersonList {
                 .toList();
     }
 
+public Double avgSalary(List<PersonT8> personList){
+        personList.stream()
+                .mapToInt(p -> p.getSalary())
+                .average()
+                .getAsDouble();
 
-
+}
 }
