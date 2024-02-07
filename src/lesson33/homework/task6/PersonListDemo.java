@@ -1,4 +1,4 @@
-package task6;
+package homework.task6;
 
 import homework.task2.StringsCollectionDemo;
 

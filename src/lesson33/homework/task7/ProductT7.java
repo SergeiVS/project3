@@ -8,13 +8,13 @@ public class ProductT7 {
     //   и отсортировать по убыванию цены
 
     private String name;
-    private String denomination;
+    private String category;
     private Double price;
     private  Integer inStock;
 
     public ProductT7(String name, String denomination, Double price, Integer inStock) {
         this.name = name;
-        this.denomination = denomination;
+        this.category = denomination;
         this.price = price;
         this.inStock = inStock;
     }
@@ -23,8 +23,8 @@ public class ProductT7 {
         return name;
     }
 
-    public String getDenomination() {
-        return denomination;
+    public String getCategory() {
+        return category;
     }
 
     public Double getPrice() {
@@ -47,7 +47,7 @@ public class ProductT7 {
     public String toString() {
         return "ProductT7{" +
                 "name='" + name + '\'' +
-                ", denomination='" + denomination + '\'' +
+                ", denomination='" + category + '\'' +
                 ", price=" + price +
                 ", inStock=" + inStock +
                 '}';
@@ -57,11 +57,11 @@ public class ProductT7 {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof ProductT7 productT7)) return false;
-        return Objects.equals(getName(), productT7.getName()) && Objects.equals(getDenomination(), productT7.getDenomination()) && Objects.equals(getPrice(), productT7.getPrice()) && Objects.equals(getInStock(), productT7.getInStock());
+        return Objects.equals(getName(), productT7.getName()) && Objects.equals(getCategory(), productT7.getCategory()) && Objects.equals(getPrice(), productT7.getPrice()) && Objects.equals(getInStock(), productT7.getInStock());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getDenomination(), getPrice(), getInStock());
+        return Objects.hash(getName(), getCategory(), getPrice(), getInStock());
     }
 }

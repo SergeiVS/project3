@@ -1,7 +1,7 @@
 package homework.task7;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ProductList {
     //Дана коллекция Product - название, категория, цена, количество на складе.
@@ -16,10 +16,27 @@ public class ProductList {
     public List<ProductT7> getProductList() {
         return productList;
     }
-    public Double avgPriceByDenomination(List<ProductT7> database, String searchedDenomination){
+    public List<ProductT7> productsByInStockQuantity(List<ProductT7> productList, Integer quantityCriteria){
 
-        return database.stream()
-                .filter(p -> p.getDenomination().equals(searchedDenomination))
-                .
+        return productList.stream()
+                .filter(p -> p.getInStock() >= quantityCriteria)
+                .toList();
+    }
+
+    public Map<String, Double> avgPriceByCategory(List<ProductT7> productList){
+
+        LinkedHashMap<String, Double> collect = (LinkedHashMap<String, Double>) productList.stream()
+                .collect(Collectors.groupingBy(
+                        ProductT7::getCategory,
+                        Collectors.averagingDouble(ProductT7::getPrice)
+                ))
+                .entrySet().stream()
+                .sorted(Map.Entry.<String, Double>comparingByValue().reversed())
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (e1, e2) -> e1, LinkedHashMap::new
+                ));
+return collect;
     }
 }
