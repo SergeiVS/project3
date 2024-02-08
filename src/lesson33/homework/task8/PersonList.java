@@ -3,6 +3,7 @@ package homework.task8;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class PersonList {
@@ -32,9 +33,10 @@ public class PersonList {
     }
 
 public Double avgSalary(List<PersonT8> personList){
-        personList.stream()
-                .mapToInt(p -> p.getSalary())
+       return personList.stream()
+                .mapToInt(PersonT8::getSalary)
                 .average()
+               .isPresent()
                 .getAsDouble();
 
 }

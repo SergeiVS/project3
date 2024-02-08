@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test" />
+    <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/lesson36/task1/ReadFileTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task8/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task8/PersonList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +119,7 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductListDemo">
+  <component name="RunManager" selected="Application.ReadFileTask1">
     <configuration name="PersonListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task6.PersonListDemo" />
       <module name="project3" />
@@ -141,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task3.StringsArray" />
+    <configuration name="ReadFileTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson36.task1.ReadFileTask1" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.task3.*" />
+          <option name="PATTERN" value="lesson36.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task2.StringsCollectionDemo" />
+    <configuration name="StringsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task3.StringsArray" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.task2.*" />
+          <option name="PATTERN" value="homework.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFileTask1" />
         <item itemvalue="Application.ProductListDemo" />
         <item itemvalue="Application.PersonListDemo" />
         <item itemvalue="Application.StudentsListDemo" />
         <item itemvalue="Application.StringsArray" />
-        <item itemvalue="Application.StringsCollectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00028" summary="test">
-      <option name="closed" value="true" />
-      <created>1701885036525</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1701885036525</updated>
     </task>
     <task id="LOCAL-00029" summary="test">
       <option name="closed" value="true" />
@@ -591,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707326870832</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="test">
+      <option name="closed" value="true" />
+      <created>1707327439955</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1707327439955</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
