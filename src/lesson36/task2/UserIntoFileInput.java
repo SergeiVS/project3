@@ -7,24 +7,28 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class UserIntoFileInput {
-    //Создайте класс User (id,name, description)
+    //Создайте класс User (id, name, description)
 // Введите от пользователя данные
 // создайте файл с названием "UserData_id.txt" и
 // сохраните в нем построчно информацию о пользователе с названием полей
 
-// Я так и не понял почему у меня ИД перескакивает на единицу
-    int idCounter = 1;
+    private int idCounter = 0;
+
+    private int getIdCounter(){
+       return ++idCounter;
+    }
+
 
     public User userInput() {
+        int id = getIdCounter();
 
-        int id = idCounter;
 
         System.out.println(id);
         String name = "User # " + id;
         System.out.println(name);
         String description = "Description of user # " + id;
         System.out.println(description);
-        idCounter++;
+
         return new User(id, name, description);
     }
 

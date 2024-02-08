@@ -1,3 +1,0 @@
-Id - 3
-Name - User # 2
-Description - Description of user # 2

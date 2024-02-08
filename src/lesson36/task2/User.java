@@ -10,9 +10,9 @@ public class User {
     private String name;
     private String description;
 
-    public User(Integer idCounter, String name, String description) {
-        idCounter++;
-        this.id = idCounter;
+    public User(Integer id, String name, String description) {
+
+        this.id = id;
         this.name = name;
         this.description = description;
     }

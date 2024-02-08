@@ -1,10 +1,8 @@
 package homework.task8;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
+
 
 public class PersonList {
 
@@ -20,24 +18,28 @@ public class PersonList {
     public List<PersonT8> getPersonList() {
         return personList;
     }
-    public List<PersonT8> personsBySex(List<PersonT8> personList, String sex){
-       return personList.stream()
-               .filter(p -> p.getSex().equals(sex))
-               .toList();
+
+    public List<PersonT8> personsBySex(List<PersonT8> personList, String sex) {
+        return personList.stream()
+                .filter(p -> p.getSex().equals(sex))
+                .toList();
     }
 
-    public List<PersonT8> personsByAgeCriteria(List<PersonT8> personList, Integer minAge, Integer maxAge){
+    public List<PersonT8> personsByAgeCriteria(List<PersonT8> personList, Integer minAge, Integer maxAge) {
         return personList.stream()
                 .filter(p -> p.getAge() >= minAge && p.getAge() <= maxAge)
                 .toList();
     }
 
-public Double avgSalary(List<PersonT8> personList){
-       return personList.stream()
+    public Double avgSalary(List<PersonT8> personList) {
+        if (!personList.isEmpty()){
+        return personList.stream()
                 .mapToInt(PersonT8::getSalary)
                 .average()
-               .isPresent()
                 .getAsDouble();
+    }else {
+        return 0.0;
+        }
+    }
 
-}
 }
