@@ -2,13 +2,14 @@ package homework.task10;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Library {
+public class LibraryT10 {
     //Дан список объектов Book, содержащий информацию о книгах, включая название, автора и список тегов.
     //    Необходимо получить список всех уникальных тегов
     private final List<BookT10> labraryList;
 
-    public Library() {
+    public LibraryT10() {
         this.labraryList = new ArrayList<>();
     }
 
@@ -18,9 +19,9 @@ public class Library {
 
     public List<String> findUniqueTags(List<BookT10> books){
         return books.stream()
-                .map(b -> b.getTags().stream().toString())
+                .flatMap(b -> b.getTags().stream())
                 .distinct()
-                .toList();
+                .collect(Collectors.toList());
     }
 
 }

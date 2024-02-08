@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/BookT10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task8/PersonListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/LibraryT10Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task8/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task8/PersonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson36/task2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/UserIntoFileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson36/task2/UserIntoFileInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task10/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/LibraryT10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +120,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework.task8.PersonListDemo">
-    <configuration name="PersonListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task6.PersonListDemo" />
+  <component name="RunManager" selected="Application.LibraryT10Demo">
+    <configuration name="LibraryT10Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task10.LibraryT10Demo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task6.*" />
+          <option name="PATTERN" value="homework.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task7.ProductListDemo" />
+    <configuration name="PersonListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.task6.PersonListDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.task7.*" />
+          <option name="PATTERN" value="homework.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryT10Demo" />
+        <item itemvalue="Application.PersonListDemo" />
         <item itemvalue="Application.homework.task8.PersonListDemo" />
         <item itemvalue="Application.UserInputDemo" />
         <item itemvalue="Application.ReadFileTask1" />
-        <item itemvalue="Application.ProductListDemo" />
-        <item itemvalue="Application.PersonListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -210,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00031" summary="test">
-      <option name="closed" value="true" />
-      <created>1702415798444</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1702415798444</updated>
     </task>
     <task id="LOCAL-00032" summary="test">
       <option name="closed" value="true" />
@@ -603,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707407921676</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="test">
+      <option name="closed" value="true" />
+      <created>1707411451040</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1707411451040</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
