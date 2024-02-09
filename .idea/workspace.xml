@@ -5,11 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/LibraryT10Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/FileToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/pesrons.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/booksData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/OrderBookDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/RepositoryServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/TestFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask1/ReadText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask1/ReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask2/FileContentTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask2/FileTransferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/ReadDataFromCsv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/UserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/access-code.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task10/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task10/LibraryT10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task1/Begrüßungsscan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task1/Begrüßungsscan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task1/ReadFileTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task1/ReadFileTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/UserInputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/UserInputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/UserIntoFileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/UserIntoFileInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/userData_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/userData_2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,50 +74,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson31&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson33&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson35/homework/hwTask3",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
       <recent name="lesson28.lessoncode.shopinglist.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\hwTask3" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson33" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson31" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons18_01" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons11_01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons9\task1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons02_01" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson26\practice26" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson12" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="consultations.cons9.task2.BookDataService" />
       <recent name="ui.ResponseCheck" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -120,7 +146,33 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryT10Demo">
+  <component name="RunManager" selected="Application.FileTransferDemo">
+    <configuration name="BookDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consultations.cons9.task2.BookDataReader" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consultations.cons9.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTransferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.hwTask2.FileTransferDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.hwTask2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryT10Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.task10.LibraryT10Demo" />
       <module name="project3" />
@@ -147,38 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson36.task1.ReadFileTask1" />
+    <configuration name="ReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.hwTask1.ReaderDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson36.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.UserInputDemo" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework.task8.PersonListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task8.PersonListDemo" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.task8.*" />
+          <option name="PATTERN" value="homework.hwTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTransferDemo" />
+        <item itemvalue="Application.ReaderDemo" />
+        <item itemvalue="Application.BookDataReader" />
         <item itemvalue="Application.LibraryT10Demo" />
         <item itemvalue="Application.PersonListDemo" />
-        <item itemvalue="Application.homework.task8.PersonListDemo" />
-        <item itemvalue="Application.UserInputDemo" />
-        <item itemvalue="Application.ReadFileTask1" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00032" summary="test">
-      <option name="closed" value="true" />
-      <created>1702485128330</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1702485128330</updated>
     </task>
     <task id="LOCAL-00033" summary="test">
       <option name="closed" value="true" />
@@ -597,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707411451040</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="test">
+      <option name="closed" value="true" />
+      <created>1707412988169</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1707412988169</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -622,7 +648,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lesson36/task2/UserIntoFileInput.java</url>
+          <url>file://$PROJECT_DIR$/src/lesson35/task2/UserIntoFileInput.java</url>
           <line>31</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
