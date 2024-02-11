@@ -30,7 +30,7 @@ public class MatchList {
             String stadium;
 
             String[] strings = line.split(",");
-            date.set(strings[0].trim(), strings[1].trim(), strings[2].trim());
+            date.set(strings[0].trim(), Months.setMonth(strings[1].trim()), strings[2].trim());
 
         }
     }
@@ -48,20 +48,37 @@ public class MatchList {
 
     public static class Months {
 
-        static String JAN = "JANUARY";
-        static String FEB = "FEBRUARY";
-        static String MAR = "MARCH";
-        static String APR = "APRIL";
-        static String MAY = "MAY";
-        static String JUN = "JUNE";
-        static String JUL = "JULY";
-        static String AUG = "AUGUST";
-        static String SEP = "SEPTEMBER";
-        static String OKT = "OCTOBER";
-        static String NOV = "NOVEMBER";
-        static String DEC = "DECEMBER";
 
+static int setMonth(String month){
 
+    switch (month){
+        case "1" :
+           return Calendar.JANUARY;
+        case "2":
+            return Calendar.FEBRUARY;
+        case "3":
+            return Calendar.MARCH;
+        case "4":
+            return Calendar.APRIL;
+        case "5":
+            return Calendar.MAY;
+        case "6":
+            return Calendar.JUNE;
+        case "7":
+            return Calendar.JULY;
+        case "8":
+            return Calendar.AUGUST;
+        case "9":
+            return Calendar.SEPTEMBER;
+        case "10":
+            return Calendar.OCTOBER;
+        case "11":
+            return Calendar.NOVEMBER;
+        case "12":
+            return Calendar.DECEMBER;
+        default: return 0;
+    }
+}
 
     }
 }
