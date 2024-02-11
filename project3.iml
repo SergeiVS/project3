@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lesson3/exercise4/newVertion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson15/homework/Pocker" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson18/lessonCode/shape" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson35" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/lesson23/lessonCode" />
     </content>

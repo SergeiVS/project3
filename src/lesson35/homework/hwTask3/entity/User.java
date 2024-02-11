@@ -1,4 +1,4 @@
-package homework.hwTask3.Entity;
+package homework.hwTask3.entity;
 
 public class User {
     Integer identifier;

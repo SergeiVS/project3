@@ -5,36 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/FileToList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/pesrons.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/booksData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/OrderBookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/RepositoryServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/TestFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask1/ReadText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask1/ReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask2/FileContentTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask2/FileTransferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/ReadDataFromCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/access-code.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/services/FindUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task1/Begrüßungsscan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task1/Begrüßungsscan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task1/ReadFileTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task1/ReadFileTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/UserInputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/UserInputDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/UserIntoFileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/UserIntoFileInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/userData_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson36/task2/userData_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/task2/userData_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/Repository/ReadDataFromCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/repository/ReadDataFromCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/Repository/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson35/homework/hwTask3/repository/UserList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +84,11 @@
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons18_01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\hwTask3\source" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons9\task1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons02_01" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson26\practice26" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson15\homework" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -230,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00033" summary="test">
-      <option name="closed" value="true" />
-      <created>1702673461856</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1702673461856</updated>
     </task>
     <task id="LOCAL-00034" summary="test">
       <option name="closed" value="true" />
@@ -623,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707412988169</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="test">
+      <option name="closed" value="true" />
+      <created>1707498036334</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1707498036334</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

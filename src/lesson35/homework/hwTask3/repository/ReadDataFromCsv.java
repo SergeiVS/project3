@@ -1,6 +1,6 @@
-package homework.hwTask3.Repository;
+package homework.hwTask3.repository;
 
-import homework.hwTask3.Entity.User;
+import homework.hwTask3.entity.User;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
