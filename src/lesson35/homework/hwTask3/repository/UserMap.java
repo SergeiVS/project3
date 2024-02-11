@@ -5,10 +5,10 @@ import homework.hwTask3.entity.User;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UserList {
+public class UserMap {
     private final Map<Integer, User> userMap;
 
-    public UserList() {
+    public UserMap() {
         this.userMap = new HashMap<>();
     }
 

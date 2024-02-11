@@ -17,7 +17,7 @@ public class ReadDataFromCsv {
 //   Программа должна способна разбирать строки из файла на поля, разделенные запятыми,
 //   и выполнять определенные операции на данных, такие как суммирование, поиск определенных значений и т.д.
 
-    public Map<Integer, User> extractUserDataFromCsv(String path) throws IOException {
+    public static Map<Integer, User> extractUserDataFromCsv(String path) throws IOException {
         Map<Integer, User> users = new HashMap<>();
         BufferedReader reader = new BufferedReader(new FileReader(path));
         String line;

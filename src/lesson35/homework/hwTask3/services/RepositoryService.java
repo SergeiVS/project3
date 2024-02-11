@@ -6,30 +6,30 @@ import java.util.List;
 import java.util.Map;
 import java.util.OptionalDouble;
 
-public class FindUsers {
+public class RepositoryService {
 
-    public List<User> usersToList( Map<Integer, User> users){
+     public static List<User> usersToList( Map<Integer, User> users){
         return users.values().stream()
                 .toList();
     }
 
-    public List<User> findUsersByLastname(List<User> users,String searchedName){
+    public static List<User> findUsersByLastname(List<User> users,String searchedName){
                return users.stream()
                 .filter(u -> u.getLastName().equals(searchedName))
                 .toList();
 
     }
-    public User findById(Map<Integer, User> users, Integer id){
+    public static User findById(Map<Integer, User> users, Integer id){
         return users.get(id);
     }
 
-    public OptionalDouble avgAccountValue(List<User> users){
+    public static OptionalDouble avgAccountValue(List<User> users){
         return users.stream()
                 .mapToDouble(User::getAccountValue)
                 .average();
     }
 
-    public Double sumOfValues(List<User> users){
+     public static Double sumOfValues(List<User> users){
         return users.stream()
                 .mapToDouble(User::getAccountValue)
                 .sum();
