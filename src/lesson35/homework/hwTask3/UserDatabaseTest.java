@@ -27,12 +27,14 @@ public class UserDatabaseTest {
         System.out.println(usersList);
         System.out.println();
 
-        OptionalDouble avgAccountValue = RepositoryService.avgAccountValue(usersList);
-        System.out.println("average user account value is: " + avgAccountValue);
-        System.out.println();
-
         Double sumAccountValue = RepositoryService.sumOfValues(usersList);
         System.out.println("sum of all accounts values is: " + sumAccountValue);
+        System.out.println();
+
+        List<User> usersJohnson = RepositoryService.findUsersByLastname(usersList, "Johnson");
+
+        OptionalDouble avgAccountValue = RepositoryService.avgAccountValue(usersJohnson);
+        System.out.println("average user account value of Johnson's is: " + avgAccountValue);
         System.out.println();
 
         User userForChangeValue = RepositoryService.findById(mapOfUser,207074);
