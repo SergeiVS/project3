@@ -14,9 +14,11 @@ public class Match {
     //   f) посчитать сколько матчей сыграла каждая команда в качестве гостя (в формате map)
     //   g) выделить наиболее популярный день проведения матча
     private Calendar date;
-    private String team1, result, team2, watchers, stadium;
+    ;
+    Integer watchers;
+    private String team1, result, team2, stadium;
 
-    public Match(Calendar date, String team1, String result, String team2, String watchers, String stadium) {
+    public Match(Calendar date, String team1, String result, String team2, Integer watchers, String stadium) {
         this.date = date;
         this.team1 = team1;
         this.result = result;
@@ -45,11 +47,8 @@ public class Match {
         return team2;
     }
 
-    public int getWatchers() {
-        if (watchers.contains("NULL"))
-            return 0;
-        else
-            return Integer.parseInt(watchers);
+    public Integer getWatchers() {
+        return watchers;
     }
 
     public String getStadium() {
