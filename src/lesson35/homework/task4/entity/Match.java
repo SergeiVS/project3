@@ -1,5 +1,6 @@
 package homework.task4.entity;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class Match {
@@ -57,6 +58,14 @@ public class Match {
 
     @Override
     public String toString() {
-        return date.get(Calendar.YEAR) + "-" + date.get(Calendar.MONTH) + "-" + date.get(Calendar.DATE) + " " + team1 + " " + getResult1() + ":" + getResult2() + " " + team2 + " " + getWatchers();
+
+        return  date.get(Calendar.YEAR) + "-" + date.get(Calendar.MONTH)+"-" + date.get(Calendar.DAY_OF_MONTH) +
+                ", " + team1 + '\'' +
+                ", " + result + '\'' +
+                ", " + team2 + '\'' +
+                ", " + watchers +
+                ", " + stadium + ";";
     }
+
+
 }

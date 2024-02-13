@@ -49,7 +49,7 @@ public class RepositoryAnalyze {
 
     public List<Match> matchesByStadium(List<Match> matches, String stadium) {
         return matches.stream()
-                .filter(match -> match.getStadium().equals(stadium))
+                .filter(match -> match.getStadium().contains(stadium))
                 .toList();
     }
 

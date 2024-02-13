@@ -24,6 +24,7 @@ public class MatchList {
         BufferedReader bReader = new BufferedReader(new FileReader(path));
         List<Match> matchList = new ArrayList<>();
         String line;
+        int c = 0;
         while ((line = bReader.readLine()) != null) {
             Calendar date = Calendar.getInstance();
             String team1;
@@ -32,17 +33,18 @@ public class MatchList {
             int watchers;
             String stadium;
 
+
             String[] strings = line.split(",");
-            date.set(nullCheckInt(strings[0].trim()), Validate.setMonth(strings[1].trim()), nullCheckInt(strings[2].trim()));
+            date.set(nullCheckInt(strings[0].trim()), nullCheckInt(strings[1].trim()), nullCheckInt(strings[2].trim()));
             team1 = nullCheckString(strings[3].trim());
             result = nullCheckString(strings[4].trim());
             team2 = nullCheckString(strings[5].trim());
             watchers = nullCheckInt(strings[6].trim());
             stadium = nullCheckString(strings[7].trim());
 
-            System.out.println(stadium);
-
             matchList.add(new Match(date, team1, result, team2, watchers, stadium));
+            System.out.println(matchList.get(c));
+            c++;
         }
         return matchList;
     }
