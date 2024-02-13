@@ -14,7 +14,7 @@ public class Order {
     private Double amount;
     private OrderStatus status;
 
-    public Order(Integer orderId, Double amount, OrderStatus status, String date) {
+    public Order(Integer orderId, Double amount, String date, OrderStatus status) {
         this.orderId = orderId;
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         this.orderDate = LocalDate.parse(date, formatter);
