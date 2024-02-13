@@ -43,8 +43,7 @@ public class MatchList {
             stadium = nullCheckString(strings[7].trim());
 
             matchList.add(new Match(date, team1, result, team2, watchers, stadium));
-            System.out.println(matchList.get(c));
-            c++;
+
         }
         return matchList;
     }

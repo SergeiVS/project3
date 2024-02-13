@@ -35,16 +35,16 @@ public class RepositoryAnalyze {
 
     public List<Match> topMatchesByWatchers(List<Match> matches, long rangeLength) {
         return matches.stream()
-                .sorted((m1, m2) -> m1.getWatchers().compareTo(m2.getWatchers()))
+                .sorted(Comparator.comparing(Match::getWatchers).reversed())
                 .limit(rangeLength)
                 .toList();
     }
 
     public Integer matchesWithStadiumAvailable(List<Match> matches) {
         List<Match> matchList = matches.stream()
-                .filter(match -> !match.getStadium().equals("N/A"))
+                .filter(match -> !match.getStadium().contains("N/A"))
                 .toList();
-        return matches.size();
+        return matchList.size();
     }
 
     public List<Match> matchesByStadium(List<Match> matches, String stadium) {
