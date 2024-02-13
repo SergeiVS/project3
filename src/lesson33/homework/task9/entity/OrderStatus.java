@@ -1,4 +1,4 @@
-package homework.task9.entity;
+package task9.entity;
 
 public enum OrderStatus {
     STATUS_RECEIVED("Received", "Order is received, prepayment is completed"),

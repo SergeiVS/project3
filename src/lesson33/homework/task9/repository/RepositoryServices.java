@@ -1,20 +1,21 @@
-package homework.task9.repository;
+package task9.repository;
 
-import homework.task9.entity.Order;
 
-import java.time.format.DateTimeFormatter;
+import task9.entity.Order;
+
+import java.time.Month;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class RepositoryServices {
 
-    static List<Order> findOrderBy(List<Order> orderBook, Integer year, Integer month) {
+//Дан список объектов Order, содержащий информацию о заказах, включая идентификатор, дату, сумму и статус.
+    //   Необходимо сгруппировать заказы по месяцам и посчитать общую сумму заказов в каждом месяце.
 
+    static Map<Month, Double> ordersAmountSumByMonth(List<Order> orderBook, Integer year) {
         return orderBook.stream()
-                .filter(o -> {
-                    String date = o.getOrderDate().format(DateTimeFormatter.ofPattern("MM yyyy"));
-                    return date.equals(month + " " + year);
-                })
-                .toList();
-
+                .filter(order -> order.getOrderDate().getYear() == year)
+                .collect(Collectors.groupingBy(o -> (o.getOrderDate().getMonth()), Collectors.summingDouble(Order::getAmount)));
     }
 }

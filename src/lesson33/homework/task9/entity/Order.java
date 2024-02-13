@@ -1,24 +1,23 @@
-package homework.task9.entity;
+package task9.entity;
 
-import java.text.SimpleDateFormat;
+import task9.entity.OrderStatus;
+
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
 
 public class Order {
     //Дан список объектов Order, содержащий информацию о заказах, включая идентификатор, дату, сумму и статус.
     //   Необходимо сгруппировать заказы по месяцам и посчитать общую сумму заказов в каждом месяце.
 
-private Integer orderId;
-private  LocalDate orderDate = null;
-private Double amount;
-private OrderStatus status;
+    private Integer orderId;
+    private LocalDate orderDate;
+    private Double amount;
+    private OrderStatus status;
 
-    public Order(Integer orderId,  Double amount, OrderStatus status,int day, int month) {
+    public Order(Integer orderId, Double amount, OrderStatus status, String date) {
         this.orderId = orderId;
-        LocalDate date = LocalDate.now();
-        date.format(DateTimeFormatter.ofPattern("dd MM yyyy"));
-        this.orderDate;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        this.orderDate = LocalDate.parse(date, formatter);
         this.amount = amount;
         this.status = status;
     }
