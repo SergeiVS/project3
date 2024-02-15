@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/StringToUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/ToUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/ToUpperCaseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/Summing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task6/FusionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task6/ListFusionInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/OrderBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/OrderBookDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/RepositoryServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson33/homework/task9/repository/RepositoryServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +39,9 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,12 +110,14 @@
       <recent name="ui.ResponseCheck" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="task1" />
       <recent name="lotteryGame" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="entitys" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="task1" />
       <recent name="task2" />
       <recent name="consultations.cons18_01.homework.Entity" />
       <recent name="p" />
@@ -121,13 +136,13 @@
       <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderBookDemo">
-    <configuration name="FileTransferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.hwTask2.FileTransferDemo" />
+  <component name="RunManager" selected="Application.FusionDemo">
+    <configuration name="FactorialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.FactorialDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.hwTask2.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.task4.MatchApp" />
+    <configuration name="FusionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task6.FusionDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.task4.*" />
+          <option name="PATTERN" value="task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderBookDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task9.OrderBookDemo" />
+    <configuration name="PalindromDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.PalindromDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task9.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.hwTask1.ReaderDemo" />
+    <configuration name="PrimeNumberDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5.PrimeNumberDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.hwTask1.*" />
+          <option name="PATTERN" value="task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.hwTask3.UserDatabaseTest" />
+    <configuration name="SumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.SumDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.hwTask3.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderBookDemo" />
-        <item itemvalue="Application.MatchApp" />
-        <item itemvalue="Application.UserDatabaseTest" />
-        <item itemvalue="Application.FileTransferDemo" />
-        <item itemvalue="Application.ReaderDemo" />
+        <item itemvalue="Application.FusionDemo" />
+        <item itemvalue="Application.PrimeNumberDemo" />
+        <item itemvalue="Application.FactorialDemo" />
+        <item itemvalue="Application.PalindromDemo" />
+        <item itemvalue="Application.SumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -205,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00044" summary="test">
-      <option name="closed" value="true" />
-      <created>1703513043927</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1703513043927</updated>
     </task>
     <task id="LOCAL-00045" summary="test">
       <option name="closed" value="true" />
@@ -598,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707854878876</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="test">
+      <option name="closed" value="true" />
+      <created>1707857839735</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1707857839735</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -629,7 +644,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
