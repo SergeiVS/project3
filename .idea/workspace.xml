@@ -5,24 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/StringToUpperCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/ToUpperCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task1/ToUpperCaseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/Summing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task6/FusionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson32/homework/task6/ListFusionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Task1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/LibraryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/ReadListFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/RepositoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Book10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Describable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/LibraryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/resources/books1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/resources/books2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/BookWithNumOfPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Describable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/LibraryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/MagazineWithCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/LibraryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/LibraryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/MagazineRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/resources/books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/service/LibraryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,45 +71,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson35/homework/task4&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons10/var2/resources",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
       <recent name="lesson28.lessoncode.shopinglist.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\task4" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\hwTask3" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson33" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson31" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\resources" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\repository" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\entity" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10" />
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\Var1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\task4\source" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson35\homework\hwTask3\source" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons9\task1" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons02_01" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson28" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -129,14 +138,14 @@
       <recent name="ListToUniqueStringsListTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="var2" />
+      <recent name="var2.service" />
       <recent name="Service.Util" />
       <recent name="lesson26.homework26" />
       <recent name="consultations.cons18_01.ulils" />
-      <recent name="lesson24.pracsice" />
-      <recent name="shape" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FusionDemo">
+  <component name="RunManager" selected="Application.LibraryApp (1)">
     <configuration name="FactorialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task4.FactorialDemo" />
       <module name="project3" />
@@ -163,12 +172,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.PalindromDemo" />
+    <configuration name="LibraryApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryApp" />
+      <module name="project3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="var2.LibraryApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="var2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,26 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.SumDemo" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryApp (1)" />
+        <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.FusionDemo" />
         <item itemvalue="Application.PrimeNumberDemo" />
         <item itemvalue="Application.FactorialDemo" />
-        <item itemvalue="Application.PalindromDemo" />
-        <item itemvalue="Application.SumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00045" summary="test">
-      <option name="closed" value="true" />
-      <created>1703584359684</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1703584359684</updated>
     </task>
     <task id="LOCAL-00046" summary="test">
       <option name="closed" value="true" />
@@ -613,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707857839735</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="test">
+      <option name="closed" value="true" />
+      <created>1708019194076</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1708019194078</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,4 +1,4 @@
-package consultations.cons9.task2;
+package cons9.task2.consultations.cons9.task2;
 
 import homework.task2.StringsCollectionDemo;
 
@@ -13,15 +13,15 @@ public class BookDataReader {
     public static void main(String[] args) throws IOException {
 
         String filePath = "src/consultations/cons9/task2/booksData.txt";
-        List<BookItem> bookItems = new ArrayList<>();
+        List<consultations.cons9.task2.BookItem> bookItems = new ArrayList<>();
 
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
-        bookItems = BookDataService.fileDataToList(bookItems, filePath);
+        bookItems = consultations.cons9.task2.BookDataService.fileDataToList(bookItems, filePath);
 
         StringsCollectionDemo.printList(bookItems);
 
-        Optional<BookItem> foundBook = BookDataService.findBookByTitle(bookItems, "title3");
+        Optional<consultations.cons9.task2.BookItem> foundBook = consultations.cons9.task2.BookDataService.findBookByTitle(bookItems, "title3");
 
         BookDataService.printFoundBook(foundBook, "title3");
     }
