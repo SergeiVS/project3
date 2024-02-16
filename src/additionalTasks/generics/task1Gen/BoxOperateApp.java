@@ -1,11 +1,11 @@
-package additionalTasks.generics.task1Gen;
+package generics.task1Gen;
 
-import additionalTasks.generics.task1Gen.boxes.BoxT1G;
-import additionalTasks.generics.task1Gen.boxes.CartonBox;
-import additionalTasks.generics.task1Gen.boxes.PlasticBox;
-import additionalTasks.generics.task1Gen.contains.BookT1G;
-import additionalTasks.generics.task1Gen.contains.BoxContain;
-import additionalTasks.generics.task1Gen.contains.Cloths;
+import generics.task1Gen.boxes.BoxT1G;
+import generics.task1Gen.boxes.CartonBox;
+import generics.task1Gen.boxes.PlasticBox;
+import generics.task1Gen.contains.BookT1G;
+
+import generics.task1Gen.contains.Cloths;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ public class BoxOperateApp {
     public static void main(String[] args) {
 
 
-        List<BoxT1G<BoxContain>> boxes = new ArrayList<>();
+        List<BoxT1G> boxes = new ArrayList<>();
 
-        boxes.add( new CartonBox(1, 4));
+        boxes.add(new CartonBox(1, 4));
         boxes.add(new PlasticBox(2, 5));
         Cloths cloth1 = new Cloths("T-Shirt, white");
         Cloths cloth2 = new Cloths("T-shirt, black");
@@ -39,5 +39,8 @@ public class BoxOperateApp {
 
         boxes.get(0).removeContain(cloth2);
         System.out.println("Box " + boxes.get(0).getId() + " contains: " + boxes.get(0).getContains());
+        System.out.println();
+
+        System.out.println("Box " + boxes.get(0).getId() + " volume: " +  boxes.get(0).getVolume());
     }
 }

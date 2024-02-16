@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BookT1G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/Cloths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxContain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BoxContain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/Boxt1G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/BoxT1G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/CartonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/CartonBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/PlasticBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/PlasticBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/BoxT1G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/BoxT1G.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/CartonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/CartonBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/PlasticBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/PlasticBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BookT1G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BookT1G.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BoxContain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BoxContain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/Cloths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/Cloths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BoxOperateApp">
+  <component name="RunManager" selected="Application.generics.task1Gen.BoxOperateApp">
     <configuration name="BoxOperateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="additionalTasks.generics.task1Gen.BoxOperateApp" />
       <module name="project3" />
@@ -148,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="var2.LibraryApp" />
+    <configuration name="generics.task1Gen.BoxOperateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.task1Gen.BoxOperateApp" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="var2.*" />
+          <option name="PATTERN" value="generics.task1Gen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.generics.task1Gen.BoxOperateApp" />
         <item itemvalue="Application.BoxOperateApp" />
         <item itemvalue="Application.personsDemo (1)" />
         <item itemvalue="Application.personsDemo" />
         <item itemvalue="Application.LibraryApp (1)" />
-        <item itemvalue="Application.LibraryApp" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00048" summary="test">
-      <option name="closed" value="true" />
-      <created>1704829252278</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1704829252278</updated>
     </task>
     <task id="LOCAL-00049" summary="test">
       <option name="closed" value="true" />
@@ -592,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708088539452</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="test">
+      <option name="closed" value="true" />
+      <created>1708091147414</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1708091147414</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

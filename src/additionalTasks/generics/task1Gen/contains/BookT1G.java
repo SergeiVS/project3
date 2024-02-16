@@ -1,4 +1,4 @@
-package additionalTasks.generics.task1Gen.contains;
+package generics.task1Gen.contains;
 
 public class BookT1G implements BoxContain{
     String name;

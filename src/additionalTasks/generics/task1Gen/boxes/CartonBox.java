@@ -1,19 +1,13 @@
-package additionalTasks.generics.task1Gen.boxes;
+package generics.task1Gen.boxes;
 
-import additionalTasks.generics.task1Gen.contains.BoxContain;
+
+import generics.task1Gen.contains.BoxContain;
+
+import java.util.List;
 
 public class CartonBox extends BoxT1G<BoxContain> {
-
-    int volume;
-
-
     public CartonBox(Integer id, int volume) {
-        super(id);
-        this.volume = volume;
-    }
-
-    public int getVolume() {
-        return volume;
+        super(id, volume);
     }
 
     @Override

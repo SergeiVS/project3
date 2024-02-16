@@ -1,18 +1,24 @@
-package additionalTasks.generics.task1Gen.boxes;
+package generics.task1Gen.boxes;
 
-import additionalTasks.generics.task1Gen.contains.BookT1G;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BoxT1G<BoxContain>{
     Integer id;
+    int volume;
 
     List<BoxContain> contains;
 
-    public BoxT1G(Integer id) {
+    public BoxT1G(Integer id, int volume) {
         this.id = id;
+        this.volume = volume;
         this.contains = new ArrayList<>();
+    }
+
+    public int getVolume() {
+        return volume;
     }
 
     public Integer getId() {

@@ -1,4 +1,4 @@
-package additionalTasks.generics.task1Gen.contains;
+package generics.task1Gen.contains;
 
 public interface BoxContain {
 
