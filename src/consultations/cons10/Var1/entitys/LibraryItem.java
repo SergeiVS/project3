@@ -1,4 +1,4 @@
-package Var1.entitys;
+package entitys;
 
 public abstract class LibraryItem {
     private String title;

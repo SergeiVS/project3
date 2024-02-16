@@ -1,4 +1,4 @@
-package consultations.cons9;
+
 
 public class PersonItem {
     private String name;

@@ -1,4 +1,6 @@
-package Var1.entitys;
+package entitys;
+
+import entity.LibraryItem;
 
 public class Magazine extends LibraryItem {
     private String issuedNumber;

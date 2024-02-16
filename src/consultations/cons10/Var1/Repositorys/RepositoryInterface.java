@@ -1,8 +1,10 @@
-package Var1.Repositorys;
+package Repositorys;
 
-import Var1.entitys.Book10;
-import Var1.entitys.LibraryItem;
-import Var1.entitys.Magazine;
+
+
+import entity.LibraryItem;
+import entity.Magazine;
+import entitys.Book10;
 
 import java.util.List;
 

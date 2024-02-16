@@ -1,4 +1,4 @@
-package Var1.entitys;
+package entitys;
 
 public interface Describable {
     String getDescribe(String description);

@@ -1,6 +1,6 @@
-package Var1.entitys;
+package entitys;
 
-public class Book10 extends LibraryItem implements Describable{
+public class Book10 extends Var1.entitys.LibraryItem implements Var1.entitys.Describable {
     private String genre;
     private String author;
 

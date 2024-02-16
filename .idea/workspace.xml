@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Task1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/LibraryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/ReadListFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/RepositoryInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Book10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Describable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/resources/books1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/resources/books2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/BookWithNumOfPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Describable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/entity/MagazineWithCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/LibraryRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/LibraryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/repository/MagazineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/resources/books.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/service/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/personsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons9/task2/consultations/cons9/task2/BookDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/RepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/Repositorys/RepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Book10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Book10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Describable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Describable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/LibraryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/Var1/entitys/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons9/task1/FileToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/FileToList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons9/task1/PersonItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons9/task1/PersonItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,27 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons10/var2/resources",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons10/var2/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
@@ -145,20 +130,7 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryApp (1)">
-    <configuration name="FactorialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.FactorialDemo" />
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.personsDemo (1)">
     <configuration name="FusionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task6.FusionDemo" />
       <module name="project3" />
@@ -192,12 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task5.PrimeNumberDemo" />
+    <configuration name="personsDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personsDemo" />
+      <module name="project3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="personsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task1.personsDemo" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task5.*" />
+          <option name="PATTERN" value="task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.personsDemo (1)" />
+        <item itemvalue="Application.personsDemo" />
         <item itemvalue="Application.LibraryApp (1)" />
         <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.FusionDemo" />
-        <item itemvalue="Application.PrimeNumberDemo" />
-        <item itemvalue="Application.FactorialDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00046" summary="test">
-      <option name="closed" value="true" />
-      <created>1704656732976</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1704656732976</updated>
     </task>
     <task id="LOCAL-00047" summary="test">
       <option name="closed" value="true" />
@@ -616,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708019194078</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="test">
+      <option name="closed" value="true" />
+      <created>1708033637215</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1708033637215</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -9,6 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lesson33/homework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lesson32/homework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/consultations/cons10/var2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/consultations/cons9/task1" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/additionalTasks/lotteryGame" />
+      <excludeFolder url="file://$MODULE_DIR$/src/additionalTasks/lotteryGame/gameServices" />
+      <excludeFolder url="file://$MODULE_DIR$/src/consultations/cons10/Var1" />
+      <excludeFolder url="file://$MODULE_DIR$/src/consultations/cons9/task2" />
       <excludeFolder url="file://$MODULE_DIR$/src/lesson23/lessonCode" />
     </content>
     <orderEntry type="inheritedJdk" />
