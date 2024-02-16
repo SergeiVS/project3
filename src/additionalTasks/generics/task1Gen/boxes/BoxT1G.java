@@ -1,14 +1,16 @@
-package additionalTasks.generics.task1Gen;
+package additionalTasks.generics.task1Gen.boxes;
+
+import additionalTasks.generics.task1Gen.contains.BookT1G;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Boxt1G <BoxContain>{
+public abstract class BoxT1G<BoxContain>{
     Integer id;
 
     List<BoxContain> contains;
 
-    public Boxt1G(Integer id) {
+    public BoxT1G(Integer id) {
         this.id = id;
         this.contains = new ArrayList<>();
     }
@@ -23,9 +25,13 @@ public abstract class Boxt1G <BoxContain>{
 
     @Override
     public String toString() {
-        return "Boxt1G{" +
+        return "BoxT1G{" +
                 "id=" + id +
                 ", contains=" + contains +
                 '}';
     }
+
+    public abstract void putContain (BoxContain contain);
+
+    public abstract void removeContain(BoxContain contain);
 }
