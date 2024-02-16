@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/celsiusToFarenheit/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/celsiusToFarenheit/TemperatureConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/BoxT1G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/BoxT1G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/CartonBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/CartonBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/PlasticBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/boxes/PlasticBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BookT1G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BookT1G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BoxContain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/BoxContain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/Cloths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/contains/Cloths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +27,10 @@
       <list>
         <option value="UML Class" />
         <option value="Record" />
-        <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -53,38 +50,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons9/task2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons10/var2/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/celsiusToFarenheit",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/balancecheck",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
       <recent name="lesson28.lessoncode.shopinglist.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson39\practice\balancecheck" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\resources" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\repository" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\entity" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\Var1" />
@@ -114,10 +111,11 @@
       <recent name="p" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson39.practice.celsiusToFarenheit" />
+      <recent name="lesson39.practice.balancecheck" />
       <recent name="Task6" />
       <recent name="task5" />
       <recent name="task1" />
-      <recent name="ListToUniqueStringsListTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="var2" />
@@ -127,67 +125,92 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.generics.task1Gen.BoxOperateApp">
-    <configuration name="BoxOperateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="additionalTasks.generics.task1Gen.BoxOperateApp" />
+  <component name="RunManager" selected="JUnit.BracketsBalanceCheckTest">
+    <configuration name="BracketsBalanceCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="additionalTasks.generics.task1Gen.*" />
+          <option name="PATTERN" value="practice.balancecheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="practice.balancecheck" />
+      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LibraryApp" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="generics.task1Gen.BoxOperateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.task1Gen.BoxOperateApp" />
+    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.task1Gen.*" />
+          <option name="PATTERN" value="practice.balancecheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="practice.balancecheck" />
+      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
+      <option name="METHOD_NAME" value="bracketsBalanceProofEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="personsDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personsDemo" />
-      <module name="project3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="personsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task1.personsDemo" />
+    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task1.*" />
+          <option name="PATTERN" value="practice.balancecheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="practice.balancecheck" />
+      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
+      <option name="METHOD_NAME" value="bracketsBalanceProofFalseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.balancecheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.balancecheck" />
+      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
+      <option name="METHOD_NAME" value="bracketsBalanceProofTrueTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.celsiusToFarenheit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.celsiusToFarenheit" />
+      <option name="MAIN_CLASS_NAME" value="practice.celsiusToFarenheit.TemperatureConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.generics.task1Gen.BoxOperateApp" />
-        <item itemvalue="Application.BoxOperateApp" />
-        <item itemvalue="Application.personsDemo (1)" />
-        <item itemvalue="Application.personsDemo" />
-        <item itemvalue="Application.LibraryApp (1)" />
+        <item itemvalue="JUnit.BracketsBalanceCheckTest" />
+        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofEmptyString" />
+        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofTrueTest" />
+        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofFalseTest" />
+        <item itemvalue="JUnit.TemperatureConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00049" summary="test">
-      <option name="closed" value="true" />
-      <created>1704919770637</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1704919770637</updated>
     </task>
     <task id="LOCAL-00050" summary="test">
       <option name="closed" value="true" />
@@ -592,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708091147414</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="test">
+      <option name="closed" value="true" />
+      <created>1708104737434</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1708104737434</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -625,6 +648,11 @@
           <url>file://$PROJECT_DIR$/src/lesson33/homework/task9/repository/OrderBook.java</url>
           <line>29</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons5/homework/Entity/TextData.java</url>
