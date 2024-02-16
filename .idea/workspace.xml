@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/celsiusToFarenheit/TemperatureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/celsiusToFarenheit/TemperatureConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/PowOf2/PowOf2Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson39/practice/PowOf2/PowOf2CheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/practice/balancecheck/BracketsBalanceCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/celsiusToFarenheit",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/PowOf2",
     "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/balancecheck",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -111,11 +109,11 @@
       <recent name="p" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="practice.PowOf2" />
       <recent name="lesson39.practice.celsiusToFarenheit" />
       <recent name="lesson39.practice.balancecheck" />
       <recent name="Task6" />
       <recent name="task5" />
-      <recent name="task1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="var2" />
@@ -141,65 +139,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowOf2CheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.balancecheck.*" />
+          <option name="PATTERN" value="practice.PowOf2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.balancecheck" />
-      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
-      <option name="METHOD_NAME" value="bracketsBalanceProofEmptyString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.balancecheck.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.balancecheck" />
-      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
-      <option name="METHOD_NAME" value="bracketsBalanceProofFalseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BracketsBalanceCheckTest.bracketsBalanceProofTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.balancecheck.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.balancecheck" />
-      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
-      <option name="METHOD_NAME" value="bracketsBalanceProofTrueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.celsiusToFarenheit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.celsiusToFarenheit" />
-      <option name="MAIN_CLASS_NAME" value="practice.celsiusToFarenheit.TemperatureConverterTest" />
+      <option name="PACKAGE_NAME" value="practice.PowOf2" />
+      <option name="MAIN_CLASS_NAME" value="practice.PowOf2.PowOf2CheckTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowOf2CheckTest.powOf2ProofFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.PowOf2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.PowOf2" />
+      <option name="MAIN_CLASS_NAME" value="practice.PowOf2.PowOf2CheckTest" />
+      <option name="METHOD_NAME" value="powOf2ProofFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowOf2CheckTest.powOf2ProofOf0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.PowOf2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.PowOf2" />
+      <option name="MAIN_CLASS_NAME" value="practice.PowOf2.PowOf2CheckTest" />
+      <option name="METHOD_NAME" value="powOf2ProofOf0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowOf2CheckTest.powOf2ProofOfNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.PowOf2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.PowOf2" />
+      <option name="MAIN_CLASS_NAME" value="practice.PowOf2.PowOf2CheckTest" />
+      <option name="METHOD_NAME" value="powOf2ProofOfNegative" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,10 +205,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BracketsBalanceCheckTest" />
-        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofEmptyString" />
-        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofTrueTest" />
-        <item itemvalue="JUnit.BracketsBalanceCheckTest.bracketsBalanceProofFalseTest" />
-        <item itemvalue="JUnit.TemperatureConverterTest" />
+        <item itemvalue="JUnit.PowOf2CheckTest" />
+        <item itemvalue="JUnit.PowOf2CheckTest.powOf2ProofOfNegative" />
+        <item itemvalue="JUnit.PowOf2CheckTest.powOf2ProofOf0" />
+        <item itemvalue="JUnit.PowOf2CheckTest.powOf2ProofFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -222,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00050" summary="test">
-      <option name="closed" value="true" />
-      <created>1705861067015</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1705861067015</updated>
     </task>
     <task id="LOCAL-00051" summary="test">
       <option name="closed" value="true" />
@@ -615,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708104737434</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="test">
+      <option name="closed" value="true" />
+      <created>1708113011211</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1708113011212</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

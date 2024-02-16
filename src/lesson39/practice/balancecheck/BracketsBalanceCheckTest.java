@@ -9,21 +9,21 @@ public class BracketsBalanceCheckTest {
 
     @Test
     public void bracketsBalanceProofTrueTest() {
-        boolean expected = true;
+
         boolean actual = check.bracketsBalanceProof("(nsk [,dk],,d{ms( ) })");
-        assertEquals(expected, actual);
+        assertTrue(actual);
     }
     @Test
     public void bracketsBalanceProofFalseTest() {
-        boolean expected = false;
+
         boolean actual = check.bracketsBalanceProof("(nsk [,dk)],,d{(ms( ) })");
-        assertEquals(expected, actual);
+        assertFalse( actual);
     }
     @Test
     public void bracketsBalanceProofEmptyString() {
-        boolean expected = true;
+
         boolean actual = check.bracketsBalanceProof("nsk ,dk,,ms");
-        assertEquals(expected, actual);
+        assertTrue(actual);
 
     }
 }
