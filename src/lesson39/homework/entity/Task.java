@@ -1,4 +1,4 @@
-package homework.entity;
+package entity;
 
 public class Task {
     private Integer id;

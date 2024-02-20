@@ -1,4 +1,4 @@
-package homework.dto;
+package dto;
 
 public class ClientRequestFind {
     private int id;

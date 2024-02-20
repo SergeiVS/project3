@@ -1,4 +1,4 @@
-package homework.service.validation;
+package service.validation;
 
 public class ValidationException extends RuntimeException{
     public ValidationException(String message) {

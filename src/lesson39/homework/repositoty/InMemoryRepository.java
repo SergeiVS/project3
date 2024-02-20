@@ -1,6 +1,8 @@
-package homework.repositoty;
+package repositoty;
 
-import homework.entity.Task;
+
+
+import entity.Task;
 
 import java.util.List;
 import java.util.Optional;

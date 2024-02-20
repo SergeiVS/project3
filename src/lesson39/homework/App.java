@@ -1,14 +1,15 @@
-package homework;
 
-import homework.repositoty.InMemoryRepository;
-import homework.repositoty.TaskInMemoryRepository;
-import homework.service.TaskServiceAddOrUpdate;
-import homework.service.TaskServiceFind;
-import homework.service.validation.ValidationRequest;
-import homework.ui.UserInterface;
+
+
+import repositoty.InMemoryRepository;
+import repositoty.TaskInMemoryRepository;
+import service.TaskServiceAddOrUpdate;
+import service.TaskServiceFind;
+import service.validation.ValidationRequest;
+import ui.UserInterface;
 
 public class App {
-    {
+    public static void main(String[] args) {
 
         InMemoryRepository repository = (InMemoryRepository) new TaskInMemoryRepository();
         ValidationRequest validationRequest = new ValidationRequest();

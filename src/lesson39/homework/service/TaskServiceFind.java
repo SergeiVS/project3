@@ -1,9 +1,11 @@
-package homework.service;
+package service;
 
-import homework.dto.ClientRequestFind;
-import homework.dto.ClientResponse;
-import homework.entity.Task;
-import homework.repositoty.InMemoryRepository;
+
+
+import dto.ClientRequestFind;
+import dto.ClientResponse;
+import entity.Task;
+import repositoty.InMemoryRepository;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,11 @@
-package homework.service;
+package service;
 
-import homework.dto.ClientRequest;
-import homework.dto.ClientResponse;
-import homework.entity.Task;
-import homework.repositoty.InMemoryRepository;
-import homework.service.validation.ValidationRequest;
+
+import dto.ClientRequest;
+import dto.ClientResponse;
+import entity.Task;
+import repositoty.InMemoryRepository;
+import service.validation.ValidationRequest;
 
 public class TaskServiceAddOrUpdate {
     private final InMemoryRepository repository;

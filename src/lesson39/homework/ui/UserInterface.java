@@ -1,9 +1,10 @@
-package homework.ui;
+package ui;
 
-import homework.dto.ClientRequest;
-import homework.dto.ClientRequestFind;
-import homework.service.TaskServiceAddOrUpdate;
-import homework.service.TaskServiceFind;
+
+import dto.ClientRequest;
+import dto.ClientRequestFind;
+import service.TaskServiceAddOrUpdate;
+import service.TaskServiceFind;
 
 public class UserInterface {
     private final TaskServiceAddOrUpdate addOrUpdate;
