@@ -1,5 +1,8 @@
 package practice.PowOf2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PowOf2Check {
     public boolean PowOf2Proof(Integer x){
 
@@ -14,4 +17,7 @@ public class PowOf2Check {
             return true;
         }
     }
+
+
+
 }
