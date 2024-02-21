@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequestFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequestFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task3/PalCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task4/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/testsPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/testsPlan.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,10 +129,55 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidationRequestTest">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+  <component name="RunManager" selected="Application.StringToUpperCase">
+    <configuration name="FactorialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.FactorialDemo" />
       <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.PalindromDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task1.StringToUpperCase" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.SumDemo" />
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,60 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidationRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service.validation" />
-      <option name="MAIN_CLASS_NAME" value="service.validation.ValidationRequestTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidationRequestTest.checkRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service.validation" />
-      <option name="MAIN_CLASS_NAME" value="service.validation.ValidationRequestTest" />
-      <option name="METHOD_NAME" value="checkRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidationRequestTest.checkRequestAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service.validation" />
-      <option name="MAIN_CLASS_NAME" value="service.validation.ValidationRequestTest" />
-      <option name="METHOD_NAME" value="checkRequestAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidationRequestTest" />
-        <item itemvalue="JUnit.ValidationRequestTest.checkRequest" />
-        <item itemvalue="JUnit.ValidationRequestTest.checkRequestAdd" />
+        <item itemvalue="Application.StringToUpperCase" />
+        <item itemvalue="Application.SumDemo" />
+        <item itemvalue="Application.PalindromDemo" />
+        <item itemvalue="Application.FactorialDemo" />
         <item itemvalue="JUnit.TaskServiceAddOrUpdateTest.add" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00054" summary="test">
-      <option name="closed" value="true" />
-      <created>1706270733979</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1706270733979</updated>
     </task>
     <task id="LOCAL-00055" summary="test">
       <option name="closed" value="true" />
@@ -609,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708457210630</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="test">
+      <option name="closed" value="true" />
+      <created>1708535959594</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1708535959594</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

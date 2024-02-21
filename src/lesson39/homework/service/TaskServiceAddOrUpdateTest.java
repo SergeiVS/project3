@@ -29,7 +29,7 @@ public class TaskServiceAddOrUpdateTest {
         ClientRequest request2 = new ClientRequest(0, "Name2", "Description2");
         ClientResponse<Integer> expectedResult2 = new ClientResponse<>(200, 2, "Добавление новой задачи прошло успешно!");
 
-        ClientRequest request3 = new ClientRequest(0, "nam", "Description2");
+        ClientRequest request3 = new ClientRequest(0, "nam", "D2");
         ClientResponse<Integer> expectedResult3 = new ClientResponse<>(400, 0, "Новая задача не добавлена!");
 
 

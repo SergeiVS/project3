@@ -22,6 +22,7 @@ public class TaskServiceAddOrUpdate {
     public ClientResponse<Integer> add(ClientRequest request){
 
         List<String> errors = new ArrayList<>();
+
         boolean checkResult = validationRequest.checkRequestAdd(request, errors);
 
         if (checkResult) {
