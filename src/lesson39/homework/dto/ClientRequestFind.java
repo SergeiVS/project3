@@ -1,8 +1,10 @@
 package dto;
 
+import java.util.Objects;
+
 public class ClientRequestFind {
-    private int id;
-    private String name;
+    private final int id;
+    private final String name;
 
 
     public ClientRequestFind(int id, String name) {
@@ -18,4 +20,18 @@ public class ClientRequestFind {
     public String getName() {
         return name;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ClientRequestFind that = (ClientRequestFind) o;
+        return getId() == that.getId() && Objects.equals(getName(), that.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getName());
+    }
+
 }

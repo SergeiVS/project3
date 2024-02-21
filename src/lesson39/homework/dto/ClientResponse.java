@@ -1,5 +1,7 @@
 package dto;
 
+import java.util.Objects;
+
 public class ClientResponse<T> {
 
     private int responseCode;
@@ -32,4 +34,16 @@ public class ClientResponse<T> {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ClientResponse<?> that = (ClientResponse<?>) o;
+        return responseCode == that.responseCode && Objects.equals(getResponseInfo(), that.getResponseInfo()) && Objects.equals(message, that.message);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(responseCode, getResponseInfo(), message);
+    }
 }

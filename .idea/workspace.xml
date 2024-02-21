@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequestFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientRequestFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/dto/ClientResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/entity/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/repositoty/InMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/repositoty/InMemoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/repositoty/TaskInMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/repositoty/TaskInMemoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson39/homework/testsPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/testsPlan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/ui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/ui/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson39/homework/service/validation",
-    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/balancecheck",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson39/homework/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/balancecheck&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
@@ -121,11 +113,11 @@
       <recent name="p" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="service" />
       <recent name="service.validation" />
       <recent name="practice.PowOf2" />
       <recent name="lesson39.practice.celsiusToFarenheit" />
       <recent name="lesson39.practice.balancecheck" />
-      <recent name="Task6" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="var2" />
@@ -135,7 +127,7 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidationRequestTest.checkRequest">
+  <component name="RunManager" selected="JUnit.ValidationRequestTest">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="project3" />
@@ -143,44 +135,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.App" />
+    <configuration name="TaskServiceAddOrUpdateTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TaskServiceAddOrUpdateTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketsBalanceCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidationRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.balancecheck.*" />
+          <option name="PATTERN" value="service.validation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.balancecheck" />
-      <option name="MAIN_CLASS_NAME" value="practice.balancecheck.BracketsBalanceCheckTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowOf2CheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.PowOf2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.PowOf2" />
-      <option name="MAIN_CLASS_NAME" value="practice.PowOf2.PowOf2CheckTest" />
+      <option name="PACKAGE_NAME" value="service.validation" />
+      <option name="MAIN_CLASS_NAME" value="service.validation.ValidationRequestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,13 +182,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidationRequestTest.checkRequestAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service.validation" />
+      <option name="MAIN_CLASS_NAME" value="service.validation.ValidationRequestTest" />
+      <option name="METHOD_NAME" value="checkRequestAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidationRequestTest" />
         <item itemvalue="JUnit.ValidationRequestTest.checkRequest" />
+        <item itemvalue="JUnit.ValidationRequestTest.checkRequestAdd" />
+        <item itemvalue="JUnit.TaskServiceAddOrUpdateTest.add" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.BracketsBalanceCheckTest" />
-        <item itemvalue="JUnit.PowOf2CheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00053" summary="test">
-      <option name="closed" value="true" />
-      <created>1706267301075</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1706267301075</updated>
     </task>
     <task id="LOCAL-00054" summary="test">
       <option name="closed" value="true" />
@@ -613,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708452403077</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="test">
+      <option name="closed" value="true" />
+      <created>1708457210630</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1708457210630</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -34,26 +34,29 @@ public class ValidationRequest {
 
     }
 
-    public boolean checkRequestAdd(ClientRequest request) {
+
+    public boolean checkRequestAdd(ClientRequest request, List<String> errors) {
 
         /*
         name > != null, length > 5 && < 15
         description > != null, length > 5 && < 30
 
          */
-
-        List<String> errors = new ArrayList<>();
+        boolean result = true;
 
         if (request.getName().isBlank()) errors.add("Task name must be not null \n");
         if ((request.getName().length() < 5) || (request.getName().length() > 15))
             errors.add("Task name length must be between 5 and 15 \n");
-
         if (request.getDescription().isBlank()) errors.add("Task description must be not null \n");
         if ((request.getDescription().length() < 5) || (request.getDescription().length() > 30))
-            errors.add("Task description length must be between 5 and 30 \n");
 
-        if (!errors.isEmpty()) throw new ValidationException(errors.toString());
+            if (!errors.isEmpty()) {
+                result = false;
+            }
 
-        return true;
+        return result;
     }
+
+
 }
+
