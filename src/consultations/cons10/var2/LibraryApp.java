@@ -1,6 +1,7 @@
 
 
 
+import entity.Book;
 import service.LibraryService;
 
 public class LibraryApp {
@@ -14,5 +15,6 @@ public class LibraryApp {
 
         System.out.println("------- MAGAZINE -------");
         service.printAllMagazines();
+
     }
 }

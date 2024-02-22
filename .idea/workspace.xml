@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/Task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/AddToDoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/AddToDoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/FindAllToDoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/ToDoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/entity/ToDoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ArrayListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ToDoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/AddToDoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/util/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/CoreError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/ValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoDescriptionMaxLengthValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoDescriptionNullValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameMaxLengthValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameMinLengthValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameNullValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/AddToDoUiAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/ExitUiAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/FindToDoUiAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/UIAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/UIMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task2/SumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task3/PalCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task3/PalindromDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task4/Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task4/FactorialDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson32/homework/task5/PrimeNumberDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/TaskServiceAddOrUpdateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,27 +72,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson39/homework/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson39/practice/balancecheck&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson39/homework/service",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons12",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
@@ -129,16 +147,23 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringToUpperCase">
-    <configuration name="FactorialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.FactorialDemo" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.*" />
+          <option name="PATTERN" value="application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryApp" />
+      <module name="project3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,29 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskServiceAddOrUpdateTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TaskServiceAddOrUpdateTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.StringToUpperCase" />
         <item itemvalue="Application.SumDemo" />
         <item itemvalue="Application.PalindromDemo" />
-        <item itemvalue="Application.FactorialDemo" />
-        <item itemvalue="JUnit.TaskServiceAddOrUpdateTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00055" summary="test">
-      <option name="closed" value="true" />
-      <created>1706372357703</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1706372357703</updated>
     </task>
     <task id="LOCAL-00056" summary="test">
       <option name="closed" value="true" />
@@ -609,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708535959594</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="test">
+      <option name="closed" value="true" />
+      <created>1708543214128</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1708543214128</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
