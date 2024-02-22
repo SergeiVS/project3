@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/Task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/AddToDoRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/AddToDoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/FindAllToDoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/dto/ToDoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/core/entity/ToDoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ArrayListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ToDoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/AddToDoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/util/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/CoreError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/ValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/ValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoDescriptionMaxLengthValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoDescriptionNullValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameMaxLengthValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameMinLengthValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/validation/rule/ToDoNameNullValidationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/AddToDoUiAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/ExitUiAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/FindToDoUiAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/UIAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/UIMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/DeleteToDoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/DeleteUiAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons10/var2/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/service/validation/ValidationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ArrayListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ArrayListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ToDoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/repository/ToDoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoByIdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/ui/FindByIdAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/ui/FindByIdAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +31,8 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,11 +79,11 @@
       <recent name="lesson28.lessoncode.shopinglist.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons12" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\lesson39\practice\balancecheck" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\resources" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\repository" />
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\var2\entity" />
-      <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\serge\IdeaProjects\project3\src\consultations\cons10\Var1" />
@@ -225,14 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00056" summary="test">
-      <option name="closed" value="true" />
-      <created>1706432710959</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1706432710959</updated>
     </task>
     <task id="LOCAL-00057" summary="test">
       <option name="closed" value="true" />
@@ -618,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708543214128</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="test">
+      <option name="closed" value="true" />
+      <created>1708633709120</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1708633709121</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

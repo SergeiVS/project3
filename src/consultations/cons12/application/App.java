@@ -3,6 +3,8 @@ package application;
 import application.repository.ArrayListRepository;
 import application.repository.ToDoRepository;
 import application.service.AddToDoService;
+import application.service.DeleteToDoService;
+import application.service.FindToDoByIdService;
 import application.service.FindToDoService;
 import application.service.validation.ValidationRule;
 import application.service.validation.ValidationService;
@@ -34,14 +36,20 @@ public class App {
 
         AddToDoService addToDoService = new AddToDoService(repository, validationService);
         FindToDoService findToDoService = new FindToDoService(repository);
+        FindToDoByIdService findToDoByIdService = new FindToDoByIdService(repository);
+        DeleteToDoService deleteToDoService = new DeleteToDoService(repository);
 
         AddToDoUiAction addToDoUiAction = new AddToDoUiAction(addToDoService);
         FindToDoUiAction findToDoUiAction = new FindToDoUiAction(findToDoService);
         ExitUiAction exitUiAction = new ExitUiAction();
+        FindByIdAction findByIdAction = new FindByIdAction(findToDoByIdService);
+        DeleteUiAction deleteUiAction = new DeleteUiAction(deleteToDoService);
 
         List<UIAction> actions = new ArrayList<>();
         actions.add(addToDoUiAction);
         actions.add(findToDoUiAction);
+        actions.add(findByIdAction);
+        actions.add(deleteUiAction);
         actions.add(exitUiAction);
 
         UIMenu menu = new UIMenu(actions);

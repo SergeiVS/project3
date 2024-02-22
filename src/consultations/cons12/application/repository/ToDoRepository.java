@@ -12,4 +12,5 @@ public interface ToDoRepository {
 
     Optional<ToDoEntity> findById(Integer id);
 
+    Optional<ToDoEntity> delete(Integer id);
 }

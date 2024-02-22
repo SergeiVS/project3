@@ -1,21 +1,23 @@
 package application.ui;
 
-import application.service.FindToDoById;
+import application.service.FindToDoByIdService;
 import homework.Pocker.services.utils.UserInput;
 
 public class FindByIdAction implements UIAction{
-    private final FindToDoById findToDoById;
+    private final FindToDoByIdService service;
 homework.Pocker.services.utils.UserInput ui = new UserInput();
-    public FindByIdAction(FindToDoById findToDoById) {
-        this.findToDoById = findToDoById;
+
+    public FindByIdAction(FindToDoByIdService service) {
+        this.service = service;
     }
+
 
     @Override
     public void execute() {
 
         var id = ui.uiInt("Insert id for search:");
 
-        var response = findToDoById.findToDoById(id);
+        var response = service.findToDoById(id);
 
         System.out.println("Received response: " + response);
     }

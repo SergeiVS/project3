@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class ArrayListRepository implements ToDoRepository{
+public class ArrayListRepository implements ToDoRepository {
 
     private Integer idSequence = 1;
 
@@ -25,7 +25,7 @@ public class ArrayListRepository implements ToDoRepository{
         }
     }
 
-    private ToDoEntity update(ToDoEntity entity){
+    private ToDoEntity update(ToDoEntity entity) {
         for (int i = 0; i < database.size(); i++) {
             var existingEntity = database.get(i);
             if (existingEntity.getId().equals(entity.getId())) {
@@ -47,4 +47,15 @@ public class ArrayListRepository implements ToDoRepository{
                 .filter(entity -> entity.getId().equals(id))
                 .findFirst();
     }
+
+    @Override
+    public Optional<ToDoEntity> delete(Integer id) {
+        Optional<ToDoEntity> entityToFind = database.stream()
+                .filter(entity -> entity.getId().equals(id))
+                .findFirst();
+        entityToFind.ifPresent(toDoEntity -> database.remove(toDoEntity));
+        return entityToFind;
+    }
+
 }
+

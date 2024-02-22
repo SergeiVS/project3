@@ -2,23 +2,24 @@ package application.service;
 
 import application.core.dto.FindToDoResponse;
 import application.core.dto.ToDoDto;
-import application.core.entity.ToDoEntity;
 import application.repository.ToDoRepository;
 import application.service.validation.CoreError;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindToDoById {
+public class DeleteToDoService {
     private final ToDoRepository repository;
 
-    public FindToDoById(ToDoRepository repository) {
+    public DeleteToDoService(ToDoRepository repository) {
         this.repository = repository;
     }
-    public FindToDoResponse findToDoById(Integer id){
+
+
+    public FindToDoResponse deleteToDo(Integer id){
 
         List<CoreError> errors = new ArrayList<>();
-        var entity = repository.findById(id);
+        var entity = repository.delete(id);
 
         if (entity.isPresent()){
             var name = entity.get().getName();
