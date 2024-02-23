@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caa2c8a-bfac-455d-a255-9a42624596eb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/OrderService/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/customerService/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/customerService/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/customerService/FindCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/customerService/FindCustomersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/getAverage/GetAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/getAverage/GetAverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/getMax/GetMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson42/lessonCode/getMax/GetMaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/service/DeleteToDoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/DeleteToDoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoByIdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultations/cons12/application/service/FindToDoByIdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson39/homework/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson39/homework/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/lesson39/homework/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/IdeaProjects/project3/src/consultations/cons12&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/serge/IdeaProjects/project3/src/lesson42/lessonCode/customerService",
+    "last_opened_file_path": "C:/Users/serge/IdeaProjects/project3/src/consultations/cons12",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="task7" />
@@ -108,11 +117,11 @@
       <recent name="p" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lessonCode.customerService" />
+      <recent name="lessonCode.getMax" />
+      <recent name="lessonCode.getAverage" />
       <recent name="service" />
       <recent name="service.validation" />
-      <recent name="practice.PowOf2" />
-      <recent name="lesson39.practice.celsiusToFarenheit" />
-      <recent name="lesson39.practice.balancecheck" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="var2" />
@@ -122,7 +131,7 @@
       <recent name="consultations.cons18_01.ulils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.FindCustomersTest.findCustomerById">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="project3" />
@@ -143,52 +152,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.PalindromDemo" />
+    <configuration name="FindCustomersTest.findCustomerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="lessonCode.customerService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lessonCode.customerService" />
+      <option name="MAIN_CLASS_NAME" value="lessonCode.customerService.FindCustomersTest" />
+      <option name="METHOD_NAME" value="findCustomerById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task1.StringToUpperCase" />
+    <configuration name="GetAverageTest.getAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task1.*" />
+          <option name="PATTERN" value="lessonCode.getAverage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lessonCode.getAverage" />
+      <option name="MAIN_CLASS_NAME" value="lessonCode.getAverage.GetAverageTest" />
+      <option name="METHOD_NAME" value="getAverage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.SumDemo" />
+    <configuration name="GetMaxTest.getMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task2.*" />
+          <option name="PATTERN" value="lessonCode.getMax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lessonCode.getMax" />
+      <option name="MAIN_CLASS_NAME" value="lessonCode.getMax.GetMaxTest" />
+      <option name="METHOD_NAME" value="getMax" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindCustomersTest.findCustomerById" />
+        <item itemvalue="JUnit.GetMaxTest.getMax" />
+        <item itemvalue="JUnit.GetAverageTest.getAverage" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.LibraryApp" />
-        <item itemvalue="Application.StringToUpperCase" />
-        <item itemvalue="Application.SumDemo" />
-        <item itemvalue="Application.PalindromDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699651451662</updated>
-    </task>
-    <task id="LOCAL-00058" summary="test">
-      <option name="closed" value="true" />
-      <created>1706437682303</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1706437682303</updated>
     </task>
     <task id="LOCAL-00059" summary="test">
       <option name="closed" value="true" />
@@ -593,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708635208465</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="test">
+      <option name="closed" value="true" />
+      <created>1708709972908</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1708709972910</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -631,6 +649,11 @@
           <url>file://$PROJECT_DIR$/src/additionalTasks/generics/task1Gen/BoxOperateApp.java</url>
           <line>19</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson42/lessonCode/getAverage/GetAverage.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/consultations/cons5/homework/Entity/TextData.java</url>
