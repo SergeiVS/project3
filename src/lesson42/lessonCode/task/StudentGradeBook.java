@@ -68,17 +68,21 @@ public class StudentGradeBook {
 
     public Student getTopStudent() {
 
-        TreeMap<Integer, Double> studentsAvgs = new TreeMap<Integer, Double>((a, b)-> (int) (a.doubleValue() - b.doubleValue()));
+        Map<Integer, Double> studentsAvgs = new HashMap<>();
 
         for (Map.Entry<Integer, Map<String, List<Integer>>> entry : grades.entrySet()) {
 
+
             Double sAvg = entry.getValue().values().stream()
-                    .mapToInt(a -> a.stream().mapToInt(i -> i).sum())
+                    .flatMapToInt(a -> a.stream().mapToInt(i -> i))
                     .average()
                     .orElse(0.0);
-                studentsAvgs.put(entry.getKey(), sAvg);
+
+            studentsAvgs.put(entry.getKey(), sAvg);
         }
-        int topId = studentsAvgs.firstKey();
+        int topId = studentsAvgs.entrySet().stream()
+                .max((e1, e2) -> (int) (e1.getValue() - e2.getValue()))
+                .get().getKey();
 
 
 //        double highestAvgGrade = 0;
@@ -103,6 +107,8 @@ public class StudentGradeBook {
 //                topStudent = student;
 //            }
 //        }
-        return students.getStudents().get(topId);
+        return students.getStudents().stream()
+                .filter(student -> student.getId() == topId)
+                .findAny().get();
     }
 }

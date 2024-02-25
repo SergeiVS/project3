@@ -19,7 +19,7 @@ public class Task {
 
         system.addGrade(1, "Математика", 10);
         system.addGrade(1, "Математика", 9);
-        system.addGrade(1, "Математика", 9);
+        system.addGrade(2, "Математика", 9);
         system.addGrade(1, "Математика", 10);
         system.addGrade(1, "История", 12);
         system.addGrade(2, "Математика", 12);
